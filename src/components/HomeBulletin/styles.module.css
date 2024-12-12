@@ -1,0 +1,37 @@
+.section {   
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #990000;
+}
+
+.bulletin_content {
+    display: flex;
+    gap: 24px;
+}
+
+.bulletin_cover {
+    position: relative;
+    aspect-ratio: 780 / 1024;
+    width: 280px;
+    height: auto;
+}
+
+.bulletin_description {
+    width: 60%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.read_more {
+    font-size: 14px;
+    font-weight: 600;
+    color: #990000;
+    cursor: pointer;
+}

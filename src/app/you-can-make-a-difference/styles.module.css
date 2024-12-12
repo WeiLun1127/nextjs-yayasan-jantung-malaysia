@@ -1,0 +1,82 @@
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; /* Centers the title text */
+    margin-bottom: 1rem;
+    line-height: 1.4; /* Improves readability */
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Slightly larger for emphasis */
+    font-weight: 500;
+    text-align: center; /* Centers the subtitle text */
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify; /* Aligns text evenly on both sides */
+    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
+    line-height: 1.6; /* Makes paragraphs easier to read */
+    padding: 0 1rem; /* Adds padding on left and right for better spacing */
+}
+
+/* Container for the cards, now using grid layout */
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* Spacing between cards */
+    justify-items: center; /* Center the cards horizontally within each grid cell */
+    margin-top: 2rem;
+}
+
+/* Individual card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%; /* Cards will take up 100% of the grid cell width */
+    max-width: 400px; /* Maximum width to keep the cards uniform */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Title */
+.card h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Card content */
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Styling for the icon */
+.icon {
+    font-size: 2rem; /* Size of the icon */
+    margin-bottom: 10px; /* Space between the icon and the title */
+    color: #007bff; /* Default icon color */
+}
+
+/* Optional: Add hover effect to change icon color when hovered */
+.card:hover .icon {
+    color: #ff6600; /* Change icon color on hover */
+}
+
+/* Add padding to the icon if needed */
+.card .icon {
+    margin-right: 10px; /* Adjust if you want some spacing between the icon and text */
+}

@@ -1,0 +1,75 @@
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; /* Centers the title text */
+    margin-bottom: 1rem;
+    line-height: 1.4; /* Improves readability */
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Slightly larger for emphasis */
+    font-weight: 500;
+    text-align: center; /* Centers the subtitle text */
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify; /* Aligns text evenly on both sides */
+    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
+    line-height: 1.6; /* Makes paragraphs easier to read */
+    padding: 0 1rem; /* Adds padding on left and right for better spacing */
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  .card {
+    /* Existing card styles */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  .icon {
+    font-size: 40px;
+    color: #ff6347; /* Example color, you can change */
+    margin-bottom: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+  }
+
+.videoContainer {
+    width: 77%; /* Make the container full width of its parent */
+    max-width: 100%; /* Prevent it from growing too wide */
+    margin: 0 auto; /* Center the video */
+  }
+  
+  .videoContainer iframe {
+    width: 100%; /* Set the iframe to take up the full width of the container */
+    height: auto; /* Automatically adjust the height based on the width */
+    aspect-ratio: 16/9; /* Maintain a 16:9 aspect ratio */
+  }
