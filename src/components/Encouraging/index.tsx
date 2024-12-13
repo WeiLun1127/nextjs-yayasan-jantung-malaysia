@@ -7,7 +7,7 @@ const Encourage = () => {
     <section className={styles.section}>
       <h2 className={styles.title}>Change Lifestyle</h2>
       <div className={styles.bulletin_card}>
-      <Link href="/">
+        <Link href="/">
           <div className={styles.bulletin_cover}>
             <Image
               fill
@@ -17,7 +17,11 @@ const Encourage = () => {
           </div>
         </Link>
         <p className={styles.bulletin_description}>
-        <b>Encouraging people to change their lifestyles</b> and to help develop environments which make healthy choices easier, are a fundamental part of The Heart Foundation of Malaysia'.s drive to reduce premature death and disability from heart and circulatory disease.
+          <b>Encouraging people to change their lifestyles</b> and to help
+          develop environments which make healthy choices easier, are a
+          fundamental part of The Heart Foundation of Malaysia'.s drive to
+          reduce premature death and disability from heart and circulatory
+          disease.
         </p>
       </div>
     </section>

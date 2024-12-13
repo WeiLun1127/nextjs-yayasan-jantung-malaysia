@@ -1,4 +1,10 @@
-import { FaHeartbeat, FaHandHoldingUsd, FaUserFriends, FaRegCreditCard, FaGift } from 'react-icons/fa'; // Importing icons
+import {
+  FaHeartbeat,
+  FaHandHoldingUsd,
+  FaUserFriends,
+  FaRegCreditCard,
+  FaGift,
+} from 'react-icons/fa'; // Importing icons
 
 import styles from './styles.module.css';
 
@@ -11,14 +17,16 @@ const YouCanMakeADifference = () => {
           <FaHeartbeat className={styles.icon} /> {/* Add the icon */}
           <h2>Reduce Your Own Risk</h2>
           <p>
-            Enjoy healthy eating, exercising, being smoke-free, and having your blood pressure checked regularly.
+            Enjoy healthy eating, exercising, being smoke-free, and having your
+            blood pressure checked regularly.
           </p>
         </div>
         <div className={styles.card}>
           <FaHandHoldingUsd className={styles.icon} /> {/* Add the icon */}
           <h2>Donate to the Foundation</h2>
           <p>
-            Donate to the Foundation for our research, health promotion, CPR, and rehabilitation programmes.
+            Donate to the Foundation for our research, health promotion, CPR,
+            and rehabilitation programmes.
           </p>
         </div>
         <div className={styles.card}>
@@ -40,10 +48,10 @@ const YouCanMakeADifference = () => {
       <br />
       <div className={styles.bottomSection}>
         <img
-            src="/images/you-can-make-a-difference/worldheartday2013-1.gif"
-            alt="Our Activities"
-            className={styles.cardImage}
-          />
+          src="/images/you-can-make-a-difference/worldheartday2013-1.gif"
+          alt="Our Activities"
+          className={styles.cardImage}
+        />
       </div>
       <br />
       <br />

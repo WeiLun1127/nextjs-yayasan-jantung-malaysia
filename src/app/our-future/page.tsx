@@ -1,5 +1,10 @@
 import styles from './styles.module.css';
-import { FaHeartbeat, FaChalkboardTeacher, FaHandsHelping, FaChild } from 'react-icons/fa';
+import {
+  FaHeartbeat,
+  FaChalkboardTeacher,
+  FaHandsHelping,
+  FaChild,
+} from 'react-icons/fa';
 
 const OurFuture = () => {
   return (
@@ -27,15 +32,18 @@ const OurFuture = () => {
           <FaHeartbeat className={styles.icon} />
           <h3>Cardiac Rehabilitation Training</h3>
           <p>
-            Work with health professionals to hold training seminars for personnel
-            interested in working in areas such as cardiac rehabilitation, nutrition, etc.
+            Work with health professionals to hold training seminars for
+            personnel interested in working in areas such as cardiac
+            rehabilitation, nutrition, etc.
           </p>
         </div>
         <div className={styles.card}>
           <FaChalkboardTeacher className={styles.icon} />
           <h3>Expand Cardiac Rehab Support</h3>
           <p>
-            Expand support for the cardiac rehabilitation programmes in the community and give them the best chance of a return to a full life following heart attack or surgery.
+            Expand support for the cardiac rehabilitation programmes in the
+            community and give them the best chance of a return to a full life
+            following heart attack or surgery.
           </p>
         </div>
         <div className={styles.card}>
@@ -47,7 +55,10 @@ const OurFuture = () => {
           <FaChild className={styles.icon} />
           <h3>Promote Healthy Lifestyles in Schools</h3>
           <p>
-            Poor health behaviour often starts in childhood. We hope to work towards promoting a healthy lifestyle programme in preschools and schools with the cooperation of the Ministries of Health and Education.
+            Poor health behaviour often starts in childhood. We hope to work
+            towards promoting a healthy lifestyle programme in preschools and
+            schools with the cooperation of the Ministries of Health and
+            Education.
           </p>
         </div>
       </div>

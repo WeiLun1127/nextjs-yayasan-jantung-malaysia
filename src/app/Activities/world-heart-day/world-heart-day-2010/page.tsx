@@ -73,7 +73,9 @@ const WordHeart2010 = () => {
           </div>
         </div>
       </div>
-      <p className={styles.centeredText}>Our Facebook Album has loads more photographs!</p>
+      <p className={styles.centeredText}>
+        Our Facebook Album has loads more photographs!
+      </p>
     </div>
   );
 };

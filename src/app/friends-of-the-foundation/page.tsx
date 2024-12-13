@@ -7,14 +7,15 @@ const CPR = () => {
         <h1 className={styles.title}> Friends of the Foundation</h1>
         <p className={styles.description}>
           The Heart Foundation of Malaysia invites you to become a Friend of the
-          Heart Foundation. Your support will ensure that we can continue working
-          together to reduce the incidence of heart and blood vessel disease
-          including stroke in our community and improve the quality of life.
+          Heart Foundation. Your support will ensure that we can continue
+          working together to reduce the incidence of heart and blood vessel
+          disease including stroke in our community and improve the quality of
+          life.
           <br />
           <br />
           You may not wish to be part of the administrative structure of the
-          Foundation or to attend annual meetings, but simply want to express your
-          goodwill and encouragement in a practical way. You can do this by
+          Foundation or to attend annual meetings, but simply want to express
+          your goodwill and encouragement in a practical way. You can do this by
           becoming one of our Friends through an annual donation.
           <br />
           <br />
@@ -32,15 +33,16 @@ const CPR = () => {
           For more information, please{' '}
           <a href="/contact-us" className={styles.contactLink}>
             contact us here
-          </a>.
+          </a>
+          .
           <br />
           <br />
         </p>
         <img
-            src="/images/friends-of-the-foundation/17215601_s.jpg"
-            alt="friendsOfTheFoundation"
-            className={styles.cardImage}
-          />
+          src="/images/friends-of-the-foundation/17215601_s.jpg"
+          alt="friendsOfTheFoundation"
+          className={styles.cardImage}
+        />
       </div>
     </div>
   );

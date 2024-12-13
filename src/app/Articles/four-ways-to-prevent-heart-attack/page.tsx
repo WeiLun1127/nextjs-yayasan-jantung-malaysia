@@ -1,4 +1,9 @@
-import { FaSmoking, FaWeightHanging, FaAppleAlt, FaRunning } from 'react-icons/fa';
+import {
+  FaSmoking,
+  FaWeightHanging,
+  FaAppleAlt,
+  FaRunning,
+} from 'react-icons/fa';
 import styles from './styles.module.css';
 
 const PreventHeartAttack = () => {
@@ -17,7 +22,7 @@ const PreventHeartAttack = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <br/>
+      <br />
       <p className={styles.description}>
         Healthy lifestyle habits are of almost importance in the prevention of
         CAD and heart attack.
@@ -31,22 +36,32 @@ const PreventHeartAttack = () => {
         <div className={styles.card}>
           <FaSmoking className={styles.icon} />
           <h2>Don&rsquo;t Smoke</h2>
-          <p>Avoiding smoking significantly reduces the risk of heart disease.</p>
+          <p>
+            Avoiding smoking significantly reduces the risk of heart disease.
+          </p>
         </div>
         <div className={styles.card}>
           <FaWeightHanging className={styles.icon} />
           <h2>Diet to Keep BMI &lt; 25</h2>
-          <p>Maintain a healthy body mass index to prevent strain on your heart.</p>
+          <p>
+            Maintain a healthy body mass index to prevent strain on your heart.
+          </p>
         </div>
         <div className={styles.card}>
           <FaAppleAlt className={styles.icon} />
           <h2>Eat More Fruits &amp; Vegetables</h2>
-          <p>A balanced diet with more fruits and vegetables supports heart health.</p>
+          <p>
+            A balanced diet with more fruits and vegetables supports heart
+            health.
+          </p>
         </div>
         <div className={styles.card}>
           <FaRunning className={styles.icon} />
           <h2>Exercise &gt; 150 mins/week</h2>
-          <p>Regular physical activity strengthens the heart and prevents disease.</p>
+          <p>
+            Regular physical activity strengthens the heart and prevents
+            disease.
+          </p>
         </div>
       </div>
 

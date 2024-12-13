@@ -21,7 +21,9 @@ const Research = () => {
         <h3>Foundation-supported research - current</h3>
         <div className={styles.cardsContainer}>
           <div className={styles.card}>
-            <h4>Effect of ECG Biofeedback Intervention on Biochemical Indices</h4>
+            <h4>
+              Effect of ECG Biofeedback Intervention on Biochemical Indices
+            </h4>
             <p>Patients with Unstable Angina / Myocardial Infarction</p>
           </div>
           <div className={styles.card}>
@@ -29,7 +31,10 @@ const Research = () => {
             <p>For Sedation in Cardiothoracic Intensive Care Unit</p>
           </div>
           <div className={styles.card}>
-            <h4>Effects of Herba (Kaempferia Galangal, Allium Fistulosum, and Mentha Spicata)</h4>
+            <h4>
+              Effects of Herba (Kaempferia Galangal, Allium Fistulosum, and
+              Mentha Spicata)
+            </h4>
             <p>On the Probiotic Fermentation of Milk</p>
           </div>
         </div>
@@ -67,7 +72,9 @@ const Research = () => {
             <p>In Reducing the Risk of Cardiovascular Disease</p>
           </div>
           <div className={styles.card}>
-            <h4>Trend in Serum Sialic Acid Following Acute Coronary Syndrome</h4>
+            <h4>
+              Trend in Serum Sialic Acid Following Acute Coronary Syndrome
+            </h4>
           </div>
           <div className={styles.card}>
             <h4>Effect of Different Preparations of Vitamin E</h4>
@@ -78,7 +85,9 @@ const Research = () => {
           </div>
           <div className={styles.card}>
             <h4>The Hypocholesterolemic and Anti-inflammatory Properties</h4>
-            <p>Of Channa Striatus (Snakehead Fish) in Cholesterol-fed Rabbits</p>
+            <p>
+              Of Channa Striatus (Snakehead Fish) in Cholesterol-fed Rabbits
+            </p>
           </div>
           <div className={styles.card}>
             <h4>Psychological Predictors of Depression</h4>

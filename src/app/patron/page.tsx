@@ -52,9 +52,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Chairman</h2>
-          <p className={styles.description}>
-            Dr. Robinder Sambhi
-          </p>
+          <p className={styles.description}>Dr. Robinder Sambhi</p>
         </div>
 
         {/* Member 5 */}
@@ -65,9 +63,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Honorary Secretary</h2>
-          <p className={styles.description}>
-            Mr. Adam Tan Huang Chew
-          </p>
+          <p className={styles.description}>Mr. Adam Tan Huang Chew</p>
         </div>
 
         {/* Member 6 */}
@@ -77,10 +73,10 @@ const AboutYJM = () => {
             alt="Ainon Haji Kuntom"
             className={styles.cardImage}
           />
-          <h2 className={styles.subtitle}>Honorary Treasurer, Go Red For Women Director</h2>
-          <p className={styles.description}>
-            Puan Hajjah Ainon Haji Kuntom
-          </p>
+          <h2 className={styles.subtitle}>
+            Honorary Treasurer, Go Red For Women Director
+          </h2>
+          <p className={styles.description}>Puan Hajjah Ainon Haji Kuntom</p>
         </div>
 
         {/* Member 7 */}
@@ -91,9 +87,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Director Executive Manager</h2>
-          <p className={styles.description}>
-            YBhg Datin Margaret Sambhi
-          </p>
+          <p className={styles.description}>YBhg Datin Margaret Sambhi</p>
         </div>
 
         {/* Member 8 */}
@@ -104,9 +98,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Director</h2>
-          <p className={styles.description}>
-            Dr. Dharamvir Singh Godrei
-          </p>
+          <p className={styles.description}>Dr. Dharamvir Singh Godrei</p>
         </div>
 
         {/* Member 9 */}
@@ -117,9 +109,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Director</h2>
-          <p className={styles.description}>
-            Dr. Pola Singh
-          </p>
+          <p className={styles.description}>Dr. Pola Singh</p>
         </div>
 
         {/* Member 10 */}
@@ -130,9 +120,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Director</h2>
-          <p className={styles.description}>
-            Ms. Sheena Gurbakhash
-          </p>
+          <p className={styles.description}>Ms. Sheena Gurbakhash</p>
         </div>
 
         {/* Member 11 */}
@@ -143,9 +131,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Director</h2>
-          <p className={styles.description}>
-            Ms. Alya Aljafri
-          </p>
+          <p className={styles.description}>Ms. Alya Aljafri</p>
         </div>
       </div>
     </div>

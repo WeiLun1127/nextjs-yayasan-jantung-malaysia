@@ -4,7 +4,7 @@
 //   return (
 //     <div>
 //       <h1 className={styles.title}> World Heart Day 2011</h1>
-      
+
 //       <div className={styles.card}>
 //         <h2 className={styles.subtitle}>[ Past Event - this page is for archival information purposes only.]</h2>
 //         <div className={styles.description}>
@@ -14,7 +14,7 @@
 //       </div>
 
 //       <h1 className={styles.title}>"One World, One Home, One Heart"</h1>
-      
+
 //       <div className={styles.card}>
 //         <h2 className={styles.subtitle}>Event Details</h2>
 //         <div className={styles.description}>
@@ -34,7 +34,7 @@
 //           <br />
 //         </div>
 //       </div>
-      
+
 //       <div className={styles.card}>
 //         <h2 className={styles.subtitle}>Partners/Sponsors</h2>
 //         <div className={styles.description}>
@@ -48,7 +48,7 @@
 //           <br />
 //         </div>
 //       </div>
-      
+
 //       <div className={styles.activityCardsContainer}>
 //         {/* Left Column - Activities Include */}
 //         <div className={styles.leftCard}>
@@ -95,7 +95,6 @@
 // };
 
 // export default WordHeart2011;
-
 
 import { FaWalking, FaHeart, FaNewspaper, FaUsers } from 'react-icons/fa';
 import styles from './styles.module.css';
@@ -170,7 +169,7 @@ const WordHeart2011 = () => {
               <div className={styles.subCard}>Lucky Draws</div>
             </div>
           </div>
-          <br/>
+          <br />
         </div>
 
         <div className={styles.rightCards}>
@@ -188,7 +187,11 @@ const WordHeart2011 = () => {
           </div>
         </div>
       </div>
-      <p className={styles.centeredText}>The event was officiated by Former Prime Minister of Malaysia, Tun Abdullah Ahmad Badawi. Each participant was given a free T-Shirt featuring the World Heart Federation logo and Heart-shaped balloon.</p>
+      <p className={styles.centeredText}>
+        The event was officiated by Former Prime Minister of Malaysia, Tun
+        Abdullah Ahmad Badawi. Each participant was given a free T-Shirt
+        featuring the World Heart Federation logo and Heart-shaped balloon.
+      </p>
     </div>
   );
 };

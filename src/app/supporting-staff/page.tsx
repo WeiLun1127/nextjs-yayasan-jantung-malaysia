@@ -13,9 +13,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Executive Secretary</h2>
-          <p className={styles.description}>
-          Mohamed Zamri bin Mohamed Nezuri
-          </p>
+          <p className={styles.description}>Mohamed Zamri bin Mohamed Nezuri</p>
         </div>
 
         {/* Member 2 */}
@@ -26,9 +24,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Administration Manager</h2>
-          <p className={styles.description}>
-          Vijayalatchumi D/O Mahalingam
-          </p>
+          <p className={styles.description}>Vijayalatchumi D/O Mahalingam</p>
         </div>
 
         {/* Member 3 */}
@@ -39,9 +35,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Accounts</h2>
-          <p className={styles.description}>
-          Hong Kim Chuan
-          </p>
+          <p className={styles.description}>Hong Kim Chuan</p>
         </div>
 
         {/* Member 4 */}
@@ -52,9 +46,7 @@ const AboutYJM = () => {
             className={styles.cardImage}
           />
           <h2 className={styles.subtitle}>Halfway House Warden</h2>
-          <p className={styles.description}>
-          Puan Kamariah bte. A. Kadir
-          </p>
+          <p className={styles.description}>Puan Kamariah bte. A. Kadir</p>
         </div>
 
         {/* Member 5 */}
@@ -66,7 +58,7 @@ const AboutYJM = () => {
           />
           <h2 className={styles.subtitle}>Nurse Program Manager</h2>
           <p className={styles.description}>
-          Mohammad Syafiq Mahdzar bin Zarir
+            Mohammad Syafiq Mahdzar bin Zarir
           </p>
         </div>
       </div>

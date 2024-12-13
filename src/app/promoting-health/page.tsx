@@ -22,10 +22,10 @@ const PromotingHealth = () => {
         Click here to view our Calendar of Events and our "Heart" articles.
       </div> */}
       <img
-          src="/images/promoting-health/activities3.jpg"
-          alt="Promoting Health"
-          className={styles.cardImage}
-        />
+        src="/images/promoting-health/activities3.jpg"
+        alt="Promoting Health"
+        className={styles.cardImage}
+      />
     </div>
   );
 };

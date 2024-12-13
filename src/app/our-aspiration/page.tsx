@@ -14,10 +14,12 @@ const OurAspiration = () => {
         extent of consequences that heart and circulatory diseases can have on
         our lives when unchecked.
       </p>
-      <p className={styles.description}>We focus on five veryu important areas:</p>
+      <p className={styles.description}>
+        We focus on five veryu important areas:
+      </p>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
-        <img
+          <img
             src="/images/our-aspiration/aspiration1.jpg"
             alt="Aspiration1"
             className={styles.cardImage}
@@ -30,7 +32,7 @@ const OurAspiration = () => {
           </p>
         </div>
         <div className={styles.card}>
-        <img
+          <img
             src="/images/our-aspiration/aspiration2.jpg"
             alt="Aspiration2"
             className={styles.cardImage}
@@ -43,7 +45,7 @@ const OurAspiration = () => {
           </p>
         </div>
         <div className={styles.card}>
-        <img
+          <img
             src="/images/our-aspiration/aspiration3.jpg"
             alt="Aspiration3"
             className={styles.cardImage}
@@ -55,7 +57,7 @@ const OurAspiration = () => {
           </p>
         </div>
         <div className={styles.card}>
-        <img
+          <img
             src="/images/our-aspiration/aspiration4.jpg"
             alt="Aspiration4"
             className={styles.cardImage}
@@ -67,7 +69,7 @@ const OurAspiration = () => {
           </p>
         </div>
         <div className={styles.card}>
-        <img
+          <img
             src="/images/our-aspiration/aspiration5.jpg"
             alt="Aspiration5"
             className={styles.cardImage}

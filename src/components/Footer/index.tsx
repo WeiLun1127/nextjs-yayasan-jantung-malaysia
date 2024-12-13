@@ -1,7 +1,13 @@
-'use client'; 
+'use client';
 import React, { useState } from 'react';
 import styles from './styles.module.css';
-import { FaPrint, FaFacebookF, FaGoogle, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import {
+  FaPrint,
+  FaFacebookF,
+  FaGoogle,
+  FaTwitter,
+  FaEnvelope,
+} from 'react-icons/fa';
 
 const Footer = () => {
   const [showEmailDialog, setShowEmailDialog] = useState(false);
@@ -24,7 +30,11 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.socialIcons}>
         {/* Print Icon */}
-        <a href="http://www.yjm.org.my/main_print.cfm?" target="_blank" rel="noopener noreferrer">
+        <a
+          href="http://www.yjm.org.my/main_print.cfm?"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaPrint size={20} />
         </a>
 
@@ -66,9 +76,33 @@ const Footer = () => {
         <div className={styles.dialog}>
           <div className={styles.dialogContent}>
             <h3>Select Email Service</h3>
-            <button onClick={() => handleEmailChoice("https://mail.google.com/mail/u/0/?su=Yayasan+Jantung+Malaysia+-+Welcome&to&body=https://shar.es/agY34p%0D%0A%0D%0AThis+message+was+sent+using+ShareThis+(https://www.sharethis.com)&fs=1&tf=cm")}>Gmail</button>
-            <button onClick={() => handleEmailChoice("https://mail.yahoo.com/d/compose/4200174797?mrdparam=vlwAKwcfY_fMVRHBHW5OMQIHG5FkAb8edwrwrMS7o1aGnGQC4HjCvoZaAd2jg4wXSntb_DBxrVg8G.77z7dT_ZIGvHT3yf9.qIVZ.TVblHpPwAaE6m8JWkzFzojLkrVcCvHz00u6JuMeZp30TT_i8aawSfpE64i5PlKonmfwqSCe9CFu2SMEXwfoxdSh5Gu4CfFBZxzQ6bsAbbCu7XCrVM2AXl3lwY2l29jI9jUyK_zNfNXF0g--")}>Yahoo</button>
-            <button onClick={() => handleEmailChoice("https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0")}>Outlook</button>
+            <button
+              onClick={() =>
+                handleEmailChoice(
+                  'https://mail.google.com/mail/u/0/?su=Yayasan+Jantung+Malaysia+-+Welcome&to&body=https://shar.es/agY34p%0D%0A%0D%0AThis+message+was+sent+using+ShareThis+(https://www.sharethis.com)&fs=1&tf=cm',
+                )
+              }
+            >
+              Gmail
+            </button>
+            <button
+              onClick={() =>
+                handleEmailChoice(
+                  'https://mail.yahoo.com/d/compose/4200174797?mrdparam=vlwAKwcfY_fMVRHBHW5OMQIHG5FkAb8edwrwrMS7o1aGnGQC4HjCvoZaAd2jg4wXSntb_DBxrVg8G.77z7dT_ZIGvHT3yf9.qIVZ.TVblHpPwAaE6m8JWkzFzojLkrVcCvHz00u6JuMeZp30TT_i8aawSfpE64i5PlKonmfwqSCe9CFu2SMEXwfoxdSh5Gu4CfFBZxzQ6bsAbbCu7XCrVM2AXl3lwY2l29jI9jUyK_zNfNXF0g--',
+                )
+              }
+            >
+              Yahoo
+            </button>
+            <button
+              onClick={() =>
+                handleEmailChoice(
+                  'https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0',
+                )
+              }
+            >
+              Outlook
+            </button>
             <button onClick={closeEmailDialog}>Close</button>
           </div>
         </div>
@@ -76,7 +110,8 @@ const Footer = () => {
 
       <br />
       <div className={styles.copyright}>
-        Copyright &#169; 1999 - {year} Yayasan Jantung Malaysia. All Rights Reserved.
+        Copyright &#169; 1999 - {year} Yayasan Jantung Malaysia. All Rights
+        Reserved.
       </div>
     </footer>
   );

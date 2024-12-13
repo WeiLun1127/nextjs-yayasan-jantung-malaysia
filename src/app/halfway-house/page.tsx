@@ -2,14 +2,20 @@ import { FaDownload } from 'react-icons/fa'; // Import the download icon from re
 import styles from './styles.module.css';
 
 const HalfwayHouse = () => {
-  const downloadLink = "http://www.yjm.org.my/view_file.cfm?fileid=33";
+  const downloadLink = 'http://www.yjm.org.my/view_file.cfm?fileid=33';
 
   return (
     <div>
       <p className={styles.description}>
-        &#91; 
-        <a href={downloadLink} target="_blank" rel="noopener noreferrer" className={styles.downloadLink}>
-          <FaDownload size={24} /> Leaflet - PDF (872 KB){/* React Icons download icon */}
+        &#91;
+        <a
+          href={downloadLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.downloadLink}
+        >
+          <FaDownload size={24} /> Leaflet - PDF (872 KB)
+          {/* React Icons download icon */}
         </a>
         &#93;
       </p>

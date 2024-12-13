@@ -3,10 +3,16 @@ import styles from './styles.module.css';
 const WalkAMillionMiles = () => {
   return (
     <div>
-      <p className={styles.title}>Nestle Omega Plus Walk A MILLION Miles towards a Healthy HeartNation!</p>
-      
+      <p className={styles.title}>
+        Nestle Omega Plus Walk A MILLION Miles towards a Healthy HeartNation!
+      </p>
+
       {/* Centered clickable text to download the PDF */}
-      <a href="http://www.yjm.org.my/view_file.cfm?fileid=30" className={styles.downloadLink} download>
+      <a
+        href="http://www.yjm.org.my/view_file.cfm?fileid=30"
+        className={styles.downloadLink}
+        download
+      >
         Want to Join Walk A Million Miles? Click here!
       </a>
 

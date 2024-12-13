@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { FaWeight, FaHeartbeat, FaRunning } from 'react-icons/fa';  // Importing the icons
+import { FaWeight, FaHeartbeat, FaRunning } from 'react-icons/fa'; // Importing the icons
 
 const HowDoesExercise = () => {
   return (
@@ -17,7 +17,7 @@ const HowDoesExercise = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <br/>
+      <br />
       <p className={styles.description}>
         Our body weight depends on our balance of Energy intake and energy
         expenditure i.e. on how much food we take and how much energy we use up
@@ -36,19 +36,31 @@ const HowDoesExercise = () => {
       {/* Card Container for Bullet Points with Icons */}
       <div className={styles.cardContainer}>
         <div className={styles.card}>
-          <FaWeight size={30} className={styles.cardIcon} />  {/* Icon for Body Weight */}
+          <FaWeight size={30} className={styles.cardIcon} />{' '}
+          {/* Icon for Body Weight */}
           <h2>Starting Body Weight</h2>
-          <p>Your starting body weight plays a key role in determining energy expenditure.</p>
+          <p>
+            Your starting body weight plays a key role in determining energy
+            expenditure.
+          </p>
         </div>
         <div className={styles.card}>
-          <FaHeartbeat size={30} className={styles.cardIcon} />  {/* Icon for BMR */}
+          <FaHeartbeat size={30} className={styles.cardIcon} />{' '}
+          {/* Icon for BMR */}
           <h2>Basal Metabolic Rate</h2>
-          <p>Your Basal Metabolic Rate (BMR) is the amount of energy used by your body at rest.</p>
+          <p>
+            Your Basal Metabolic Rate (BMR) is the amount of energy used by your
+            body at rest.
+          </p>
         </div>
         <div className={styles.card}>
-          <FaRunning size={30} className={styles.cardIcon} />  {/* Icon for Physical Activity */}
+          <FaRunning size={30} className={styles.cardIcon} />{' '}
+          {/* Icon for Physical Activity */}
           <h2>Physical Activity</h2>
-          <p>Physical activity can vary in frequency, intensity, duration, and type of activity.</p>
+          <p>
+            Physical activity can vary in frequency, intensity, duration, and
+            type of activity.
+          </p>
         </div>
       </div>
 

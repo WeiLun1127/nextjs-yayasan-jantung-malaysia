@@ -43,26 +43,26 @@ const AXAHeartsInAction = () => {
       {/* Image Cards */}
       <div className={styles.cardContainer}>
         <div className={styles.imageCard}>
-          <img 
-            src="/images/axa/AXA-Virtual-Run-2020-Medal.png" 
-            alt="AXA-Virtual-Run-2020-Medal" 
-            className={styles.cardImage} 
+          <img
+            src="/images/axa/AXA-Virtual-Run-2020-Medal.png"
+            alt="AXA-Virtual-Run-2020-Medal"
+            className={styles.cardImage}
           />
         </div>
 
         <div className={styles.imageCard}>
-          <img 
-            src="/images/axa/AXA-Virtual-Run-2020-Poster.png" 
-            alt="AXA-Virtual-Run-2020-Poster" 
-            className={styles.cardImage} 
+          <img
+            src="/images/axa/AXA-Virtual-Run-2020-Poster.png"
+            alt="AXA-Virtual-Run-2020-Poster"
+            className={styles.cardImage}
           />
         </div>
 
         <div className={styles.imageCard}>
-          <img 
-            src="/images/axa/AXA-Virtual-Run-2020-T-Shirt.png" 
-            alt="AXA-Virtual-Run-2020-T-Shirt" 
-            className={styles.cardImage} 
+          <img
+            src="/images/axa/AXA-Virtual-Run-2020-T-Shirt.png"
+            alt="AXA-Virtual-Run-2020-T-Shirt"
+            className={styles.cardImage}
           />
         </div>
       </div>

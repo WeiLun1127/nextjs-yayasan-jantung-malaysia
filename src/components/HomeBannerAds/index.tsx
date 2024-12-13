@@ -34,7 +34,7 @@ const HomeBannerAds = () => {
               required
             />
             <select className={styles.input_field} required>
-            <option value="">Select Country</option>
+              <option value="">Select Country</option>
               <option value="AF">Afghanistan</option>
               <option value="AL">Albania</option>
               <option value="DZ">Algeria</option>
@@ -228,7 +228,9 @@ const HomeBannerAds = () => {
               <option value="SB">Solomon Islands</option>
               <option value="SO">Somalia</option>
               <option value="ZA">South Africa</option>
-              <option value="GS">South Georgia and the South Sandwich Islands</option>
+              <option value="GS">
+                South Georgia and the South Sandwich Islands
+              </option>
               <option value="ES">Spain</option>
               <option value="LK">Sri Lanka</option>
               <option value="SD">Sudan</option>
@@ -277,21 +279,23 @@ const HomeBannerAds = () => {
                 <input type="checkbox" className={styles.checkbox} />
                 Keep my last name anonymous (e.g. John D)
               </label>
-              <br/>
+              <br />
               <label className={styles.checkbox_label}>
                 <input type="checkbox" className={styles.checkbox} />
                 Keep me anonymous
               </label>
             </div>
             <div className={styles.cookie_notice}>
-          <p>
-            We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.
-          </p>
-          <div className={styles.cookie_buttons}>
-            <button className={styles.accept_button}>Accept</button>
-            <button className={styles.reject_button}>Reject</button>
-          </div>
-        </div>
+              <p>
+                We use cookies on our website to give you the most relevant
+                experience by remembering your preferences and repeat visits. By
+                clicking “Accept”, you consent to the use of ALL the cookies.
+              </p>
+              <div className={styles.cookie_buttons}>
+                <button className={styles.accept_button}>Accept</button>
+                <button className={styles.reject_button}>Reject</button>
+              </div>
+            </div>
           </form>
         </div>
       </div>

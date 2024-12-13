@@ -4,9 +4,7 @@ const Bulletin = () => {
   return (
     <div>
       <h1 className={styles.title}>Berita YJM</h1>
-      <p className={styles.description}>
-        
-      </p>
+      <p className={styles.description}></p>
     </div>
   );
 };

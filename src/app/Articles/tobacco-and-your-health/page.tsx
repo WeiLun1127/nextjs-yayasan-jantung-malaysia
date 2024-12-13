@@ -1,4 +1,11 @@
-import { FaHeart, FaBan, FaSkullCrossbones, FaFire, FaUsers, FaRegSave } from 'react-icons/fa'; // Import the icons
+import {
+  FaHeart,
+  FaBan,
+  FaSkullCrossbones,
+  FaFire,
+  FaUsers,
+  FaRegSave,
+} from 'react-icons/fa'; // Import the icons
 import styles from './styles.module.css';
 
 const TobbaccoAndYourHealth = () => {
@@ -22,15 +29,16 @@ const TobbaccoAndYourHealth = () => {
         <h2 className={styles.subtitle}>Who can be hurt by tobacco?</h2>
         <br />
         <p className={styles.description}>
-          Tobacco can kill the people who use it. It can also hurt the people who
-          breathe in the smoke from other people's smoking.
+          Tobacco can kill the people who use it. It can also hurt the people
+          who breathe in the smoke from other people's smoking.
           <br />
           <br />
         </p>
       </div>
 
       <div className={styles.card}>
-        <FaSkullCrossbones size={30} className={styles.icon} /> {/* Skull and crossbones icon */}
+        <FaSkullCrossbones size={30} className={styles.icon} />{' '}
+        {/* Skull and crossbones icon */}
         <h2 className={styles.subtitle}>How does smoking kill?</h2>
         <br />
         <p className={styles.description}>
@@ -45,11 +53,14 @@ const TobbaccoAndYourHealth = () => {
 
       <div className={styles.card}>
         <FaFire size={30} className={styles.icon} /> {/* Fire icon */}
-        <h2 className={styles.subtitle}>How dangerous is it to start smoking?</h2>
+        <h2 className={styles.subtitle}>
+          How dangerous is it to start smoking?
+        </h2>
         <br />
         <p className={styles.description}>
-          Tobacco is addictive, which means that it is difficult to stop using it,
-          even when one wants to stop. So it is very dangerous to start smoking.
+          Tobacco is addictive, which means that it is difficult to stop using
+          it, even when one wants to stop. So it is very dangerous to start
+          smoking.
           <br />
           <br />
         </p>
@@ -60,9 +71,10 @@ const TobbaccoAndYourHealth = () => {
         <h2 className={styles.subtitle}>Why people use tobacco?</h2>
         <br />
         <p className={styles.description}>
-          People use tobacco for many reasons. It can pleasurable, and help people
-          to feel different. Tobacco transnationals use deception and propaganda
-          to make people want to begin to smoke in spite of the danger.
+          People use tobacco for many reasons. It can pleasurable, and help
+          people to feel different. Tobacco transnationals use deception and
+          propaganda to make people want to begin to smoke in spite of the
+          danger.
           <br />
           <br />
         </p>
@@ -74,8 +86,8 @@ const TobbaccoAndYourHealth = () => {
         <br />
         <p className={styles.description}>
           You can act to help people to stop smoking, to help people to remain
-          non-smokers, to join together with others to change social attitudes and
-          to press for tobacco control laws.
+          non-smokers, to join together with others to change social attitudes
+          and to press for tobacco control laws.
           <br />
           <br />
         </p>
