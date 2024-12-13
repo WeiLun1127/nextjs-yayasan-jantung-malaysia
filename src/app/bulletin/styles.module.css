@@ -1,24 +1,115 @@
+/* Center the title */
 .title {
     font-size: 2rem;
     font-weight: 700;
     text-align: center; /* Centers the title text */
     margin-bottom: 1rem;
-    line-height: 1.4; /* Improves readability */
-}
-
-.subtitle {
-    font-size: 1.5rem; /* Slightly larger for emphasis */
-    font-weight: 500;
-    text-align: center; /* Centers the subtitle text */
-    margin-bottom: 1rem;
     line-height: 1.4;
-}
-
-.description {
+    margin-left: 225px;
+    width: 100%; /* Ensures the title spans the full width */
+  }
+  
+  /* Center the container */
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Aligns items to the top */
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  }
+  
+  /* Ensure title is centered above the content */
+  .titleWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers the title horizontally */
+    margin-bottom: 20px; /* Space between title and content */
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  /* Sidebar and file list styling */
+  .sidebar {
+    width: 200px;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-right: 2px solid #ddd;
+  }
+  
+  .sidebarTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .fileList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .fileItem {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.75rem;
+  }
+  
+  .fileItem:hover {
+    background-color: #ddd;
+  }
+  
+  .active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* PDF Viewer styling */
+  .pdfViewer {
+    flex: 1;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .arrowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .arrowButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    margin-top: -350px;
+  }
+  
+  .arrowButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .description {
     font-size: 1rem;
     font-weight: 400;
-    text-align: justify; /* Aligns text evenly on both sides */
-    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
-    line-height: 1.6; /* Makes paragraphs easier to read */
-    padding: 0 1rem; /* Adds padding on left and right for better spacing */
-}
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    margin-top: -300px;
+    line-height: 1.6;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  

@@ -128,7 +128,7 @@ const Header = () => {
         </div>
 
         <div className={styles.dropdown}>
-          <a>
+          <a href="/Articles/how-does-human-heart-works">
             <FaStethoscope /> Health Articles
           </a>
           <ul className={styles.dropdownMenu}>
@@ -268,7 +268,7 @@ const Header = () => {
         </div>
 
         <div className={styles.dropdown}>
-          <a>
+          <a href="/bulletin">
             <FaNewspaper /> Bulletin
           </a>
           <ul className={styles.dropdownMenu}>
@@ -286,7 +286,7 @@ const Header = () => {
         </div>
 
         <div className={styles.dropdown}>
-          <a>
+          <a href="/contact-us">
             <FaPhone /> Contact Us
           </a>
           <ul className={styles.dropdownMenu}>
