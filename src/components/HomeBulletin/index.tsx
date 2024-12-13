@@ -6,7 +6,7 @@ const HomeBulletin = () => {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>News Bulletin</h2>
-      <div className={styles.bulletin_content}>
+      <div className={styles.bulletin_card}>
         <Link href="/">
           <div className={styles.bulletin_cover}>
             <Image

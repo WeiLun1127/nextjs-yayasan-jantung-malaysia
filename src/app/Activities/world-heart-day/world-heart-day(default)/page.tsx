@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 const GoRed = () => {
   return (
-    <div>
+    <div className={styles.card}>
       <h1 className={styles.title}>Go Red For Women</h1>
       <h2 className={styles.subtitle}>
         <b>World Heart Day 2014 </b>&#40;28 September 2014&#41;.
@@ -24,12 +25,19 @@ const GoRed = () => {
         person of the population by organizing various heart health activities.
         <br />
         <br />
-        <u>
+        <Link href="/Activities/world-heart-day/world-heart-day-2014">
+        <u className={styles.link}>
           Click here for programme updated details &#40;Malaysia World Heart
           Day, 28 September 2014&#41;
         </u>
+        </Link>
         <br />
         <br />
+        <img
+          src="/images/world-heart-day/Whd-2013-1.jpg"
+          alt="cpr"
+          className={styles.cardImage}
+        />
       </p>
     </div>
   );

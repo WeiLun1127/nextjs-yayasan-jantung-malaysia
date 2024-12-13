@@ -1,4 +1,4 @@
-'use client';
+'use client'; 
 
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
@@ -10,7 +10,7 @@ const HomeVideoArticles = () => {
       <h2 className={styles.title}>Video Articles</h2>
 
       <div className={styles.video_container}>
-        <div className={styles.video_article}>
+        <div className={styles.video_card}>
           <LiteYouTubeEmbed
             id="H04d3rJCLCE"
             title="How the Human Heart Works"
@@ -20,7 +20,7 @@ const HomeVideoArticles = () => {
           </h3>
         </div>
 
-        <div className={styles.video_article}>
+        <div className={styles.video_card}>
           <LiteYouTubeEmbed
             id="ocw_Zey-7cA"
             title="Four Ways to Prevent Heart Attack"
@@ -30,12 +30,12 @@ const HomeVideoArticles = () => {
           </h3>
         </div>
 
-        <div className={styles.video_article}>
+        <div className={styles.video_card}>
           <LiteYouTubeEmbed id="eqe9j6i8p14" title="Heart Disease Warning" />
           <h3 className={styles.video_article_title}>Heart Disease Warning</h3>
         </div>
 
-        <div className={styles.video_article}>
+        <div className={styles.video_card}>
           <LiteYouTubeEmbed
             id="ep9j7YaTfMg"
             title="How does Exercise Impact Weight Loss"

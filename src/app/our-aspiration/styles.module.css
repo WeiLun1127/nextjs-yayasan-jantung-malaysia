@@ -22,3 +22,53 @@
     line-height: 1.6; /* Makes paragraphs easier to read */
     padding: 0 1rem; /* Adds padding on left and right for better spacing */
 }
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Ensures cards wrap to a new line if necessary */
+    gap: 1rem; /* Adds space between cards */
+    justify-content: center; /* Centers the cards within the container */
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color: #fff; /* White background for the card */
+    border: 1px solid #ddd; /* Subtle border for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+    padding: 1rem;
+    max-width: 300px; /* Ensures cards don’t stretch too wide */
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for hover effects */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px) scale(1.05); /* Slightly lifts and scales the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhances the shadow for a hover effect */
+  }
+  
+  .cardImage {
+    width: 50%; /* Ensures the image takes the full width of the card */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
+    margin-bottom: 1rem; /* Adds spacing below the image */
+    transition: transform 0.3s ease; /* Smooth animation for image on hover */
+  }
+  
+  .card:hover .cardImage {
+    transform: scale(1.1); /* Slight zoom effect for the image */
+  }
+  
+  .cardTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardDescription {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+

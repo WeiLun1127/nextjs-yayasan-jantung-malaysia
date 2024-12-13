@@ -1,0 +1,70 @@
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; /* Centers the title text */
+    margin-bottom: 1rem;
+    line-height: 1.4; /* Improves readability */
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Slightly larger for emphasis */
+    font-weight: 500;
+    text-align: center; /* Centers the subtitle text */
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify; /* Aligns text evenly on both sides */
+    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
+    line-height: 1.6; /* Makes paragraphs easier to read */
+    padding: 0 1rem; /* Adds padding on left and right for better spacing */
+}
+
+/* Use a class for the unordered list */
+.list {
+    display: grid; /* Use grid to arrange the list items */
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 2rem; /* Adds space between the cards */
+    list-style-type: none; /* Removes default list bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for individual list items with the 'card' class */
+.card {
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    padding: 2rem; /* Increased padding inside the card */
+    display: flex; /* Flexbox to allow any child elements to align properly */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    text-align: center; /* Centers the text inside the card */
+    border: 2px solid #ccc; /* Adds a light border for more visibility */
+}
+
+.icon {
+    color: #007bff; /* Set the icon color to blue */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Slightly raise the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for emphasis on hover */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    /* Stack the list items vertically on smaller screens */
+    .list {
+        grid-template-columns: 1fr; /* One card per row */
+    }
+
+    .card {
+        padding: 1.5rem; /* Slightly reduce padding on smaller screens */
+    }
+}

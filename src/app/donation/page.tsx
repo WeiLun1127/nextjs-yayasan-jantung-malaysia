@@ -5,15 +5,17 @@ const AboutYJM = () => {
   return (
     <div>
       <h1 className={styles.title}>Donation</h1>
-      <p className={`${styles.description} ${styles.centerText}`}>
-      <div className={styles.imageContainer}>
-        <img 
+
+      {/* Card for image and donation form link */}
+      <div className={styles.card}>
+        <div className={styles.imageContainer}>
+          <img 
             src="/images/donation/YJM-Donation-QR-Code.png"
             alt="DonationQR" 
             className={styles.membershipImage} 
           />
-      </div>
-      <a 
+        </div>
+        <a 
           href="http://www.yjm.org.my/view_file.cfm?fileid=3" 
           target="_blank" 
           rel="noopener noreferrer" 
@@ -21,14 +23,11 @@ const AboutYJM = () => {
         >
           <u>Donation Form (PDF)</u>
         </a>
-        <br />
-        <br />
-        <br />
-        <br />
+      </div>
+
+      <div className={styles.centerText}>
         To get the Tax Exempted Receipt, please FAX to 03-26933267 or EMAIL to Jantung1.yjm@gmail.com the following details as follows:
-        <br />
-        <br />
-      </p>
+      </div>
 
       {/* Cards for each list item */}
       <div className={styles.cardContainer}>
@@ -64,7 +63,5 @@ const AboutYJM = () => {
     </div>
   );
 };
-
-//
 
 export default AboutYJM;

@@ -80,3 +80,64 @@
 .card .icon {
     margin-right: 10px; /* Adjust if you want some spacing between the icon and text */
 }
+
+.bottomSection {
+    text-align: center; /* Center the content */
+    margin-top: 2rem; /* Add some space above */
+  }
+  
+  /* Styling for the image inside the bottom section */
+  .cardImage {
+    display: block; /* Ensures the image is a block element */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains the aspect ratio */
+  }
+
+  /* Responsive adjustments */
+@media (max-width: 1024px) {
+    .cardContainer {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row for tablets */
+    }
+  
+    .cardImage {
+      width: 85%; /* Increase image width to 85% on tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cardContainer {
+      grid-template-columns: 1fr; /* 1 card per row on phones */
+    }
+  
+    .title {
+      font-size: 1.8rem; /* Reduce title size on small screens */
+    }
+  
+    .subtitle {
+      font-size: 1.3rem; /* Reduce subtitle size on small screens */
+    }
+  
+    .description {
+      font-size: 0.9rem; /* Smaller font size for description */
+      padding: 0 1rem; /* Add padding for better spacing */
+    }
+  
+    .card {
+      max-width: 100%; /* Full width for cards on small screens */
+      padding: 15px; /* Reduce card padding for mobile screens */
+    }
+  
+    .card h2 {
+      font-size: 1rem; /* Smaller font size for card titles */
+    }
+  
+    .card p {
+      font-size: 0.9rem; /* Smaller text size for card content */
+    }
+  
+    .cardImage {
+      width: 90%; /* Increase image width to 90% on small screens */
+    }
+  }

@@ -46,6 +46,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increases the shadow for a lifted effect */
 }
 
 .card h4 {
@@ -61,8 +67,69 @@
     margin-top: 0.5rem;
 }
 
+.cardWrapper {
+    background-color: #D3D3D3;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.cardWrapper h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.cardWrapper:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow for a more lifted effect */
+}
+
+/* Default cards layout for wider screens */
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 1rem; /* Adds space between cards */
+}
+
+/* Mobile and smaller screens adjustments */
 @media (max-width: 768px) {
-  .cardsContainer {
-    grid-template-columns: 1fr; /* 1 card per row on small screens */
-  }
+    /* Stack cards in one column on mobile */
+    .cardsContainer {
+        grid-template-columns: 1fr; /* 1 card per row on small screens */
+    }
+
+    /* Adjust title and subtitle font size for mobile */
+    .title {
+        font-size: 1.5rem; /* Smaller title font on mobile */
+    }
+
+    .subtitle {
+        font-size: 1.25rem; /* Slightly smaller subtitle font on mobile */
+    }
+
+    /* Adjust description text for smaller screens */
+    .description {
+        font-size: 0.9rem; /* Smaller description font */
+        padding: 0 0.5rem; /* Reduce padding for better spacing on smaller screens */
+    }
+
+    /* Adjust card padding and font size for mobile */
+    .card {
+        padding: 1rem; /* Smaller padding for cards on mobile */
+    }
+
+    .card h4 {
+        font-size: 1.125rem; /* Slightly smaller heading on mobile */
+    }
+
+    .card p {
+        font-size: 0.875rem; /* Smaller description font on mobile */
+    }
+
+    /* Adjust cardWrapper padding and font size for mobile */
+    .cardWrapper {
+        padding: 1.5rem; /* Smaller padding for card wrapper on mobile */
+    }
 }

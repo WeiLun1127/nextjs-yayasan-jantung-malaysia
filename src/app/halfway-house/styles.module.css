@@ -1,0 +1,101 @@
+/* Add card container style */
+.cardContainer {
+    display: flex;
+    justify-content: space-around; /* Distribute the cards with equal space */
+    gap: 1rem; /* Adds space between the cards */
+    flex-wrap: wrap; /* Allows cards to wrap if needed */
+    margin-top: 2rem; /* Adds space above the cards */
+  }
+  
+  /* Style for individual cards */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 700px; /* Increased card width to accommodate the larger image */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+  }
+  
+  /* Image inside the card */
+  .cardImage {
+    width: 100%; /* Make the image larger, but leave some padding space */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slight rounding of image corners */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Move the card upwards slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for a "lifted" effect */
+  }
+  
+  .downloadLink {
+    text-decoration: none; /* Removes the underline from the link */
+    color: inherit; /* Inherit text color from parent */
+    font-size: 1rem; /* Adjust the icon size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  /* Optional: Add hover effect for the download icon */
+  .downloadLink:hover {
+    color: #007BFF; /* Change color on hover */
+  }
+  
+  /* Description style */
+  .description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center; /* Center align the description text */
+    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
+    line-height: 1.6; /* Makes paragraphs easier to read */
+    padding: 0 1rem; /* Adds padding on left and right for better spacing */
+  }
+  
+  /* Mobile responsiveness */
+  @media screen and (max-width: 768px) {
+    .cardContainer {
+      flex-direction: column; /* Stack the cards vertically on smaller screens */
+      align-items: center; /* Center the cards */
+      gap: 2rem; /* Increase space between stacked cards */
+    }
+  
+    .card {
+      width: 90%; /* Make the card width responsive on smaller screens */
+      max-width: 500px; /* Limit the maximum width of cards */
+      padding: 1rem; /* Maintain consistent padding */
+    }
+  
+    /* Resize the description text for smaller screens */
+    .description {
+      font-size: 0.9rem;
+      padding: 0 2rem; /* Add more padding for smaller screens */
+    }
+  
+    /* Adjust the download icon size on smaller screens */
+    .downloadLink {
+      font-size: 1.2rem; /* Slightly increase icon size for better visibility */
+    }
+  }
+  
+  /* Mobile responsiveness for very small screens (e.g. phones) */
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 100%; /* Make the card width 100% on very small screens */
+      max-width: none; /* Remove the maximum width constraint */
+    }
+  
+    .description {
+      font-size: 0.8rem; /* Further reduce text size for very small screens */
+      padding: 0 1rem; /* Adjust padding */
+    }
+  
+    .downloadLink {
+      font-size: 1.5rem; /* Increase the download icon size for better tap targets */
+    }
+  }
+  

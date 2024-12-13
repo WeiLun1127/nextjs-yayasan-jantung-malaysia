@@ -1,15 +1,41 @@
+/* Wrapper for the card container */
+.cardContainer {
+    display: flex;
+    justify-content: center; /* Centers the card container */
+    margin-top: 2rem;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line */
+}
+
+/* Card style */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for card */
+    padding: 2rem; /* Adds padding inside the card */
+    width: 100%;
+    max-width: 1000px; /* Maximum width of the card */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transition */
+    margin: 1rem; /* Adds margin between cards */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Slight upward movement on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
 .title {
     font-size: 2rem;
     font-weight: 700;
-    text-align: center; /* Centers the title text */
+    text-align: center;
     margin-bottom: 1rem;
-    line-height: 1.4; /* Improves readability */
+    line-height: 1.4;
 }
 
 .subtitle {
-    font-size: 1.5rem; /* Slightly larger for emphasis */
+    font-size: 1.5rem;
     font-weight: 500;
-    text-align: center; /* Centers the subtitle text */
+    text-align: center;
     margin-bottom: 1rem;
     line-height: 1.4;
 }
@@ -17,8 +43,46 @@
 .description {
     font-size: 1rem;
     font-weight: 400;
-    text-align: justify; /* Aligns text evenly on both sides */
-    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
-    line-height: 1.6; /* Makes paragraphs easier to read */
-    padding: 0 1rem; /* Adds padding on left and right for better spacing */
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cardContainer {
+    flex-direction: column; /* Stack the cards vertically on mobile */
+    align-items: center; /* Center align all cards */
+  }
+
+  .card {
+    max-width: 90%; /* Make card width 90% on smaller screens */
+    padding: 1.5rem; /* Slightly reduce padding for smaller screens */
+  }
+
+  .title {
+    font-size: 1.75rem; /* Slightly smaller title on smaller screens */
+  }
+
+  .subtitle {
+    font-size: 1.25rem; /* Slightly smaller subtitle */
+  }
+
+  .description {
+    font-size: 0.95rem; /* Smaller text for descriptions */
+  }
+}
+
+/* Larger screens - For better readability and space usage */
+@media (min-width: 1024px) {
+  .cardContainer {
+    flex-direction: row; /* Align cards horizontally on larger screens */
+    justify-content: flex-start; /* Align cards to the left */
+    flex-wrap: wrap; /* Allow cards to wrap */
+  }
+
+  .card {
+    margin: 1.5rem; /* More space between cards */
+  }
 }

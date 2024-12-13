@@ -22,3 +22,76 @@
     line-height: 1.6; /* Makes paragraphs easier to read */
     padding: 0 1rem; /* Adds padding on left and right for better spacing */
 }
+
+/* Card Styles */
+.card {
+    background-color: #fff; /* White background for the card */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+    padding: 1.5rem;
+    margin: 1rem auto; /* Center the card and add vertical spacing */
+    max-width: 1000px; /* Limits the card width */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Title inside the card */
+  .cardTitle {
+    font-size: 1.75rem; /* Slightly smaller than the main title */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center; /* Center-align the card title */
+  }
+  
+  /* Description inside the card */
+  .cardDescription {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify; /* Justify the text for readability */
+  }
+
+  .cardImage {
+    display: block; /* Ensures the image behaves like a block element */
+    margin: 1rem auto; /* Centers the image horizontally and adds spacing above */
+    width: 70%; /* Sets the image width to 80% of the card, making it responsive */
+    height: auto; /* Maintains the image's aspect ratio */
+    border-radius: 8px; /* Matches the card's rounded design */
+  }
+
+  .card:hover {
+    transform: translateY(-10px); /* Slightly lift the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance the shadow */
+  }
+
+  /* Styling for the centered link text */
+.cardLink {
+  text-align: center; /* Centers the text */
+  font-size: 1rem; /* Matches the font size of the card description */
+  font-weight: 100; /* Makes the text stand out */
+  margin: 1rem 0; /* Adds vertical spacing */
+  text-decoration: underline; /* Underlines the text to resemble a link */
+  cursor: pointer; /* Changes the cursor to a pointer for interactivity */
+}
+
+.cardLink:hover {
+  color: #0056b3; /* Darkens the color on hover */
+  text-decoration: none; /* Removes underline on hover for a cleaner look */
+}
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      padding: 1rem; /* Adjust padding for smaller screens */
+      max-width: 90%; /* Make the card take up more width */
+    }
+  
+    .cardTitle {
+      font-size: 1.5rem; /* Reduce title size */
+    }
+  
+    .cardDescription {
+      font-size: 0.95rem; /* Slightly smaller text for readability */
+    }
+  }
+  

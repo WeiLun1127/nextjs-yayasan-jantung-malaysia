@@ -1,0 +1,73 @@
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; /* Centers the title text */
+    margin-bottom: 1rem;
+    line-height: 1.4; /* Improves readability */
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 20px; /* Adds space between the cards */
+    margin-top: 20px; /* Adds top margin */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden; /* Ensures image doesn't overflow card on hover */
+}
+
+.card a {
+    display: block; /* Makes the entire card clickable */
+    text-decoration: none; /* Removes default link styling */
+    color: inherit; /* Ensures the text color is consistent with the card */
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners of the image */
+    transition: opacity 0.3s ease;
+}
+
+.hoverImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: for rounded corners of hover image */
+}
+
+.card:hover .cardImage {
+    opacity: 0; /* Hides the image when hovering */
+}
+
+.card:hover .hoverImage {
+    opacity: 1; /* Displays the hover image */
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    padding: 0 10px;
+}

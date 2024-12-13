@@ -1,0 +1,104 @@
+/* Wrapper for the card */
+.cardWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* Card container */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin: 20px;
+    position: relative; /* This is needed to position the image */
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* Description styling */
+  .description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+  
+  /* Table styling */
+  .rentalTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .rentalTable th,
+  .rentalTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .rentalTable th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+  }
+  
+  .rentalTable td {
+    background-color: #fff;
+  }
+  
+  .rentalTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .rentalTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive Table for Mobile */
+  @media (max-width: 768px) {
+    .rentalTable {
+      font-size: 0.9rem;
+    }
+  
+    .rentalTable th,
+    .rentalTable td {
+      padding: 6px;
+    }
+  }
+  
+  /* Bottom Image styling */
+  .cardBottomImage {
+    position: absolute;
+    bottom: 20px; /* Position image at the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the image horizontally */
+    width: 100%; /* Adjust width */
+    max-width: 720px; /* Limiting max-width for the image */
+    height: auto;
+    opacity: 1;
+    pointer-events: none; /* Prevent interaction with the image */
+    user-select: none; /* Prevent image selection */
+  }
+  

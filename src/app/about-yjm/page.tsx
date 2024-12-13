@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 
 const AboutYJM = () => {
   return (
-    <div>
+    <div className={styles.card}>
       <h1 className={styles.title}>The Heart Foundation of Malaysia</h1>
       <h2 className={styles.subtitle}>Yayasan Jantung Malaysia (YJM)</h2>
       <p className={styles.description}>

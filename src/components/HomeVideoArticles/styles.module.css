@@ -8,7 +8,7 @@
 .title {
     font-size: 32px;
     font-weight: 600;
-    color: #990000;
+    color: Black;
 }
 
 .video_container {
@@ -17,15 +17,27 @@
     gap: 24px;
 }
 
-.video_article {
+.video_card {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.video_card:hover {
+    transform: translateY(-4px); /* Slightly lift the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
 .video_article_title {
     font-size: 18px;
     font-weight: 600;
+    color: #333;
 }
 
 @media screen and (max-width: 576px) {

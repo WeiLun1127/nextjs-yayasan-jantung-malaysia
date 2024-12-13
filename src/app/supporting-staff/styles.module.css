@@ -1,0 +1,78 @@
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5rem; /* Space between title and description */
+    margin-top: 1rem; /* Adds space above the title */
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center; /* Centered description text */
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid with a flexible number of columns */
+    gap: 20px;
+    justify-items: center;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Slight upward movement on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for hover */
+}
+
+.cardImage {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .cardContainer {
+      grid-template-columns: 1fr; /* Stack the cards vertically on mobile */
+      align-items: center; /* Center align all cards on mobile */
+    }
+  
+    .card {
+      max-width: 90%; /* Make card width 90% on mobile */
+    }
+  
+    .cardImage {
+      max-width: 80%; /* Adjust image width for mobile */
+    }
+  }

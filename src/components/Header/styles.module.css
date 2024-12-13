@@ -4,6 +4,7 @@
     padding: 32px 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Ensure items are centered vertically */
 }
 
 .logo {
@@ -12,6 +13,8 @@
     display: block;
     height: 80px;
     width: auto;
+    margin-right: 30px; 
+    margin-left: -120px;
 }
 
 .nav {
@@ -26,6 +29,22 @@
     text-decoration: none;
     cursor: pointer;
     position: relative;
+    display: flex; /* Ensure icons and text are in the same row */
+    align-items: center; /* Align icon and text vertically */
+    gap: 8px; /* Add some space between the icon and text */
+}
+
+/* Icon size adjustment */
+.nav a svg {
+    font-size: 20px; /* Adjust the icon size */
+    color: #333; /* Icon color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Add smooth transitions */
+}
+
+/* Hover effect on link */
+.nav a:hover svg {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    color: #007bff; /* Change icon color on hover */
 }
 
 /* Dropdown styles */
@@ -45,7 +64,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
     border-radius: 4px;
-    min-width: 200px;
+    min-width: 300px;
 }
 
 .dropdownMenu li {
@@ -67,24 +86,140 @@
     background-color: #f0f0f0; /* Highlight effect on hover */
 }
 
+/* Sub-dropdown for World Heart Day */
+.worldHeartDay {
+    position: relative;
+}
+
+.subDropdownMenu {
+    position: absolute;
+    top: 0;
+    left: 200px; /* Position it beside the main dropdown */
+    display: none;
+    background: white;
+    list-style: none;
+    padding: 8px 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 20; /* Ensure it stays on top */
+    border-radius: 4px;
+    width: 200px;
+}
+
+.worldHeartDay:hover .subDropdownMenu {
+    display: block;
+}
+
+.subDropdownMenu li {
+    padding: 12px 20px;
+}
+
+.subDropdownMenu li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 /* Responsive adjustments */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+    }
+
     .logo {
-        height: 60px;
+        margin-bottom: 16px;
+        height: 50px;
     }
 
     .nav {
         flex-direction: column;
+        align-items: flex-start;
         gap: 16px;
     }
 
+    .dropdown {
+        width: 100%;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
     .dropdownMenu {
-        position: static;
+        position: relative;
+        width: 100%;
+        padding: 0;
         box-shadow: none;
-        background: transparent;
+        background: #fff;
     }
 
     .dropdownMenu li {
-        padding: 8px 0;
+        padding: 12px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .dropdownMenu li a {
+        font-size: 14px;
+        font-weight: 400;
+        color: #444;
+    }
+
+    /* Sub-dropdown for smaller screens */
+    .subDropdownMenu {
+        position: relative;
+        display: none;
+        background: #f9f9f9;
+        margin-left: 16px;
+    }
+
+    .worldHeartDay:hover .subDropdownMenu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo {
+        height: 40px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdownMenu {
+        background: #fff;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .dropdownMenu li {
+        border-bottom: 1px solid #eee;
+    }
+
+    .dropdownMenu li:last-child {
+        border-bottom: none;
+    }
+
+    .dropdownMenu li a {
+        font-size: 13px;
+        padding: 10px;
+        display: block;
+    }
+
+    .subDropdownMenu {
+        padding-left: 16px;
+    }
+
+    .dropdown:hover .dropdownMenu {
+        display: block;
     }
 }

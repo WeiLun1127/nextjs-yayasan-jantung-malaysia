@@ -1,0 +1,59 @@
+.section {   
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    color: Black;
+}
+
+.bulletin_card {
+    display: flex;
+    gap: 24px;
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.bulletin_card:hover {
+    transform: translateY(-4px); /* Slightly lift the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.bulletin_cover {
+    position: relative;
+    aspect-ratio: 1000 / 1024;
+    width: 180px;
+    height: auto;
+}
+
+.bulletin_description {
+    width: 60%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.read_more {
+    font-size: 14px;
+    font-weight: 600;
+    color: #990000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .bulletin_card {
+        flex-direction: column;
+    }
+
+    .bulletin_description {
+        width: 100%;
+        font-size: 14px;
+    }
+}

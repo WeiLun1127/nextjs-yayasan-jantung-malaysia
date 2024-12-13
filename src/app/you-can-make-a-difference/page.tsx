@@ -38,6 +38,14 @@ const YouCanMakeADifference = () => {
         </div>
       </div>
       <br />
+      <div className={styles.bottomSection}>
+        <img
+            src="/images/you-can-make-a-difference/worldheartday2013-1.gif"
+            alt="Our Activities"
+            className={styles.cardImage}
+          />
+      </div>
+      <br />
       <br />
       To join the fight against Malaysia's major killer, please{' '}
       <u>contact us</u> here or complete a copy of our{' '}

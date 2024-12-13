@@ -1,6 +1,190 @@
-.banner_ads {
-    position: relative;
-    aspect-ratio: 1 / 1;
+.card {
     width: 100%;
-    height: auto;
+    max-width: 1150px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card_content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+.banner_ads {
+    width: 50%;
+    position: relative;
+}
+
+.petition_form {
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.petition_form h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.input_field, .textarea_field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.textarea_field {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.submit_button:hover {
+    background-color: #45a049;
+}
+
+.checkbox_group {
+    margin-bottom: 15px;
+}
+
+.checkbox_label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cookie_notice {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.cookie_notice p {
+    font-size: 0.875rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.cookie_buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.accept_button,
+.reject_button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.accept_button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.accept_button:hover {
+    background-color: #45a049;
+}
+
+.reject_button {
+    background-color: #f44336;
+    color: white;
+}
+
+.reject_button:hover {
+    background-color: #e53935;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .card_content {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 15px;
+    }
+
+    .banner_ads,
+    .petition_form {
+        width: 100%; /* Take full width */
+    }
+
+    .petition_form {
+        padding: 15px;
+    }
+
+    .petition_form h2 {
+        font-size: 1.25rem; /* Slightly smaller heading */
+    }
+
+    .input_field, .textarea_field {
+        padding: 8px;
+        font-size: 0.875rem; /* Adjust font size */
+    }
+
+    .submit_button {
+        font-size: 0.875rem;
+        padding: 8px 16px;
+    }
+
+    .checkbox_label {
+        font-size: 0.875rem;
+    }
+
+    .cookie_notice p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        border-radius: 8px; /* Slightly smaller radius for small screens */
+    }
+
+    .petition_form h2 {
+        font-size: 1rem; /* Further reduce heading size */
+    }
+
+    .input_field, .textarea_field {
+        font-size: 0.75rem;
+        padding: 6px;
+    }
+
+    .submit_button {
+        font-size: 0.75rem;
+        padding: 6px 12px;
+    }
+
+    .checkbox_label {
+        font-size: 0.75rem;
+    }
 }
