@@ -46,6 +46,11 @@ const AboutYJM = () => {
         message is direct and effective - enjoy healthy eating, exercise, be
         smoke-free and check your blood pressure regularly.
       </p>
+      <img
+        src="/images/about-yjm/download.png"
+        alt="Promoting Health"
+        className={styles.cardImage}
+      />
     </div>
   );
 };

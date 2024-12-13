@@ -38,3 +38,11 @@
     padding: 0 1rem; /* Adds padding on left and right for better spacing */
   }
   
+  .cardImage {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+  }

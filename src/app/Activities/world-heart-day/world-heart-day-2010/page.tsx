@@ -1,4 +1,4 @@
-import { FaWalking, FaHeart, FaNewspaper, FaUsers } from 'react-icons/fa';
+import { FaWalking, FaHeart, FaUsers } from 'react-icons/fa';
 import styles from './styles.module.css';
 
 const WordHeart2010 = () => {

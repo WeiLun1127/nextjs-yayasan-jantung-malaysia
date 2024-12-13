@@ -1,4 +1,3 @@
-import { FaFacebookF } from 'react-icons/fa'; // Import Facebook icon
 import Encourage from '@/components/Encouraging';
 import HomeBanner from '@/components/HomeBanner';
 import HomeBannerAds from '@/components/HomeBannerAds';

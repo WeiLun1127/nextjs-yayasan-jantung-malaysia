@@ -4,7 +4,6 @@ import {
   FaSkullCrossbones,
   FaFire,
   FaUsers,
-  FaRegSave,
 } from 'react-icons/fa'; // Import the icons
 import styles from './styles.module.css';
 
