@@ -39,6 +39,16 @@ import styles from './styles.module.css';
 const Header = () => {
   return (
     <header className={styles.header}>
+      
+      {/* Language Selector */}
+      <div className={styles.languageSelector}>
+        <a href="#" className={styles.languageLink}>ENG</a>
+        <span>|</span>
+        <a href="#" className={styles.languageLink}>BM</a>
+        <span>|</span>
+        <a href="#" className={styles.languageLink}>CN</a>
+      </div>
+
       <Link href="/">
         <picture className={styles.logo}>
           <Image fill alt="logo" src="/images/logo.png" sizes="602px" />
