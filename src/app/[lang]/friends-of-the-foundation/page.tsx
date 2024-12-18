@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 const CPR = () => {
@@ -31,9 +32,9 @@ const CPR = () => {
           <br />
           <br />
           For more information, please{' '}
-          <a href="/contact-us" className={styles.contactLink}>
+          <Link href="/contact-us" className={styles.contactLink}>
             contact us here
-          </a>
+          </Link>
           .
           <br />
           <br />
