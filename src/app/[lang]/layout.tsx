@@ -2,6 +2,8 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { getDictionary } from '../../dictionaries';
+import { i18n, type Locale } from '../../i18n-config';
 import './globals.css';
 
 const geistSans = localFont({
@@ -22,15 +24,23 @@ export const metadata: Metadata = {
     'heart, heart attack, stroke, World Heart Day, YJM, IJN, Institute Jantung Negara, hypertension, cholesterol, jump rope, go red for women, cornerstone content management system, cornerstone cms',
 };
 
-export default function RootLayout({
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
+}
+
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ lang: Locale }>;
 }>) {
+  const { lang } = await params;
+  const dictionaries = await getDictionary(lang);
   return (
-    <html lang="en">
+    <html lang={lang}>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Header />
+        <Header dictionaries={dictionaries} />
         <main className="content">{children}</main>
         <Footer />
       </body>

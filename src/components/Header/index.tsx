@@ -1,52 +1,61 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  FaInfoCircle,
-  FaUsers,
-  FaUserFriends,
+  FaAmbulance,
+  FaBook,
+  FaBuilding,
   FaBullseye,
   FaCalendarAlt,
-  FaRunning,
-  FaHeartbeat,
+  FaCalendarDay,
+  FaDonate,
+  FaDumbbell,
+  FaExclamationCircle,
+  FaFileAlt,
   FaFlask,
-  FaAmbulance,
   FaHandshake,
   FaHandsHelping,
-  FaLightbulb,
-  FaBuilding,
-  FaHome,
-  FaStethoscope,
   FaHeart,
-  FaExclamationCircle,
-  FaDumbbell,
-  FaBook,
-  FaSmokingBan,
+  FaHeartbeat,
   FaHeartBroken,
-  FaRandom,
-  FaSitemap,
-  FaCalendarDay,
-  FaImage,
-  FaFileAlt,
-  FaTint,
-  FaNewspaper,
-  FaLink,
-  FaPhone,
+  FaHome,
   FaIdCard,
-  FaDonate,
+  FaImage,
+  FaInfoCircle,
+  FaLightbulb,
+  FaLink,
+  FaNewspaper,
+  FaPhone,
+  FaRandom,
+  FaRunning,
+  FaSitemap,
+  FaSmokingBan,
+  FaStethoscope,
+  FaTint,
+  FaUserFriends,
+  FaUsers,
 } from 'react-icons/fa';
 import styles from './styles.module.css';
 
-const Header = () => {
+interface HeaderProps {
+  dictionaries: Dict.Dictionaries;
+}
+
+const Header = ({ dictionaries }: HeaderProps) => {
   return (
     <header className={styles.header}>
-      
       {/* Language Selector */}
       <div className={styles.languageSelector}>
-        <a href="#" className={styles.languageLink}>ENG</a>
+        <a href="#" className={styles.languageLink}>
+          ENG
+        </a>
         <span>|</span>
-        <a href="#" className={styles.languageLink}>BM</a>
+        <a href="#" className={styles.languageLink}>
+          BM
+        </a>
         <span>|</span>
-        <a href="#" className={styles.languageLink}>CN</a>
+        <a href="#" className={styles.languageLink}>
+          CN
+        </a>
       </div>
 
       <Link href="/">
@@ -57,9 +66,9 @@ const Header = () => {
 
       <nav className={styles.nav}>
         <div className={styles.dropdown}>
-          <a href="/about-yjm">
-            <FaInfoCircle /> About YJM
-          </a>
+          <Link href="/about-yjm">
+            <FaInfoCircle /> {dictionaries['header-navbar']['About YJM']}
+          </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/patron">
@@ -138,9 +147,9 @@ const Header = () => {
         </div>
 
         <div className={styles.dropdown}>
-          <a href="/Articles/how-does-human-heart-works">
+          <Link href="/Articles/how-does-human-heart-works">
             <FaStethoscope /> Health Articles
-          </a>
+          </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/Articles/how-does-human-heart-works">
@@ -201,9 +210,9 @@ const Header = () => {
         </div>
 
         <div className={styles.dropdown}>
-          <a href="/calender">
+          <Link href="/calender">
             <FaCalendarAlt /> Activities
-          </a>
+          </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/photo-gallery">
@@ -278,9 +287,9 @@ const Header = () => {
         </div>
 
         <div className={styles.dropdown}>
-          <a href="/bulletin">
+          <Link href="/bulletin">
             <FaNewspaper /> Bulletin
-          </a>
+          </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/bulletin">
@@ -296,9 +305,9 @@ const Header = () => {
         </div>
 
         <div className={styles.dropdown}>
-          <a href="/contact-us">
+          <Link href="/contact-us">
             <FaPhone /> Contact Us
-          </a>
+          </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/contact-us">

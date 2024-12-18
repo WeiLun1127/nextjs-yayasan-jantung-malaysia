@@ -9,17 +9,17 @@
     "lint": "next lint --fix"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0",
-    "material-icons": "^1.13.12",
+    "@formatjs/intl-localematcher": "^0.5.9",
+    "negotiator": "^1.0.0",
     "next": "15.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "react-lite-youtube-embed": "^2.4.0",
-    "react-pdf": "^9.1.1",
-    "react-router-dom": "^7.0.2"
+    "react-pdf": "^9.1.1"
   },
   "devDependencies": {
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
