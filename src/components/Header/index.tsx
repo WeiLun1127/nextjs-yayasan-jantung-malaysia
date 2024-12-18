@@ -34,6 +34,7 @@ import {
   FaUserFriends,
   FaUsers,
 } from 'react-icons/fa';
+import LanguageSelector from '../LanguageSelector';
 import styles from './styles.module.css';
 
 interface HeaderProps {
@@ -43,20 +44,7 @@ interface HeaderProps {
 const Header = ({ dictionaries }: HeaderProps) => {
   return (
     <header className={styles.header}>
-      {/* Language Selector */}
-      <div className={styles.languageSelector}>
-        <a href="#" className={styles.languageLink}>
-          ENG
-        </a>
-        <span>|</span>
-        <a href="#" className={styles.languageLink}>
-          BM
-        </a>
-        <span>|</span>
-        <a href="#" className={styles.languageLink}>
-          CN
-        </a>
-      </div>
+      <LanguageSelector />
 
       <Link href="/">
         <picture className={styles.logo}>
