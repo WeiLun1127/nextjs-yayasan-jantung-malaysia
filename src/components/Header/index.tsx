@@ -60,57 +60,57 @@ const Header = ({ dictionaries }: HeaderProps) => {
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/patron">
-                <FaUsers /> Patron & Board of Directory
+                <FaUsers /> {dictionaries['header-navbar']['Patron & Board of Directories']}
               </Link>
             </li>
             <li>
               <Link href="/supporting-staff">
-                <FaUserFriends /> Supporting Staff
+                <FaUserFriends /> {dictionaries['header-navbar']['Supporting Staff']}
               </Link>
             </li>
             <li>
               <Link href="/our-aspiration">
-                <FaBullseye /> Our Aspiration
+                <FaBullseye /> {dictionaries['header-navbar']['Our Aspiration']}
               </Link>
             </li>
             <li>
               <Link href="/our-future">
-                <FaCalendarAlt /> Our Future
+                <FaCalendarAlt /> {dictionaries['header-navbar']['Our Future']}
               </Link>
             </li>
             <li>
               <Link href="/our-activities">
-                <FaRunning /> Our Activities
+                <FaRunning /> {dictionaries['header-navbar']['Our Activities']}
               </Link>
             </li>
             <li>
               <Link href="/promoting-health">
-                <FaHeartbeat /> Promoting Health
+                <FaHeartbeat /> {dictionaries['header-navbar']['Promoting Health']}
               </Link>
             </li>
             <li>
               <Link href="/research">
-                <FaFlask /> Research - The Heart of A Revolution
+                <FaFlask /> {dictionaries['header-navbar']['Research - The Heart of A Revolution']}
               </Link>
             </li>
             <li>
               <Link href="/cpr">
-                <FaAmbulance /> CPR (Cardio Pulmonary Resuscitation)
+                <FaAmbulance /> {dictionaries['header-navbar']['CPR (Cardio Pulmonary Resuscitation)']}
               </Link>
             </li>
             <li>
               <Link href="/friends-of-the-foundation">
-                <FaHandshake /> Friends of the Foundation
+                <FaHandshake /> {dictionaries['header-navbar']['Friends of the Foundation']}
               </Link>
             </li>
             <li>
               <Link href="/how-you-can-help">
-                <FaHandsHelping /> How You Can Help
+                <FaHandsHelping /> {dictionaries['header-navbar']['How You Can Help']}
               </Link>
             </li>
             <li>
               <Link href="/you-can-make-a-difference">
-                <FaLightbulb /> You Can Make A Difference
+                <FaLightbulb /> {dictionaries['header-navbar']['You Can Make A Difference']}
               </Link>
             </li>
           </ul>
@@ -118,17 +118,17 @@ const Header = ({ dictionaries }: HeaderProps) => {
 
         <div className={styles.dropdown}>
           <a>
-            <FaBuilding /> Facilities
+            <FaBuilding /> {dictionaries['header-navbar']['Facilities']}
           </a>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/hall-rental">
-                <FaBuilding /> Hall Rental
+                <FaBuilding /> {dictionaries['header-navbar']['Hall Rental']}
               </Link>
             </li>
             <li>
               <Link href="/halfway-house">
-                <FaHome /> Halway House
+                <FaHome /> {dictionaries['header-navbar']['Halway House']}
               </Link>
             </li>
           </ul>
@@ -136,62 +136,62 @@ const Header = ({ dictionaries }: HeaderProps) => {
 
         <div className={styles.dropdown}>
           <Link href="/Articles/how-does-human-heart-works">
-            <FaStethoscope /> Health Articles
+            <FaStethoscope /> {dictionaries['header-navbar']['Health Articles']}
           </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/Articles/how-does-human-heart-works">
-                <FaHeart /> How Does the Human Heart Work?
+                <FaHeart /> {dictionaries['header-navbar']['How Does the Human Heart Work?']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/four-ways-to-prevent-heart-attack">
-                <FaExclamationCircle /> Four Ways to Prevent Heart Attack
+                <FaExclamationCircle /> {dictionaries['header-navbar']['Four Ways to Prevent Heart Attack']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/heart-disease">
-                <FaHeartBroken /> Heart Disease Warning
+                <FaHeartBroken /> {dictionaries['header-navbar']['Heart Disease Warning']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/how-does-exercise-impact-weight-loss">
-                <FaDumbbell /> How Does Exercise Impact Weight Loss
+                <FaDumbbell /> {dictionaries['header-navbar']['How Does Exercise Impact Weight Loss']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/heart-basics">
-                <FaBook /> Heart Basics
+                <FaBook /> {dictionaries['header-navbar']['Heart Basics']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/steps-to-better-health">
-                <FaRunning /> Steps to Better Health
+                <FaRunning /> {dictionaries['header-navbar']['Steps to Better Health']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/tobacco-and-your-health">
-                <FaSmokingBan /> Tobacco and Your Health
+                <FaSmokingBan /> {dictionaries['header-navbar']['Tobacco and Your Health']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/heart-attack">
-                <FaHeartBroken /> Heart Attack
+                <FaHeartBroken /> {dictionaries['header-navbar']['Heart Attack']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/heart-disease">
-                <FaHeart /> Heart Disease - Not somebody else's business
+                <FaHeart /> {dictionaries['header-navbar']['Heart Disease - Not somebody else business']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/arrhythmias">
-                <FaRandom /> Arrhythmias and Sudden Cardiac Death
+                <FaRandom /> {dictionaries['header-navbar']['Arrhythmias and Sudden Cardiac Death']}
               </Link>
             </li>
             <li>
               <Link href="/Articles/inherited-cholesterol">
-                <FaSitemap /> Inherited Cholesterol Disorder
+                <FaSitemap /> {dictionaries['header-navbar']['Inherited Cholesterol Disorder']}
               </Link>
             </li>
           </ul>
@@ -199,68 +199,68 @@ const Header = ({ dictionaries }: HeaderProps) => {
 
         <div className={styles.dropdown}>
           <Link href="/calender">
-            <FaCalendarAlt /> Activities
+            <FaCalendarAlt /> {dictionaries['header-navbar']['Activities']}
           </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/photo-gallery">
-                <FaImage /> Photo Gallery - Albums
+                <FaImage /> {dictionaries['header-navbar']['Photo Gallery - Albums']}
               </Link>
             </li>
             <li>
               <Link href="/Activities/cpr">
-                <FaHeartbeat /> CPR (Cardio Pulmonary Resuscitation)
+                <FaHeartbeat /> {dictionaries['header-navbar']['CPR (Cardio Pulmonary Resuscitation)']}
               </Link>
             </li>
             <li>
               <Link href="/Activities/course-proforma">
-                <FaFileAlt /> CPR - Course Performa
+                <FaFileAlt /> {dictionaries['header-navbar']['CPR - Course Performa']}
               </Link>
             </li>
             <li>
               <Link href="/Activities/axa-hearts-in-action-run">
-                <FaRunning /> AXA Hearts in Action Run 2020
+                <FaRunning /> {dictionaries['header-navbar']['AXA Hearts in Action Run 2020']}A
               </Link>
             </li>
             <li>
               <Link href="/walk-a-million-miles">
-                <FaRunning /> Walk A Million Miles 2020
+                <FaRunning /> {dictionaries['header-navbar']['Walk A Million Miles 2020']}
               </Link>
             </li>
 
             <li className={styles.worldHeartDay}>
               <Link href="/Activities/world-heart-day/world-heart-day(default)">
-                <FaCalendarDay /> World Heart Day
+                <FaCalendarDay /> {dictionaries['header-navbar']['World Heart Day']}
               </Link>
               <ul className={styles.subDropdownMenu}>
                 <li>
                   <Link href="/Activities/world-heart-day/world-heart-day-2014">
-                    <FaCalendarDay /> World Heart Day 2014
+                    <FaCalendarDay /> {dictionaries['header-navbar']['World Heart Day 2014']}
                   </Link>
                 </li>
                 <li>
                   <Link href="/Activities/world-heart-day/world-heart-day-2013">
-                    <FaCalendarDay /> World Heart Day 2013
+                    <FaCalendarDay /> {dictionaries['header-navbar']['World Heart Day 2013']}
                   </Link>
                 </li>
                 <li>
                   <Link href="/Activities/world-heart-day/world-heart-day-2012">
-                    <FaCalendarDay /> World Heart Day 2012
+                    <FaCalendarDay /> {dictionaries['header-navbar']['World Heart Day 2012']}
                   </Link>
                 </li>
                 <li>
                   <Link href="/Activities/world-heart-day/world-heart-day-2011">
-                    <FaCalendarDay /> World Heart Day 2011
+                    <FaCalendarDay /> {dictionaries['header-navbar']['World Heart Day 2011']}
                   </Link>
                 </li>
                 <li>
                   <Link href="/Activities/world-heart-day/world-heart-day-2010">
-                    <FaCalendarDay /> World Heart Day 2010
+                    <FaCalendarDay /> {dictionaries['header-navbar']['World Heart Day 2010']}
                   </Link>
                 </li>
                 <li>
                   <Link href="/Activities/world-heart-day/world-heart-day-2009">
-                    <FaCalendarDay /> World Heart Day 2009
+                    <FaCalendarDay /> {dictionaries['header-navbar']['World Heart Day 2009']}
                   </Link>
                 </li>
               </ul>
@@ -268,7 +268,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
 
             <li>
               <Link href="/Activities/go-red">
-                <FaTint /> Go Red For Women
+                <FaTint /> {dictionaries['header-navbar']['Go Red For Women']}
               </Link>
             </li>
           </ul>
@@ -276,17 +276,17 @@ const Header = ({ dictionaries }: HeaderProps) => {
 
         <div className={styles.dropdown}>
           <Link href="/bulletin">
-            <FaNewspaper /> Bulletin
+            <FaNewspaper /> {dictionaries['header-navbar']['Bulletin']}
           </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/bulletin">
-                <FaNewspaper /> Berita YJM
+                <FaNewspaper />{dictionaries['header-navbar']['YJM News']}
               </Link>
             </li>
             <li>
               <Link href="/useful-links">
-                <FaLink /> Useful Links
+                <FaLink /> {dictionaries['header-navbar']['Useful Links']}
               </Link>
             </li>
           </ul>
@@ -294,22 +294,22 @@ const Header = ({ dictionaries }: HeaderProps) => {
 
         <div className={styles.dropdown}>
           <Link href="/contact-us">
-            <FaPhone /> Contact Us
+            <FaPhone /> {dictionaries['header-navbar']['Contact Us']}
           </Link>
           <ul className={styles.dropdownMenu}>
             <li>
               <Link href="/contact-us">
-                <FaPhone /> Contact Us
+                <FaPhone /> {dictionaries['header-navbar']['Contact Us']}
               </Link>
             </li>
             <li>
               <Link href="/membership">
-                <FaIdCard /> Membership
+                <FaIdCard /> {dictionaries['header-navbar']['Membership']}
               </Link>
             </li>
             <li>
               <Link href="/donation">
-                <FaDonate /> Donation
+                <FaDonate /> {dictionaries['header-navbar']['Donation']}
               </Link>
             </li>
           </ul>

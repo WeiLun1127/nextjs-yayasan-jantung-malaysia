@@ -1,5 +1,58 @@
 {
   "header-navbar": {
-    "About YJM": "About YJM"
+    "About YJM": "About YJM",
+    "Patron & Board of Directories": "Patron & Board of Directories",
+    "Supporting Staff": "Supporting Staff",
+    "Our Aspiration": "Our Aspiration",
+    "Our Future": "Our Future",
+    "Our Activities": "Our Activities",
+    "Promoting Health": "Promoting Health",
+    "Research - The Heart of A Revolution": "Research - The Heart of A Revolution",
+    "CPR (Cardio Pulmonary Resuscitation)": "CPR (Cardio Pulmonary Resuscitation)",
+    "Friends of the Foundation": "Friends of the Foundation",
+    "How You Can Help": "How You Can Help",
+    "You Can Make A Difference": "You Can Make A Difference",
+
+    "Facilities": "Facilities",
+    "Hall Rental": "Hall Rental",
+    "Halway House": "Halway House",
+
+    "Health Articles": "Health Articles",
+    "How Does the Human Heart Work?": "How Does the Human Heart Work?",
+    "Four Ways to Prevent Heart Attack": "Four Ways to Prevent Heart Attack",
+    "Heart Disease Warning": "Heart Disease Warning",
+    "How Does Exercise Impact Weight Loss": "How Does Exercise Impact Weight Loss",
+    "Heart Basics": "Heart Basics",
+    "Steps to Better Health": "Steps to Better Health",
+    "Tobacco and Your Health": "Tobacco and Your Health",
+    "Heart Attack": "Heart Attack",
+    "Heart Disease - Not somebody else business": "Heart Disease - Not somebody else business",
+    "Arrhythmias and Sudden Cardiac Death": "Arrhythmias and Sudden Cardiac Death",
+    "Inherited Cholesterol Disorder": "Inherited Cholesterol Disorder",
+
+    "Activities": "Activities",
+    "Photo Gallery - Albums": "Photo Gallery - Albums",
+    "CPR - Course Performa": "CPR - Course Performa",
+    "AXA Hearts in Action Run 2020": "AXA Hearts in Action Run 2020",
+    "Walk A Million Miles 2020": "Walk A Million Miles 2020",
+    "World Heart Day": "World Heart Day",
+    "World Heart Day 2014": "World Heart Day 2014",
+    "World Heart Day 2013": "World Heart Day 2013",
+    "World Heart Day 2012": "World Heart Day 2012",
+    "World Heart Day 2011": "World Heart Day 2011",
+    "World Heart Day 2010": "World Heart Day 2010",
+    "World Heart Day 2009": "World Heart Day 2009",
+    "Go Red For Women": "Go Red For Women",
+
+    "Bulletin": "Bulletin",
+    "YJM News": "YJM News",
+    "Useful Links": "Useful Links",
+
+    "Contact Us": "Contact Us",
+    "Membership": "Membership",
+    "Donation": "Donation"
+  },
+  "news-bulletin": {
+    "News Bulletin": "News Bulletin"
   }
 }
