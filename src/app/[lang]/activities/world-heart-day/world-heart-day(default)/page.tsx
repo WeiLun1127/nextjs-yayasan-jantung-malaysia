@@ -25,7 +25,7 @@ const GoRed = () => {
         person of the population by organizing various heart health activities.
         <br />
         <br />
-        <Link href="/Activities/world-heart-day/world-heart-day-2014">
+        <Link href="/activities/world-heart-day/world-heart-day-2014">
           <u className={styles.link}>
             Click here for programme updated details &#40;Malaysia World Heart
             Day, 28 September 2014&#41;
