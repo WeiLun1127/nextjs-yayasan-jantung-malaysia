@@ -48,11 +48,12 @@
     "Donation": "Donation"
   },
   "news-bulletin": {
-    "News Bulletin": "News Bulletin"
+    "News Bulletin": "News Bulletin",
+    "Description": "YJM News (Newsletter of the Heart Foundation of Malaysia) Volume 55 Editorial Feature is entitled \"Keep NCD Prevention in Mind\". With the ongoing COVID-19 pandemic, non-communicable diseases (NCDs) such as cardiovascular diseases and hypertension have received less attention. However, COVID-19 can cause serious complications to people with NCDs, leading to higher risks of severe illness, hospitalisation and death. This is worrying as an estimated 3 in 10 Malaysians have hypertension and 4 in 10 Malaysians have high blood cholesterol."
   },
   "change-lifestyle": {
     "Change Lifestyle": "Change Lifestyle",
-    "Description": "YJM News (Newsletter of the Heart Foundation of Malaysia) Volume 55 Editorial Feature is entitled \"Keep NCD Prevention in Mind\". With the ongoing COVID-19 pandemic, non-communicable diseases (NCDs) such as cardiovascular diseases and hypertension have received less attention. However, COVID-19 can cause serious complications to people with NCDs, leading to higher risks of severe illness, hospitalisation and death. This is worrying as an estimated 3 in 10 Malaysians have hypertension and 4 in 10 Malaysians have high blood cholesterol."
+    "Description": "Encouraging people to change their lifestyles and to help develop environments which make healthy choices easier, are a fundamental part of The Heart Foundation of Malaysia'.s drive to reduce premature death and disability from heart and circulatory disease."
   },
   "cpr": {
     "CPR (Cardio Pulmonary Resuscitation)": "CPR (Cardio Pulmonary Resuscitation)",
@@ -60,5 +61,9 @@
   },
   "video": {
     "Video Articles": "Video Articles"
+  },
+  "aspiration": {
+    "Title": "Our Aspiration",
+    "Description": "Patience, dedication, hard work, good organization, discernment, and foresight have turned many of our earlier dreams into reality. We do have a fair share of funding constraints. However, public generosity in terms of donations in cash and kind enables the Foundation to participate in several services and campaigns to bring about an understanding in preventive education. We create an understanding of the extent of consequences that heart and circulatory diseases can have on our lives when unchecked."
   }
 }

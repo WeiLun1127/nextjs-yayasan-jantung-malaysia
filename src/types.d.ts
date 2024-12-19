@@ -55,6 +55,7 @@ declare namespace Dict {
     };
     'news-bulletin': {
       'News Bulletin': string;
+      'Description': string;
     };
     'change-lifestyle': {
       'Change Lifestyle': string;
@@ -66,6 +67,10 @@ declare namespace Dict {
     };
     'video': {
       'Video Articles': string;
+    };
+    'aspiration': {
+      'Title': string;
+      'Description': string;
     };
   }
 }

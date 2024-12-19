@@ -21,11 +21,7 @@ const Encourage = ({ dictionaries }: HeaderProps) => {
           </div>
         </Link>
         <p className={styles.bulletin_description}>
-          <b>Encouraging people to change their lifestyles</b> and to help
-          develop environments which make healthy choices easier, are a
-          fundamental part of The Heart Foundation of Malaysia'.s drive to
-          reduce premature death and disability from heart and circulatory
-          disease.
+          {dictionaries['change-lifestyle']['Description']}
         </p>
       </div>
     </section>

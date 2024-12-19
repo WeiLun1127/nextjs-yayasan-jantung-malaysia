@@ -23,7 +23,7 @@ const HomeBulletin = ({ dictionaries }: HeaderProps) => {
           </div>
         </Link>
         <p className={styles.bulletin_description}>
-          {dictionaries['change-lifestyle']?.['Description']}{' '}
+          {dictionaries['news-bulletin']?.['Description']}{' '}
           <Link href="/" className={styles.read_more}>
             Read More
           </Link>
