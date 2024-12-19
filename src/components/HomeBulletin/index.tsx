@@ -2,10 +2,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './styles.module.css';
 
-const HomeBulletin = () => {
+interface HeaderProps {
+  dictionaries: Dict.Dictionaries;
+}
+
+const HomeBulletin = ({ dictionaries }: HeaderProps) => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>News Bulletin</h2>
+      <h2 className={styles.title}>{dictionaries['news-bulletin']['News Bulletin']}</h2>
       <div className={styles.bulletin_card}>
         <Link href="/">
           <div className={styles.bulletin_cover}>
