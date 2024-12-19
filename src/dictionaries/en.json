@@ -12,11 +12,9 @@
     "Friends of the Foundation": "Friends of the Foundation",
     "How You Can Help": "How You Can Help",
     "You Can Make A Difference": "You Can Make A Difference",
-
     "Facilities": "Facilities",
     "Hall Rental": "Hall Rental",
     "Halway House": "Halway House",
-
     "Health Articles": "Health Articles",
     "How Does the Human Heart Work?": "How Does the Human Heart Work?",
     "Four Ways to Prevent Heart Attack": "Four Ways to Prevent Heart Attack",
@@ -29,7 +27,6 @@
     "Heart Disease - Not somebody else business": "Heart Disease - Not somebody else business",
     "Arrhythmias and Sudden Cardiac Death": "Arrhythmias and Sudden Cardiac Death",
     "Inherited Cholesterol Disorder": "Inherited Cholesterol Disorder",
-
     "Activities": "Activities",
     "Photo Gallery - Albums": "Photo Gallery - Albums",
     "CPR - Course Performa": "CPR - Course Performa",
@@ -43,14 +40,14 @@
     "World Heart Day 2010": "World Heart Day 2010",
     "World Heart Day 2009": "World Heart Day 2009",
     "Go Red For Women": "Go Red For Women",
-
     "Bulletin": "Bulletin",
     "YJM News": "YJM News",
     "Useful Links": "Useful Links",
-
     "Contact Us": "Contact Us",
     "Membership": "Membership",
-    "Donation": "Donation"
+    "Donation": "Donation",
+    "News Bulletin": "News Bulletin",
+    "Video Articles": "Video Articles"
   },
   "news-bulletin": {
     "News Bulletin": "News Bulletin"

@@ -151,12 +151,12 @@ const Header = ({ dictionaries }: HeaderProps) => {
         </div>
 
         <div className={styles.dropdown}>
-          <Link href="/Articles/how-does-human-heart-works">
+          <Link href="/articles/how-does-human-heart-works">
             <FaStethoscope /> {dictionaries['header-navbar']['Health Articles']}
           </Link>
           <ul className={styles.dropdownMenu}>
             <li>
-              <Link href="/Articles/how-does-human-heart-works">
+              <Link href="/articles/how-does-human-heart-works">
                 <FaHeart />{' '}
                 {
                   dictionaries['header-navbar'][
@@ -166,7 +166,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
               </Link>
             </li>
             <li>
-              <Link href="/Articles/four-ways-to-prevent-heart-attack">
+              <Link href="/articles/four-ways-to-prevent-heart-attack">
                 <FaExclamationCircle />{' '}
                 {
                   dictionaries['header-navbar'][
@@ -176,13 +176,13 @@ const Header = ({ dictionaries }: HeaderProps) => {
               </Link>
             </li>
             <li>
-              <Link href="/Articles/heart-disease">
+              <Link href="/articles/heart-disease">
                 <FaHeartBroken />{' '}
                 {dictionaries['header-navbar']['Heart Disease Warning']}
               </Link>
             </li>
             <li>
-              <Link href="/Articles/how-does-exercise-impact-weight-loss">
+              <Link href="/articles/how-does-exercise-impact-weight-loss">
                 <FaDumbbell />{' '}
                 {
                   dictionaries['header-navbar'][
@@ -192,30 +192,30 @@ const Header = ({ dictionaries }: HeaderProps) => {
               </Link>
             </li>
             <li>
-              <Link href="/Articles/heart-basics">
+              <Link href="/articles/heart-basics">
                 <FaBook /> {dictionaries['header-navbar']['Heart Basics']}
               </Link>
             </li>
             <li>
-              <Link href="/Articles/steps-to-better-health">
+              <Link href="/articles/steps-to-better-health">
                 <FaRunning />{' '}
                 {dictionaries['header-navbar']['Steps to Better Health']}
               </Link>
             </li>
             <li>
-              <Link href="/Articles/tobacco-and-your-health">
+              <Link href="/articles/tobacco-and-your-health">
                 <FaSmokingBan />{' '}
                 {dictionaries['header-navbar']['Tobacco and Your Health']}
               </Link>
             </li>
             <li>
-              <Link href="/Articles/heart-attack">
+              <Link href="/articles/heart-attack">
                 <FaHeartBroken />{' '}
                 {dictionaries['header-navbar']['Heart Attack']}
               </Link>
             </li>
             <li>
-              <Link href="/Articles/heart-disease">
+              <Link href="/articles/heart-disease">
                 <FaHeart />{' '}
                 {
                   dictionaries['header-navbar'][
@@ -225,7 +225,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
               </Link>
             </li>
             <li>
-              <Link href="/Articles/arrhythmias">
+              <Link href="/articles/arrhythmias">
                 <FaRandom />{' '}
                 {
                   dictionaries['header-navbar'][
@@ -235,7 +235,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
               </Link>
             </li>
             <li>
-              <Link href="/Articles/inherited-cholesterol">
+              <Link href="/articles/inherited-cholesterol">
                 <FaSitemap />{' '}
                 {
                   dictionaries['header-navbar'][
