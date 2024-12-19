@@ -2,13 +2,13 @@
   "header-navbar": {
     "About YJM": "关于YJM",
     "Patron & Board of Directories": "赞助人和董事会",
-    "Supporting Staff": "支持人员",
+    "Supporting Staff": "支持员工",
     "Our Aspiration": "我们的愿景",
     "Our Future": "我们的未来",
     "Our Activities": "我们的活动",
     "Promoting Health": "促进健康",
-    "Research - The Heart of A Revolution": "研究 - 革命的核心",
-    "CPR (Cardio Pulmonary Resuscitation)": "心肺复苏术 (CPR)",
+    "Research - The Heart of A Revolution": "研究——革命的核心",
+    "CPR (Cardio Pulmonary Resuscitation)": "心肺复苏术（CPR）",
     "Friends of the Foundation": "基金会的朋友",
     "How You Can Help": "您如何能帮助",
     "You Can Make A Difference": "您可以有所作为",
@@ -17,21 +17,21 @@
     "Halway House": "中途之家",
     "Health Articles": "健康文章",
     "How Does the Human Heart Work?": "人类心脏如何工作？",
-    "Four Ways to Prevent Heart Attack": "预防心脏病发作的四种方法",
+    "Four Ways to Prevent Heart Attack": "预防心脏病的四种方法",
     "Heart Disease Warning": "心脏病警告",
     "How Does Exercise Impact Weight Loss": "锻炼如何影响减肥",
     "Heart Basics": "心脏基础知识",
     "Steps to Better Health": "改善健康的步骤",
     "Tobacco and Your Health": "烟草与您的健康",
     "Heart Attack": "心脏病发作",
-    "Heart Disease - Not somebody else business": "心脏病 - 不是别人的事",
-    "Arrhythmias and Sudden Cardiac Death": "心律失常和突发性心脏骤停",
+    "Heart Disease - Not somebody else business": "心脏病——不只是别人的事",
+    "Arrhythmias and Sudden Cardiac Death": "心律失常和心脏骤停",
     "Inherited Cholesterol Disorder": "遗传性胆固醇紊乱",
     "Activities": "活动",
-    "Photo Gallery - Albums": "照片库 - 相册",
-    "CPR - Course Performa": "心肺复苏课程简介",
-    "AXA Hearts in Action Run 2020": "AXA心动行动跑2020",
-    "Walk A Million Miles 2020": "行走百万里2020",
+    "Photo Gallery - Albums": "相册画廊",
+    "CPR - Course Performa": "CPR课程表现",
+    "AXA Hearts in Action Run 2020": "AXA心动跑2020",
+    "Walk A Million Miles 2020": "步行百万里2020",
     "World Heart Day": "世界心脏日",
     "World Heart Day 2014": "世界心脏日2014",
     "World Heart Day 2013": "世界心脏日2013",
@@ -39,24 +39,31 @@
     "World Heart Day 2011": "世界心脏日2011",
     "World Heart Day 2010": "世界心脏日2010",
     "World Heart Day 2009": "世界心脏日2009",
-    "Go Red For Women": "为女性心脏健康而红",
+    "Go Red For Women": "女性红心行动",
     "Bulletin": "公告",
     "YJM News": "YJM新闻",
-    "Useful Links": "有用的链接",
+    "Useful Links": "有用链接",
     "Contact Us": "联系我们",
     "Membership": "会员",
     "Donation": "捐赠"
   },
   "news-bulletin": {
-    "News Bulletin": "新闻公告"
+    "News Bulletin": "新闻公告",
+    "Description": "YJM新闻（马来西亚心脏基金会通讯）第55期的编辑特色题为《关注慢性病预防》。在持续的COVID-19大流行中，心血管疾病和高血压等慢性病的关注减少。然而，COVID-19可能对患有慢性病的人群造成严重并发症，导致更高的严重疾病、住院和死亡风险。这令人担忧，因为估计有3/10的马来西亚人患有高血压，4/10的马来西亚人有高血胆固醇。"
   },
   "change-lifestyle": {
-    "Change Lifestyle": "改变生活方式"
+    "Change Lifestyle": "改变生活方式",
+    "Description": "鼓励人们改变生活方式，并帮助营造更容易做出健康选择的环境，是马来西亚心脏基金会减少心脏和循环系统疾病造成的过早死亡和残疾的基本部分。"
   },
   "cpr": {
-    "CPR (Cardio Pulmonary Resuscitation)": "心肺复苏术 (CPR)"
+    "CPR (Cardio Pulmonary Resuscitation)": "心肺复苏术（CPR）",
+    "Description": "马来西亚心脏基金会（Yayasan Jantung Malaysia）是教育、培训以及心血管疾病控制领域的领先机构。在这方面，基金会已开始认真努力，不仅传播基础生命支持的知识和技能，还时不时进行和展示心肺复苏术（CPR）的急救技术。"
   },
   "video": {
     "Video Articles": "视频文章"
+  },
+  "aspiration": {
+    "Title": "我们的愿景",
+    "Description": "耐心、奉献、努力工作、良好的组织能力、判断力和远见将我们许多早期的梦想变成了现实。我们确实面临资金限制。然而，公众在现金和实物捐赠方面的慷慨，使基金会能够参与多项服务和宣传活动，以推广预防教育的理解。当未加控制时，我们创建了对心脏和循环系统疾病可能对我们生活产生的影响的理解。"
   }
 }
