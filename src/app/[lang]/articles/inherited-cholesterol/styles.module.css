@@ -1,0 +1,55 @@
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; /* Centers the title text */
+    margin-bottom: 1rem;
+    line-height: 1.4; /* Improves readability */
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Slightly larger for emphasis */
+    font-weight: 700;
+    text-align: center; /* Centers the subtitle text */
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify; /* Aligns text evenly on both sides */
+    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
+    line-height: 1.6; /* Makes paragraphs easier to read */
+    padding: 0 1rem; /* Adds padding on left and right for better spacing */
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly zooms in the card */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    background-color: #eaeaea; /* Light background color change */
+  }
+
+  /* Highlight Part Style */
+.highlight {
+    background-color: #d3d3d3; /* Darker background color */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.highlight:hover {
+    transform: scale(1.05); /* Slightly zooms in the card */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    background-color: #c0c0c0; /* Even darker background color on hover */
+}

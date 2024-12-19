@@ -1,0 +1,66 @@
+/* Basic styling for the card container */
+.cardContainer {
+    display: flex;
+    justify-content: center; /* Centers the card horizontally */
+    margin: 2rem auto; /* Adds margin to the top and bottom */
+  }
+  
+  /* Styling for the card */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    margin: 1rem;
+    padding: 2rem; /* Adds padding inside the card */
+    width: 80%; /* Makes the card take up 80% of the container width */
+    max-width: 900px; /* Ensures the card doesn’t get too wide */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds smooth hover transition */
+  }
+  
+  /* Hover effects for cards */
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow effect */
+    background-color: #f9f9f9; /* Slight background change on hover */
+  }
+  
+  /* Styling for the title */
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* Styling for subtitles */
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* Basic description text styling */
+  .description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+
+  .centeredDescription {
+    text-align: center; /* Centers the text */
+    margin: 0 auto; /* Ensures no extra margin, keeping it centered */
+  }
+
+  .cardImage {
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
+    height: auto; /* Maintains the aspect ratio */
+  }
+  
