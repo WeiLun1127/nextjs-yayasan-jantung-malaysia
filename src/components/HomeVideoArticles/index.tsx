@@ -11,7 +11,9 @@ interface HeaderProps {
 const HomeVideoArticles = ({ dictionaries }: HeaderProps) => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>{dictionaries['video']['Video Articles']}</h2>
+      <h2 className={styles.title}>
+        {dictionaries['video']['Video Articles']}
+      </h2>
 
       <div className={styles.video_container}>
         <div className={styles.video_card}>

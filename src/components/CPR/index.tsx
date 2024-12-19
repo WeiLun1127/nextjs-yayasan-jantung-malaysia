@@ -9,7 +9,9 @@ interface HeaderProps {
 const CPRMain = ({ dictionaries }: HeaderProps) => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>{dictionaries['cpr']['CPR (Cardio Pulmonary Resuscitation)']}</h2>
+      <h2 className={styles.title}>
+        {dictionaries['cpr']['CPR (Cardio Pulmonary Resuscitation)']}
+      </h2>
       <div className={styles.bulletin_card}>
         <Link href="/">
           <div className={styles.bulletin_cover}>

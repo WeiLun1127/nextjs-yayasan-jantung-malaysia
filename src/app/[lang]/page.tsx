@@ -16,9 +16,9 @@ const Home = async (props: { params: Promise<{ lang: Locale }> }) => {
       <HomeBanner />
       <HomeBannerAds />
       <HomeBulletin dictionaries={dictionaries} />
-      <Encourage dictionaries={dictionaries}/>
-      <CPRMain dictionaries={dictionaries}/>
-      <HomeVideoArticles dictionaries={dictionaries}/>
+      <Encourage dictionaries={dictionaries} />
+      <CPRMain dictionaries={dictionaries} />
+      <HomeVideoArticles dictionaries={dictionaries} />
     </div>
   );
 };

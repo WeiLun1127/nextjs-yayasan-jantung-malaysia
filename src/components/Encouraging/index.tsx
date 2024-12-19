@@ -9,7 +9,9 @@ interface HeaderProps {
 const Encourage = ({ dictionaries }: HeaderProps) => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>{dictionaries['change-lifestyle']['Change Lifestyle']}</h2>
+      <h2 className={styles.title}>
+        {dictionaries['change-lifestyle']['Change Lifestyle']}
+      </h2>
       <div className={styles.bulletin_card}>
         <Link href="/">
           <div className={styles.bulletin_cover}>
