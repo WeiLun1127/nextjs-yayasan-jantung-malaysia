@@ -56,5 +56,16 @@ declare namespace Dict {
     'news-bulletin': {
       'News Bulletin': string;
     };
+    'change-lifestyle': {
+      'Change Lifestyle': string;
+      'Description': string;
+    };
+    'cpr': {
+      'CPR (Cardio Pulmonary Resuscitation)': string;
+      'Description': string;
+    };
+    'video': {
+      'Video Articles': string;
+    };
   }
 }

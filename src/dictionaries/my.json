@@ -45,11 +45,20 @@
     "Useful Links": "Pautan Berguna",
     "Contact Us": "Hubungi Kami",
     "Membership": "Keahlihan",
-    "Donation": "Derma",
-    "News Bulletin": "Berita Buletin",
-    "Video Articles": "Artikel Video"
+    "Donation": "Derma"
   },
   "news-bulletin": {
-    "News Bulletin": "News Bulletin"
+    "News Bulletin": "Berita Buletin"
+  },
+  "change-lifestyle": {
+    "Change Lifestyle": "Mengubah Cara Hidup",
+    "Description": "Berita YJM (Surat Berita Yayasan Jantung Malaysia) Jilid 55 Ciri Editorial bertajuk \"Keep Prevention NCD in Mind\". Dengan pandemik COVID-19 yang berterusan, penyakit tidak berjangkit (NCD) seperti penyakit kardiovaskular dan hipertensi kurang mendapat perhatian. Walau bagaimanapun, COVID-19 boleh menyebabkan komplikasi serius kepada penghidap NCD, yang membawa kepada risiko penyakit teruk, kemasukan ke hospital dan kematian yang lebih tinggi. Ini membimbangkan kerana dianggarkan 3 dalam 10 rakyat Malaysia menghidap hipertensi dan 4 dalam 10 rakyat Malaysia mempunyai kolesterol darah tinggi."
+  },
+  "cpr": {
+    "CPR (Cardio Pulmonary Resuscitation)": "CPR (Kardio Pulmonary Resuscitation)",
+    "Description": "CPR (Cardio Pulmonary Resuscitation) Yayasan Jantung Malaysia (Yayasan Jantung Malaysia) ialah sebuah agensi terkemuka dalam pendidikan, latihan dan kawalan penyakit jantung dan saluran darah.Dalam hal ini, masanya telah tiba untuk yayasan, berusaha secara serius ke arah mewujudkan minat bukan sahaja menyebarkan pengetahuan dan kemahiran dalam Sokongan Hayat Asas, tetapi, juga dari semasa ke semasa menjalankan dan menunjukkan teknik penjimatan Resusitasi Kardiopulmonari (CPR)."
+  },
+  "video": {
+    "Video Articles": "Artikel Video"
   }
 }

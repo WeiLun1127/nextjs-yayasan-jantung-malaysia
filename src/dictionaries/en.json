@@ -45,11 +45,20 @@
     "Useful Links": "Useful Links",
     "Contact Us": "Contact Us",
     "Membership": "Membership",
-    "Donation": "Donation",
-    "News Bulletin": "News Bulletin",
-    "Video Articles": "Video Articles"
+    "Donation": "Donation"
   },
   "news-bulletin": {
     "News Bulletin": "News Bulletin"
+  },
+  "change-lifestyle": {
+    "Change Lifestyle": "Change Lifestyle",
+    "Description": "YJM News (Newsletter of the Heart Foundation of Malaysia) Volume 55 Editorial Feature is entitled \"Keep NCD Prevention in Mind\". With the ongoing COVID-19 pandemic, non-communicable diseases (NCDs) such as cardiovascular diseases and hypertension have received less attention. However, COVID-19 can cause serious complications to people with NCDs, leading to higher risks of severe illness, hospitalisation and death. This is worrying as an estimated 3 in 10 Malaysians have hypertension and 4 in 10 Malaysians have high blood cholesterol."
+  },
+  "cpr": {
+    "CPR (Cardio Pulmonary Resuscitation)": "CPR (Cardio Pulmonary Resuscitation)",
+    "Description":"CPR (Cardio Pulmonary Resuscitation) The Heart Foundation of Malaysia (Yayasan Jantung Malaysia) is a leading agency in the education, training and on the control of heart and blood vessel disease.In this respect, the time has come for the foundation, to seriously work towards creating interest not only disseminating the knowledge and skills in Basic Life Support, but, also from time to time conduct and demonstrate saving technique's of Cardiopulmonary Resuscitation (CPR)."
+  },
+  "video": {
+    "Video Articles": "Video Articles"
   }
 }

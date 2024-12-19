@@ -4,10 +4,14 @@ import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 import styles from './styles.module.css';
 
-const HomeVideoArticles = () => {
+interface HeaderProps {
+  dictionaries: Dict.Dictionaries;
+}
+
+const HomeVideoArticles = ({ dictionaries }: HeaderProps) => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>Video Articles</h2>
+      <h2 className={styles.title}>{dictionaries['video']['Video Articles']}</h2>
 
       <div className={styles.video_container}>
         <div className={styles.video_card}>

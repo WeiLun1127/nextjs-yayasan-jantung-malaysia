@@ -15,7 +15,7 @@ const OurAspiration = () => {
         our lives when unchecked.
       </p>
       <p className={styles.description}>
-        We focus on five veryu important areas:
+        We focus on five very important areas:
       </p>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
