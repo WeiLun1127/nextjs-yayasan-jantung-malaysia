@@ -2,6 +2,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { ReactNode } from 'react';
 import { getDictionary } from '../../dictionaries';
 import { i18n, type Locale } from '../../i18n-config';
 import './globals.css';
@@ -32,11 +33,12 @@ export default async function RootLayout({
   children,
   params,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
   params: Promise<{ lang: Locale }>;
 }>) {
   const { lang } = await params;
   const dictionaries = await getDictionary(lang);
+
   return (
     <html lang={lang}>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>

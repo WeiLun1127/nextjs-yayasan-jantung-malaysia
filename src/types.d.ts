@@ -14,10 +14,10 @@ declare namespace Dict {
       'How You Can Help': string;
       'You Can Make A Difference': string;
 
-      'Facilities': string;
+      Facilities: string;
       'Hall Rental': string;
       'Halway House': string;
-      
+
       'Health Articles': string;
       'How Does the Human Heart Work?': string;
       'Four Ways to Prevent Heart Attack': string;
@@ -31,7 +31,7 @@ declare namespace Dict {
       'Arrhythmias and Sudden Cardiac Death': string;
       'Inherited Cholesterol Disorder': string;
 
-      'Activities': string;
+      Activities: string;
       'Photo Gallery - Albums': string;
       'CPR - Course Performa': string;
       'AXA Hearts in Action Run 2020': string;
@@ -45,13 +45,13 @@ declare namespace Dict {
       'World Heart Day 2009': string;
       'Go Red For Women': string;
 
-      'Bulletin': string;
+      Bulletin: string;
       'YJM News': string;
       'Useful Links': string;
 
       'Contact Us': string;
-      'Membership': string;
-      'Donation': string;
+      Membership: string;
+      Donation: string;
     };
     'news-bulletin': {
       'News Bulletin': string;

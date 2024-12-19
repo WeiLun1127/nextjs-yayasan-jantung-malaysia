@@ -12,11 +12,9 @@
     "Friends of the Foundation": "Rakan-rakan Yayasan",
     "How You Can Help": "Bagaiman Anda Boleh Membantu",
     "You Can Make A Difference": "Anda Boleh Membuat Perbezaan",
-
     "Facilities": "Kemudahan",
     "Hall Rental": "Sewa Dewan",
     "Halway House": "Rumah Separuh Jalan",
-
     "Health Articles": "Artikel Kesihatan",
     "How Does the Human Heart Work?": "Bagaimana Jantung Manusia Berfungsi?",
     "Four Ways to Prevent Heart Attack": "Empat Cara Mencegah Serangan Jantung",
@@ -29,7 +27,6 @@
     "Heart Disease - Not somebody else business": "Penyakit Jantung - Bukan urusan orang lain",
     "Arrhythmias and Sudden Cardiac Death": "Aritmia dan Kematian Jantung Mengejut",
     "Inherited Cholesterol Disorder": "Gangguan Kolestrol Yang Diwarisi",
-
     "Activities": "Aktiviti",
     "Photo Gallery - Albums": "Galeri Foto - Album",
     "CPR - Course Performa": "CPR (Cardio Pulmonary Resuscitation)",
@@ -43,16 +40,16 @@
     "World Heart Day 2010": "Hari Jantung Sedunia 2010",
     "World Heart Day 2009": "Hari Jantung Sedunia 2009",
     "Go Red For Women": "Pergi Merah untuk Wanita",
-
     "Bulletin": "Buletin",
     "YJM News": "Berita YJM",
     "Useful Links": "Pautan Berguna",
-
     "Contact Us": "Hubungi Kami",
     "Membership": "Keahlihan",
     "Donation": "Derma",
-
-    "News Bulletin": "Berita Buletin", 
+    "News Bulletin": "Berita Buletin",
     "Video Articles": "Artikel Video"
+  },
+  "news-bulletin": {
+    "News Bulletin": "News Bulletin"
   }
 }

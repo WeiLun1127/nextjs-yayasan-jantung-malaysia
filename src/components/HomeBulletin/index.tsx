@@ -9,7 +9,9 @@ interface HeaderProps {
 const HomeBulletin = ({ dictionaries }: HeaderProps) => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>{dictionaries['news-bulletin']['News Bulletin']}</h2>
+      <h2 className={styles.title}>
+        {dictionaries['news-bulletin']['News Bulletin']}
+      </h2>
       <div className={styles.bulletin_card}>
         <Link href="/">
           <div className={styles.bulletin_cover}>
