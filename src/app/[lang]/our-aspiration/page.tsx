@@ -1,10 +1,6 @@
 import styles from './styles.module.css';
 
-interface HeaderProps {
-  dictionaries: Dict.Dictionaries;
-}
-
-const OurAspiration = ({ dictionaries }: HeaderProps) => {
+const OurAspiration = () => {
   return (
     <div>
       <h1 className={styles.title}>Our Aspirations</h1>
