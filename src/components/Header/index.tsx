@@ -259,7 +259,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
               </Link>
             </li>
             <li>
-              <Link href="/Activities/cpr">
+              <Link href="/activities/cpr">
                 <FaHeartbeat />{' '}
                 {
                   dictionaries['header-navbar'][
@@ -269,13 +269,13 @@ const Header = ({ dictionaries }: HeaderProps) => {
               </Link>
             </li>
             <li>
-              <Link href="/Activities/course-proforma">
+              <Link href="/activities/course-proforma">
                 <FaFileAlt />{' '}
                 {dictionaries['header-navbar']['CPR - Course Performa']}
               </Link>
             </li>
             <li>
-              <Link href="/Activities/axa-hearts-in-action-run">
+              <Link href="/activities/axa-hearts-in-action-run">
                 <FaRunning />{' '}
                 {dictionaries['header-navbar']['AXA Hearts in Action Run 2020']}
                 A
@@ -289,43 +289,43 @@ const Header = ({ dictionaries }: HeaderProps) => {
             </li>
 
             <li className={styles.worldHeartDay}>
-              <Link href="/Activities/world-heart-day/world-heart-day(default)">
+              <Link href="/activities/world-heart-day/world-heart-day(default)">
                 <FaCalendarDay />{' '}
                 {dictionaries['header-navbar']['World Heart Day']}
               </Link>
               <ul className={styles.subDropdownMenu}>
                 <li>
-                  <Link href="/Activities/world-heart-day/world-heart-day-2014">
+                  <Link href="/activities/world-heart-day/world-heart-day-2014">
                     <FaCalendarDay />{' '}
                     {dictionaries['header-navbar']['World Heart Day 2014']}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Activities/world-heart-day/world-heart-day-2013">
+                  <Link href="/activities/world-heart-day/world-heart-day-2013">
                     <FaCalendarDay />{' '}
                     {dictionaries['header-navbar']['World Heart Day 2013']}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Activities/world-heart-day/world-heart-day-2012">
+                  <Link href="/activities/world-heart-day/world-heart-day-2012">
                     <FaCalendarDay />{' '}
                     {dictionaries['header-navbar']['World Heart Day 2012']}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Activities/world-heart-day/world-heart-day-2011">
+                  <Link href="/activities/world-heart-day/world-heart-day-2011">
                     <FaCalendarDay />{' '}
                     {dictionaries['header-navbar']['World Heart Day 2011']}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Activities/world-heart-day/world-heart-day-2010">
+                  <Link href="/activities/world-heart-day/world-heart-day-2010">
                     <FaCalendarDay />{' '}
                     {dictionaries['header-navbar']['World Heart Day 2010']}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Activities/world-heart-day/world-heart-day-2009">
+                  <Link href="/activities/world-heart-day/world-heart-day-2009">
                     <FaCalendarDay />{' '}
                     {dictionaries['header-navbar']['World Heart Day 2009']}
                   </Link>
@@ -334,7 +334,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
             </li>
 
             <li>
-              <Link href="/Activities/go-red">
+              <Link href="/activities/go-red">
                 <FaTint /> {dictionaries['header-navbar']['Go Red For Women']}
               </Link>
             </li>

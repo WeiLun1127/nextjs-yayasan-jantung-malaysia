@@ -24,7 +24,7 @@ const CPRMain = () => {
           and skills in Basic Life Support, but, also from time to time conduct
           and demonstrate saving technique's of Cardiopulmonary Resuscitation
           (CPR).
-          <Link href="/Activities/cpr" className={styles.read_more}>
+          <Link href="/activities/cpr" className={styles.read_more}>
             Read More
           </Link>
         </p>

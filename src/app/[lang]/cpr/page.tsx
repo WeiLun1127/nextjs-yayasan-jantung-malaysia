@@ -1,5 +1,5 @@
-import styles from './styles.module.css';
 import Link from 'next/link'; // Import Link from Next.js
+import styles from './styles.module.css';
 
 const CPR = () => {
   return (
@@ -28,7 +28,7 @@ const CPR = () => {
           schools and workplaces
           <br />
           <br />
-          <Link href="/Activities/cpr">
+          <Link href="/activities/cpr">
             Click <u>here</u>
           </Link>{' '}
           for more details. {/* Link to another page */}
