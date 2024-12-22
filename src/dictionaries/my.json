@@ -87,5 +87,25 @@
     "rehabilitation-description": "To encourage programmes which promote the rehabilitation of those suffering from diseases of the heart and circulation.",
     "public-service": "Public Service",
     "public-service-description": "To provide accommodation for families of heart patients who are undergoing medical treatment at hospitals within the city."
+  },
+  "our-future": {
+    "title": "Our Future",
+    "description": "While we have traveled a long way, there is a tough journey still ahead of us. The percentage of medically certified deaths attributed to cardiovascular diseases have exceeded that of even cancer and has become the No 1 killer disease in Malaysia.<br /><br />There still needs much to be done and we certainly ask for your support. For example, in the next 12 months we aim to extend training in Basic Life Support to all Malaysians.<br /><br />We aim to build an active publishing programme in order to provide resource material to schools, workplaces and the community and develop an active Resource Centre.",
+    "cardiac-rehabilitation-training": "Cardiac Rehabilitation Training",
+    "cardiac-rehabilitation-training-description": "Work with health professionals to hold training seminars for personnel interested in working in areas such as cardiac rehabilitation, nutrition, etc.",
+    "expand-cardiac-rehab-support": "Expand Cardiac Rehab Support",
+    "expand-cardiac-rehab-support-description": "Expand support for the cardiac rehabilitation programmes in the community and give them the best chance of a return to a full life following heart attack or surgery.",
+    "support-heart-health-programs": "Support Heart-Health Programs",
+    "support-heart-health-programs-description": "Continue to support heart-health programmes.",
+    "promote-healthy-lifestyles-in-schools": "Promote Healthy Lifestyles in Schools",
+    "promote-healthy-lifestyles-in-schools-description": "Poor health behaviour often starts in childhood. We hope to work towards promoting a healthy lifestyle programme in preschools and schools with the cooperation of the Ministries of Health and Education."
+  },
+  "our-activities": {
+    "title": "Our Activities",
+    "description": "The tide is turning but major challenges remain.<br /><br />The sum total of our awareness programme (which we started with RM50,000) has been increasing annually with the increase in activities. For year 2000 we spent RM300,000.<br /><br />Since 1993 approximately RM99,000 has been awarded in project grants and fellowships to further research in studies related to the heart, and since then, the Foundation has been allocating RM 10,000 annually to fund research.<br /><br />The Foundation awards <b>The Fellowship Research Grant</b> annually and our Technical Committee is responsible for evaluating all applications for research funds and fellowships.<br /><br />Education is the key to healthier lifestyles and prevention. The Foundation offers a comprehensive series of publications for the interest of the public. We also provide resources to students, teachers, employers and community groups and the media.<br /><br />Many of the Foundations ongoing programmes are well known in the community, such as, the <b>Heart Week</b> which is held 4-6 times each year and at different locations in the country. We bring fun along with a fitness message, and through health screening and forums, we create interest and awareness about risk factors related to cardiovascular diseases, healthy living and heart to the community at large.<br /><br />The Foundation also works towards creating interest in <b>Basic Life Support</b>. We work with health professionals and conduct demonstrations in the life - saving technique of CPR (cardiopulmonary or heart lung resuscitation) to develop interest in the community.<br /><br /><b>Health promotion programmes</b> in schools and workplaces, to encourage provision of healthy food choices and exercise in a healthy smoke-free environment."
+  },
+  "promoting-health": {
+    "title": "Promoting Health",
+    "description": "Encouraging people to change their lifestyles and to help develop environments which make healthy choices easier, are a fundamental part of The Heart Foundation of Malaysia's drive to reduce premature death and disability from heart and circulatory disease.<br /><br />Each year, The Heart Foundation of Malaysia spends over MYR50, 000 on heart health promotion initiatives trying to reach just about every sector of the community."
   }
 }

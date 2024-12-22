@@ -94,5 +94,25 @@ declare namespace Dict {
       'public-service': string;
       'public-service-description': string;
     };
+    'our-future': {
+      title: string;
+      description: string;
+      'cardiac-rehabilitation-training': string;
+      'cardiac-rehabilitation-training-description': string;
+      'expand-cardiac-rehab-support': string;
+      'expand-cardiac-rehab-support-description': string;
+      'support-heart-health-programs': string;
+      'support-heart-health-programs-description': string;
+      'promote-healthy-lifestyles-in-schools': string;
+      'promote-healthy-lifestyles-in-schools-description': string;
+    };
+    'our-activities': {
+      title: string;
+      description: string;
+    };
+    'promoting-health': {
+      title: string;
+      description: string;
+    };
   }
 }

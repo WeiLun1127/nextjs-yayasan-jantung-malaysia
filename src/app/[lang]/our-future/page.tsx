@@ -1,64 +1,78 @@
-import styles from './styles.module.css';
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import {
-  FaHeartbeat,
   FaChalkboardTeacher,
-  FaHandsHelping,
   FaChild,
+  FaHandsHelping,
+  FaHeartbeat,
 } from 'react-icons/fa';
+import styles from './styles.module.css';
 
-const OurFuture = () => {
+const OurFuture = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Our Future</h1>
-      <p className={styles.description}>
-        While we have traveled a long way, there is a tough journey still ahead
-        of us. The percentage of medically certified deaths attributed to
-        cardiovascular diseases have exceeded that of even cancer and has become
-        the No 1 killer disease in Malaysia.
-        <br />
-        <br />
-        There still needs much to be done and we certainly ask for your support.
-        For example, in the next 12 months we aim to extend training in Basic
-        Life Support to all Malaysians.
-        <br />
-        <br />
-        We aim to build an active publishing programme in order to provide
-        resource material to schools, workplaces and the community and develop
-        an active Resource Centre.
-      </p>
+      <h1 className={styles.title}>{dictionaries['our-future']['title']}</h1>
+      <p
+        className={styles.description}
+        dangerouslySetInnerHTML={{
+          __html: dictionaries['our-future']['description'],
+        }}
+      />
 
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
           <FaHeartbeat className={styles.icon} />
-          <h3>Cardiac Rehabilitation Training</h3>
+          <h3>
+            {dictionaries['our-future']['cardiac-rehabilitation-training']}
+          </h3>
           <p>
-            Work with health professionals to hold training seminars for
-            personnel interested in working in areas such as cardiac
-            rehabilitation, nutrition, etc.
+            {
+              dictionaries['our-future'][
+                'cardiac-rehabilitation-training-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
           <FaChalkboardTeacher className={styles.icon} />
-          <h3>Expand Cardiac Rehab Support</h3>
+          <h3>{dictionaries['our-future']['expand-cardiac-rehab-support']}</h3>
           <p>
-            Expand support for the cardiac rehabilitation programmes in the
-            community and give them the best chance of a return to a full life
-            following heart attack or surgery.
+            {
+              dictionaries['our-future'][
+                'expand-cardiac-rehab-support-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
           <FaHandsHelping className={styles.icon} />
-          <h3>Support Heart-Health Programs</h3>
-          <p>Continue to support heart-health programmes.</p>
+          <h3>{dictionaries['our-future']['support-heart-health-programs']}</h3>
+          <p>
+            {
+              dictionaries['our-future'][
+                'support-heart-health-programs-description'
+              ]
+            }
+          </p>
         </div>
         <div className={styles.card}>
           <FaChild className={styles.icon} />
-          <h3>Promote Healthy Lifestyles in Schools</h3>
+          <h3>
+            {
+              dictionaries['our-future'][
+                'promote-healthy-lifestyles-in-schools'
+              ]
+            }
+          </h3>
           <p>
-            Poor health behaviour often starts in childhood. We hope to work
-            towards promoting a healthy lifestyle programme in preschools and
-            schools with the cooperation of the Ministries of Health and
-            Education.
+            {
+              dictionaries['our-future'][
+                'promote-healthy-lifestyles-in-schools-description'
+              ]
+            }
           </p>
         </div>
       </div>

@@ -1,68 +1,77 @@
 .title {
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center; /* Centers the title text */
-    margin-bottom: 1rem;
-    line-height: 1.4; /* Improves readability */
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center; /* Centers the title text */
+  margin-bottom: 1rem;
+  line-height: 1.4; /* Improves readability */
 }
 
 .subtitle {
-    font-size: 1.5rem; /* Slightly larger for emphasis */
-    font-weight: 500;
-    text-align: center; /* Centers the subtitle text */
-    margin-bottom: 1rem;
-    line-height: 1.4;
+  font-size: 1.5rem; /* Slightly larger for emphasis */
+  font-weight: 500;
+  text-align: center; /* Centers the subtitle text */
+  margin-bottom: 1rem;
+  line-height: 1.4;
 }
 
 .description {
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: justify; /* Aligns text evenly on both sides */
-    margin-bottom: 1.5rem; /* Slightly larger space for better separation */
-    line-height: 1.6; /* Makes paragraphs easier to read */
-    padding: 0 1rem; /* Adds padding on left and right for better spacing */
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify; /* Aligns text evenly on both sides */
+  margin-bottom: 1.5rem; /* Slightly larger space for better separation */
+  line-height: 1.6; /* Makes paragraphs easier to read */
+  padding: 0 1rem; /* Adds padding on left and right for better spacing */
 }
 
 /* Card Styles */
 .card {
-    background-color: #fff; /* White background for the card */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
-    padding: 1.5rem;
-    margin: 1rem auto; /* Center the card and add vertical spacing */
-    max-width: 1000px; /* Limits the card width */
-    text-align: left; /* Align text to the left */
-  }
-  
-  /* Title inside the card */
-  .cardTitle {
-    font-size: 1.75rem; /* Slightly smaller than the main title */
-    font-weight: 700;
-    margin-bottom: 1rem;
-    text-align: center; /* Center-align the card title */
-  }
-  
-  /* Description inside the card */
-  .cardDescription {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
-    text-align: justify; /* Justify the text for readability */
-  }
+  background-color: #fff; /* White background for the card */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+  padding: 1.5rem;
+  margin: 1rem auto; /* Center the card and add vertical spacing */
+  max-width: 1000px; /* Limits the card width */
+  text-align: left; /* Align text to the left */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for hover */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .cardImage {
-    display: block; /* Ensures the image behaves like a block element */
-    margin: 1rem auto; /* Centers the image horizontally and adds spacing above */
-    width: 70%; /* Sets the image width to 80% of the card, making it responsive */
-    height: auto; /* Maintains the image's aspect ratio */
-    border-radius: 8px; /* Matches the card's rounded design */
-  }
+/* Title inside the card */
+.cardTitle {
+  font-size: 1.75rem; /* Slightly smaller than the main title */
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center; /* Center-align the card title */
+}
 
-  .card:hover {
-    transform: translateY(-10px); /* Slightly lift the card */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance the shadow */
-  }
+/* Description inside the card */
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify; /* Justify the text for readability */
+  margin-bottom: 1rem;
+}
+
+.cardImage {
+  position: relative;
+  aspect-ratio: 789/533;
+  width: 70%;
+  height: auto;
+}
+
+.cardImage img {
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slightly lift the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance the shadow */
+}
 
   /* Styling for the centered link text */
 .cardLink {
@@ -79,19 +88,19 @@
   text-decoration: none; /* Removes underline on hover for a cleaner look */
 }
   
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .card {
-      padding: 1rem; /* Adjust padding for smaller screens */
-      max-width: 90%; /* Make the card take up more width */
-    }
-  
-    .cardTitle {
-      font-size: 1.5rem; /* Reduce title size */
-    }
-  
-    .cardDescription {
-      font-size: 0.95rem; /* Slightly smaller text for readability */
-    }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem; /* Adjust padding for smaller screens */
+    max-width: 90%; /* Make the card take up more width */
   }
+
+  .cardTitle {
+    font-size: 1.5rem; /* Reduce title size */
+  }
+
+  .cardDescription {
+    font-size: 0.95rem; /* Slightly smaller text for readability */
+  }
+}
   
