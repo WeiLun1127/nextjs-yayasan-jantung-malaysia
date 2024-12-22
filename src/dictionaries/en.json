@@ -57,13 +57,35 @@
   },
   "cpr": {
     "CPR (Cardio Pulmonary Resuscitation)": "CPR (Cardio Pulmonary Resuscitation)",
-    "Description":"CPR (Cardio Pulmonary Resuscitation) The Heart Foundation of Malaysia (Yayasan Jantung Malaysia) is a leading agency in the education, training and on the control of heart and blood vessel disease.In this respect, the time has come for the foundation, to seriously work towards creating interest not only disseminating the knowledge and skills in Basic Life Support, but, also from time to time conduct and demonstrate saving technique's of Cardiopulmonary Resuscitation (CPR)."
+    "Description": "CPR (Cardio Pulmonary Resuscitation) The Heart Foundation of Malaysia (Yayasan Jantung Malaysia) is a leading agency in the education, training and on the control of heart and blood vessel disease.In this respect, the time has come for the foundation, to seriously work towards creating interest not only disseminating the knowledge and skills in Basic Life Support, but, also from time to time conduct and demonstrate saving technique's of Cardiopulmonary Resuscitation (CPR)."
   },
   "video": {
     "Video Articles": "Video Articles"
   },
-  "aspiration": {
-    "Title": "Our Aspiration",
-    "Description": "Patience, dedication, hard work, good organization, discernment, and foresight have turned many of our earlier dreams into reality. We do have a fair share of funding constraints. However, public generosity in terms of donations in cash and kind enables the Foundation to participate in several services and campaigns to bring about an understanding in preventive education. We create an understanding of the extent of consequences that heart and circulatory diseases can have on our lives when unchecked."
+  "about-YJM": {
+    "title": "The Heart Foundation of Malaysia",
+    "subtitle": "Yayasan Jantung Malaysia (YJM)",
+    "description": "The groundwork for today's solid base began in 1982. The Heart Foundation of Malaysia was established by a small group of dedicated and concerned lay people who were determined to make an impact on the control of heart and blood vessel disease.<br /><br />In the 1960's, deaths in Malaysia were due to communicable diseases such as tuberculosis, malaria, typhoid and cholera. Our health system was then developing and our health facilities were inadequate to meet the needs and demands of the population.<br /><br />With the improved standard of living and better understanding, now, there is a control of these diseases. However, more than 20 years later, heart disease death rates and stroke deaths have increased and has become the No. 1 killer. More people are being affected by heart and blood vessel diseases.<br /><br />We believe we can share in the effort to prevent and control the situation. Educating the public by bringing awareness has resulted in encouraging response from the society. Heart and blood vessel disease is our major killer, claiming almost twice as many lives as cancer and accounting for a high percentage of all certified deaths each year. In 1995, 28.2 % of all medically reported deaths in Malaysia were attributed to CVD (cardiovascular diseases). By international standards, this figure does cause a concern for Malaysia.<br /><br /><b>The Heart Foundation of Malaysia is a non-profit and non-governmental organisation</b> dedicated to the education of the public on heart and circulatory diseases. We are funded almost entirely by public support from our well-meaning society. In addition, we receive some limited government co-operation for specific projects. The Foundation's heart-health message is direct and effective - enjoy healthy eating, exercise, be smoke-free and check your blood pressure regularly."
+  },
+  "board-of-directories": {
+    "title": "The Heart Foundation of Malaysia"
+  },
+  "supporting-staff": {
+    "title": "YJM Staff Team"
+  },
+  "our-aspiration": {
+    "title": "Our Aspiration",
+    "description": "Patience, dedication, hard work, good organization, discernment, and foresight have turned many of our earlier dreams into reality. We do have a fair share of funding constraints. However, public generosity in terms of donations in cash and kind enables the Foundation to participate in several services and campaigns to bring about an understanding in preventive education. We create an understanding of the extent of consequences that heart and circulatory diseases can have on our lives when unchecked.",
+    "important-areas": "We focus on five very important areas:",
+    "research": "Research",
+    "research-description": "To advance understanding of the causes of heart disease and provide the basis for new techniques in treatment and prevention and applicable to our environment.",
+    "public-education": "Public Education",
+    "public-education-description": "To develop and implement health educational programmes designed to encourage a healthy lifestyle and to assist in preventing heart disease and stroke deaths.",
+    "professional-education": "Professional Education",
+    "professional-education-description": "To increase the knowledge and improve the skills of health professionals.",
+    "rehabilitation": "Rehabilitation",
+    "rehabilitation-description": "To encourage programmes which promote the rehabilitation of those suffering from diseases of the heart and circulation.",
+    "public-service": "Public Service",
+    "public-service-description": "To provide accommodation for families of heart patients who are undergoing medical treatment at hospitals within the city."
   }
 }

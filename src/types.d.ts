@@ -55,22 +55,44 @@ declare namespace Dict {
     };
     'news-bulletin': {
       'News Bulletin': string;
-      'Description': string;
+      Description: string;
     };
     'change-lifestyle': {
       'Change Lifestyle': string;
-      'Description': string;
+      Description: string;
     };
-    'cpr': {
+    cpr: {
       'CPR (Cardio Pulmonary Resuscitation)': string;
-      'Description': string;
+      Description: string;
     };
-    'video': {
+    video: {
       'Video Articles': string;
     };
-    'aspiration': {
-      'Title': string;
-      'Description': string;
+    'about-YJM': {
+      title: string;
+      subtitle: string;
+      description: string;
+    };
+    'board-of-directories': {
+      title: string;
+    };
+    'supporting-staff': {
+      title: string;
+    };
+    'our-aspiration': {
+      title: string;
+      description: string;
+      'important-areas': string;
+      research: string;
+      'research-description': string;
+      'public-education': string;
+      'public-education-description': string;
+      'professional-education': string;
+      'professional-education-description': string;
+      rehabilitation: string;
+      'rehabilitation-description': string;
+      'public-service': string;
+      'public-service-description': string;
     };
   }
 }

@@ -4,6 +4,7 @@
     text-align: center;
     margin-bottom: 1rem;
     line-height: 1.4;
+    padding: 0 1rem;
 }
 
 .subtitle {
@@ -41,6 +42,10 @@
     max-width: 400px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover {
@@ -48,13 +53,15 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for hover */
 }
 
-.cardImage {
+.imageContainer {
+    position: relative;
     display: block;
-    margin: 0 auto; /* Centers the image horizontally */
-    max-width: 100%;
+    border-radius: 8px;
+    aspect-ratio: 146/180;
     height: auto;
-    border-radius: 8px; /* Optional: Adds rounded corners to the image */
-    margin-bottom: 1rem;
+    width: 100%;
+    max-height: 180px;
+    max-width: 146px;
 }
 
 .card p {
@@ -64,15 +71,16 @@
 
 @media (max-width: 768px) {
     .cardContainer {
-      grid-template-columns: 1fr; /* Stack the cards vertically on mobile */
-      align-items: center; /* Center align all cards on mobile */
+        grid-template-columns: 1fr; /* Stack the cards vertically on mobile */
+        align-items: center; /* Center align all cards on mobile */
     }
-  
+
     .card {
-      max-width: 90%; /* Make card width 90% on mobile */
+        max-width: 90%; /* Make card width 90% on mobile */
     }
-  
-    .cardImage {
-      max-width: 80%; /* Adjust image width for mobile */
+
+    .imageContainer {
+        max-width: 80%;
+        max-height: 100%;
     }
-  }
+}

@@ -1,83 +1,101 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
+import Image from 'next/image';
 import styles from './styles.module.css';
 
-const OurAspiration = () => {
+const OurAspiration = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Our Aspirations</h1>
+      <h1 className={styles.title}>
+        {dictionaries['our-aspiration']['title']}
+      </h1>
       <p className={styles.description}>
-        Patience, dedication, hard work, good organization, discernment, and
-        foresight have turned many of our earlier dreams into reality. We do
-        have a fair share of funding constraints. However, public generosity in
-        terms of donations in cash and kind enables the Foundation to
-        participate in several services and campaigns to bring about an
-        understanding in preventive education. We create an understanding of the
-        extent of consequences that heart and circulatory diseases can have on
-        our lives when unchecked.
+        {dictionaries['our-aspiration']['description']}
       </p>
       <p className={styles.description}>
-        We focus on five very important areas:
+        {dictionaries['our-aspiration']['important-areas']}
       </p>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
-          <img
-            src="/images/our-aspiration/aspiration1.jpg"
-            alt="Aspiration1"
-            className={styles.cardImage}
-          />
-          <h2 className={styles.cardTitle}>Research</h2>
+          <div className={styles.cardImage}>
+            <Image
+              fill
+              src="/images/our-aspiration/aspiration1.jpg"
+              alt="Aspiration1"
+            />
+          </div>
+          <h2 className={styles.cardTitle}>
+            {dictionaries['our-aspiration']['research']}
+          </h2>
           <p className={styles.cardDescription}>
-            To advance understanding of the causes of heart disease and provide
-            the basis for new techniques in treatment and prevention and
-            applicable to our environment.
+            {dictionaries['our-aspiration']['research-description']}
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/images/our-aspiration/aspiration2.jpg"
-            alt="Aspiration2"
-            className={styles.cardImage}
-          />
-          <h2 className={styles.cardTitle}>Public Education</h2>
+          <div className={styles.cardImage}>
+            <Image
+              fill
+              src="/images/our-aspiration/aspiration2.jpg"
+              alt="Aspiration2"
+            />
+          </div>
+          <h2 className={styles.cardTitle}>
+            {dictionaries['our-aspiration']['public-education']}
+          </h2>
           <p className={styles.cardDescription}>
-            To develop and implement health educational programmes designed to
-            encourage a healthy lifestyle and to assist in preventing heart
-            disease and stroke deaths.
+            {dictionaries['our-aspiration']['public-education-description']}
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/images/our-aspiration/aspiration3.jpg"
-            alt="Aspiration3"
-            className={styles.cardImage}
-          />
-          <h2 className={styles.cardTitle}>Professional Education</h2>
+          <div className={styles.cardImage}>
+            <Image
+              fill
+              src="/images/our-aspiration/aspiration3.jpg"
+              alt="Aspiration3"
+            />
+          </div>
+          <h2 className={styles.cardTitle}>
+            {dictionaries['our-aspiration']['professional-education']}
+          </h2>
           <p className={styles.cardDescription}>
-            To increase the knowledge and improve the skills of health
-            professionals.
+            {
+              dictionaries['our-aspiration'][
+                'professional-education-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/images/our-aspiration/aspiration4.jpg"
-            alt="Aspiration4"
-            className={styles.cardImage}
-          />
-          <h2 className={styles.cardTitle}>Rehabilitation</h2>
+          <div className={styles.cardImage}>
+            <Image
+              fill
+              src="/images/our-aspiration/aspiration4.jpg"
+              alt="Aspiration4"
+            />
+          </div>
+          <h2 className={styles.cardTitle}>
+            {dictionaries['our-aspiration']['rehabilitation']}
+          </h2>
           <p className={styles.cardDescription}>
-            To encourage programmes which promote the rehabilitation of those
-            suffering from diseases of the heart and circulation.
+            {dictionaries['our-aspiration']['rehabilitation-description']}
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/images/our-aspiration/aspiration5.jpg"
-            alt="Aspiration5"
-            className={styles.cardImage}
-          />
-          <h2 className={styles.cardTitle}>Public Service</h2>
+          <div className={styles.cardImage}>
+            <Image
+              fill
+              src="/images/our-aspiration/aspiration5.jpg"
+              alt="Aspiration5"
+            />
+          </div>
+          <h2 className={styles.cardTitle}>
+            {dictionaries['our-aspiration']['public-service']}
+          </h2>
           <p className={styles.cardDescription}>
-            To provide accommodation for families of heart patients who are
-            undergoing medical treatment at hospitals within the city.
+            {dictionaries['our-aspiration']['public-service-description']}
           </p>
         </div>
       </div>
