@@ -164,5 +164,19 @@
     "tax-benefits-description": "Individuals, companies, and trusts which support the Foundation through sponsorship are eligible for taxation benefits. They also receive goodwill through association with non-profit organizations.",
     "tax-exempted": "Monetary Contributions made to the Foundation are <b>tax exempted: JHDN/01/35/42/51/179-6.3452</b>",
     "donation-form": "Please click here for Donation Form (pdf)"
+  },
+  "you-can-make-a-difference": {
+    "title": "You Can Make A Difference!",
+    "reduce-your-own-risk": "Reduce Your Own Risk",
+    "reduce-your-own-risk-description": "Enjoy healthy eating, exercising, being smoke-free, and having your blood pressure checked regularly.",
+    "donation-to-the-foundation": "Donation to the Foundation",
+    "donation-to-the-foundation-description": "Donate to the Foundation for our research, health promotion, CPR, and rehabilitation programmes.",
+    "become-a-friend": "Become a Friend",
+    "become-a-friend-description": "Become a Friend of the Foundation.",
+    "leave-a-bequest": "Leave a Bequest",
+    "leave-a-bequest-description": "Leave a bequest to the Foundation in your will.",
+    "make-an-in-memoriam-gift": "Make an \"In Memoriam\" Gift",
+    "make-an-in-memoriam-gift-description": "Make an \"In Memoriam\" gift.",
+    "to-join": "To join the fight against Malaysia's major killer, please <a href=\"/contact-us\"><u>contact us</u></a> here or complete a copy of our <u>Membership/Donation Form</u> here."
   }
 }
