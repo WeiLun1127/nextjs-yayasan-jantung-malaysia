@@ -1,63 +1,119 @@
 import {
-  FaHeartbeat,
-  FaHandHoldingUsd,
-  FaUserFriends,
-  FaRegCreditCard,
   FaGift,
+  FaHandHoldingUsd,
+  FaHeartbeat,
+  FaRegCreditCard,
+  FaUserFriends,
 } from 'react-icons/fa'; // Importing icons
 
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
+import Image from 'next/image';
 import styles from './styles.module.css';
 
-const YouCanMakeADifference = () => {
+const YouCanMakeADifference = async (props: {
+  params: Promise<{ lang: Locale }>;
+}) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>You Can Make A Difference!</h1>
+      <h1 className={styles.title}>
+        {dictionaries['you-can-make-a-difference']['title']}
+      </h1>
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <FaHeartbeat className={styles.icon} /> {/* Add the icon */}
-          <h2>Reduce Your Own Risk</h2>
+          <h2>
+            {dictionaries['you-can-make-a-difference']['reduce-your-own-risk']}
+          </h2>
           <p>
-            Enjoy healthy eating, exercising, being smoke-free, and having your
-            blood pressure checked regularly.
+            {
+              dictionaries['you-can-make-a-difference'][
+                'reduce-your-own-risk-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
           <FaHandHoldingUsd className={styles.icon} /> {/* Add the icon */}
-          <h2>Donate to the Foundation</h2>
+          <h2>
+            {
+              dictionaries['you-can-make-a-difference'][
+                'donation-to-the-foundation'
+              ]
+            }
+          </h2>
           <p>
-            Donate to the Foundation for our research, health promotion, CPR,
-            and rehabilitation programmes.
+            {
+              dictionaries['you-can-make-a-difference'][
+                'donation-to-the-foundation-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
           <FaUserFriends className={styles.icon} /> {/* Add the icon */}
-          <h2>Become a Friend</h2>
-          <p>Become a Friend of the Foundation.</p>
+          <h2>
+            {dictionaries['you-can-make-a-difference']['become-a-friend']}
+          </h2>
+          <p>
+            {
+              dictionaries['you-can-make-a-difference'][
+                'become-a-friend-description'
+              ]
+            }
+          </p>
         </div>
         <div className={styles.card}>
           <FaRegCreditCard className={styles.icon} /> {/* Add the icon */}
-          <h2>Leave a Bequest</h2>
-          <p>Leave a bequest to the Foundation in your will.</p>
+          <h2>
+            {dictionaries['you-can-make-a-difference']['leave-a-bequest']}
+          </h2>
+          <p>
+            {
+              dictionaries['you-can-make-a-difference'][
+                'leave-a-bequest-description'
+              ]
+            }
+          </p>
         </div>
         <div className={styles.card}>
           <FaGift className={styles.icon} /> {/* Add the icon */}
-          <h2>Make an "In Memoriam" Gift</h2>
-          <p>Make an "In Memoriam" gift.</p>
+          <h2>
+            {
+              dictionaries['you-can-make-a-difference'][
+                'make-an-in-memoriam-gift'
+              ]
+            }
+          </h2>
+          <p>
+            {
+              dictionaries['you-can-make-a-difference'][
+                'make-an-in-memoriam-gift-description'
+              ]
+            }
+          </p>
         </div>
       </div>
       <br />
       <div className={styles.bottomSection}>
-        <img
-          src="/images/you-can-make-a-difference/worldheartday2013-1.gif"
-          alt="Our Activities"
-          className={styles.cardImage}
-        />
+        <div className={styles.cardImage}>
+          <Image
+            fill
+            src="/images/you-can-make-a-difference/worldheartday2013-1.gif"
+            alt="Our Activities"
+          />
+        </div>
       </div>
       <br />
       <br />
-      To join the fight against Malaysia's major killer, please{' '}
-      <u>contact us</u> here or complete a copy of our{' '}
-      <u>Membership/Donation Form</u> here.
+      <p
+        dangerouslySetInnerHTML={{
+          __html: dictionaries['you-can-make-a-difference']['to-join'],
+        }}
+      />
       <br />
       <br />
     </div>

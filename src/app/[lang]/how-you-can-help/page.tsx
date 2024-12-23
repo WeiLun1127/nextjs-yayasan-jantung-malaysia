@@ -1,84 +1,107 @@
-import styles from './styles.module.css';
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import {
   FaDonate,
   FaHandshake,
-  FaProjectDiagram,
   FaPrint,
+  FaProjectDiagram,
   FaTaxi,
-} from 'react-icons/fa'; // Importing icons
+} from 'react-icons/fa';
+import styles from './styles.module.css';
 
-const HowYouCanHelp = () => {
+const HowYouCanHelp = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>How You Can Help</h1>
+      <h1 className={styles.title}>
+        {dictionaries['how-you-can-help']['title']}
+      </h1>
       <div className={styles.cardContainer}>
-        {' '}
         {/* Use the correct class name */}
         <div className={styles.card}>
           <div className={styles.iconContainer}>
             <FaDonate className={styles.icon} />
           </div>
-          <h2>Donations</h2>
-          <p>
-            By donations to support cardiovascular research. Specific areas of
-            research may be designated, but a more general and flexible type of
-            donation is preferred.
-          </p>
+          <h2>{dictionaries['how-you-can-help']['donation']}</h2>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: dictionaries['how-you-can-help']['donation-description'],
+            }}
+          />
         </div>
         <div className={styles.card}>
           <div className={styles.iconContainer}>
             <FaHandshake className={styles.icon} />
           </div>
-          <h2>Sponsoring a Fellowship</h2>
-          <p>
-            By sponsoring a Research or Training Fellowship. The name of an
-            individual, company or trust can be applied to the Fellowship and
-            specific requests can be negotiated and incorporated into the
-            conditions for the award.
-          </p>
+          <h2>{dictionaries['how-you-can-help']['sponsoring-a-fellowship']}</h2>
+          <p
+            dangerouslySetInnerHTML={{
+              __html:
+                dictionaries['how-you-can-help'][
+                  'sponsoring-a-fellowship-description'
+                ],
+            }}
+          />
         </div>
         <div className={styles.card}>
           <div className={styles.iconContainer}>
             <FaProjectDiagram className={styles.icon} />
           </div>
-          <h2>Sponsoring Research Projects</h2>
-          <p>
-            By sponsoring Research Projects. An individual, company, or trust
-            may sponsor research within a particular field. Sponsorship is
-            applied to an award made by the Foundation's Scientific Committee.
-          </p>
+          <h2>
+            {dictionaries['how-you-can-help']['sponsoring-research-projects']}
+          </h2>
+          <p
+            dangerouslySetInnerHTML={{
+              __html:
+                dictionaries['how-you-can-help'][
+                  'sponsoring-research-projects-description'
+                ],
+            }}
+          />
         </div>
         <div className={styles.card}>
           <div className={styles.iconContainer}>
             <FaPrint className={styles.icon} />
           </div>
-          <h2>Sponsoring Printing</h2>
-          <p>
-            By sponsoring printing of brochures, Student Heart Health
-            programmes, Symposium, or Conferences. The Foundation has a broad
-            range of activities offering opportunities for corporate
-            sponsorship.
-          </p>
+          <h2>{dictionaries['how-you-can-help']['sponsoring-printing']}</h2>
+          <p
+            dangerouslySetInnerHTML={{
+              __html:
+                dictionaries['how-you-can-help'][
+                  'sponsoring-printing-description'
+                ],
+            }}
+          />
         </div>
         <div className={styles.card}>
           <div className={styles.iconContainer}>
             <FaTaxi className={styles.icon} />
           </div>
-          <h2>Tax Benefits</h2>
-          <p>
-            Individuals, companies, and trusts which support the Foundation
-            through sponsorship are eligible for taxation benefits. They also
-            receive goodwill through association with non-profit organizations.
-          </p>
+          <h2>{dictionaries['how-you-can-help']['tax-benefits']}</h2>
+          <p
+            dangerouslySetInnerHTML={{
+              __html:
+                dictionaries['how-you-can-help']['tax-benefits-description'],
+            }}
+          />
         </div>
       </div>
       <br />
       <br />
-      Monetary Contributions made to the Foundation are{' '}
-      <b>tax exempted: JHDN/01/35/42/51/179-6.3452</b>
+      <p
+        dangerouslySetInnerHTML={{
+          __html: dictionaries['how-you-can-help']['tax-exempted'],
+        }}
+      />
       <br />
       <br />
-      Please click here for Donation Form &#40;pdf&#41;
+      <p
+        dangerouslySetInnerHTML={{
+          __html: dictionaries['how-you-can-help']['donation-form'],
+        }}
+      />
       <br />
       <br />
     </div>

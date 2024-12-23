@@ -8,45 +8,61 @@
 
 /* Card style */
 .card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for card */
-    padding: 2rem; /* Adds padding inside the card */
-    width: 100%;
-    max-width: 1000px; /* Maximum width of the card */
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transition */
-    margin: 1rem; /* Adds margin between cards */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for card */
+  padding: 2rem; /* Adds padding inside the card */
+  width: 100%;
+  max-width: 1000px; /* Maximum width of the card */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transition */
+  margin: 1rem; /* Adds margin between cards */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Slight upward movement on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  transform: translateY(-10px); /* Slight upward movement on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.card hr {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.cardImage {
+  position: relative;
+  aspect-ratio: 1;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
 }
 
 .title {
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 1rem;
-    line-height: 1.4;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 1.4;
 }
 
 .subtitle {
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 1rem;
-    line-height: 1.4;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 1.4;
 }
 
 .description {
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: justify;
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-    padding: 0 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.6;
+  padding: 0 1rem;
 }
 
 /* Responsive Design */
@@ -76,12 +92,6 @@
 
 /* Larger screens - For better readability and space usage */
 @media (min-width: 1024px) {
-  .cardContainer {
-    flex-direction: row; /* Align cards horizontally on larger screens */
-    justify-content: flex-start; /* Align cards to the left */
-    flex-wrap: wrap; /* Allow cards to wrap */
-  }
-
   .card {
     margin: 1.5rem; /* More space between cards */
   }

@@ -114,5 +114,80 @@ declare namespace Dict {
       title: string;
       description: string;
     };
+    'research-heart-of-revolution': {
+      title: string;
+      description: string;
+      'foundation-supported-research-current': string;
+      'foundation-supported-research-current-one': string;
+      'foundation-supported-research-current-one-description': string;
+      'foundation-supported-research-current-two': string;
+      'foundation-supported-research-current-two-description': string;
+      'foundation-supported-research-current-three': string;
+      'foundation-supported-research-current-three-description': string;
+      'foundation-supported-research-past': string;
+      'foundation-supported-research-past-one': string;
+      'foundation-supported-research-past-one-description': string;
+      'foundation-supported-research-past-two': string;
+      'foundation-supported-research-past-two-description': string;
+      'foundation-supported-research-past-three': string;
+      'foundation-supported-research-past-three-description': string;
+      'foundation-supported-research-past-four': string;
+      'foundation-supported-research-past-four-description': string;
+      'foundation-supported-research-past-five': string;
+      'foundation-supported-research-past-five-description': string;
+      'foundation-supported-research-past-six': string;
+      'foundation-supported-research-past-six-description': string;
+      'foundation-supported-research-past-seven': string;
+      'foundation-supported-research-past-seven-description': string;
+      'foundation-supported-research-past-eight': string;
+      'foundation-supported-research-past-eight-description': string;
+      'foundation-supported-research-past-nine': string;
+      'foundation-supported-research-past-nine-description': string;
+      'foundation-supported-research-past-ten': string;
+      'foundation-supported-research-past-ten-description': string;
+      'foundation-supported-research-past-eleven': string;
+      'foundation-supported-research-past-eleven-description': string;
+      'foundation-supported-research-past-twelve': string;
+      'foundation-supported-research-past-twelve-description': string;
+      'foundation-supported-research-past-thirteen': string;
+      'foundation-supported-research-past-thirteen-description': string;
+    };
+    'cardio-pulmonary-resuscitation': {
+      title: string;
+      description: string;
+    };
+    'friends-of-the-foundation': {
+      title: string;
+      description: string;
+    };
+    'how-you-can-help': {
+      title: string;
+      donation: string;
+      'donation-description': string;
+      'sponsoring-a-fellowship': string;
+      'sponsoring-a-fellowship-description': string;
+      'sponsoring-research-projects': string;
+      'sponsoring-research-projects-description': string;
+      'sponsoring-printing': string;
+      'sponsoring-printing-description': string;
+      'tax-benefits': string;
+      'tax-benefits-description': string;
+      'tax-exempted': string;
+      'donation-form': string;
+    };
+    'you-can-make-a-difference': {
+      title: string;
+      'reduce-your-own-risk': string;
+      'reduce-your-own-risk-description': string;
+      'donation-to-the-foundation': string;
+      'donation-to-the-foundation-description': string;
+      'become-a-friend': string;
+      'become-a-friend-description': string;
+      'leave-a-bequest': string;
+      'leave-a-bequest-description': string;
+      'make-an-in-memoriam-gift': string;
+      'make-an-in-memoriam-gift-description': string;
+      'to-join': string;
+    };
   }
 }
