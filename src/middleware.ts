@@ -26,17 +26,18 @@ export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Check if there is any supported locale in the pathname
-  const pathnameIsMissingLocale = i18n.locales.every(
-    (locale) =>
-      !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
+  const currentLocale = i18n.locales.find(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
 
-  // Redirect if there is no locale
-  if (pathnameIsMissingLocale) {
-    const locale = getLocale(request);
+  if (!currentLocale) {
+    // Check for locale in the cookie
+    const localeFromCookie = request.cookies.get('NEXT_LOCALE')?.value;
 
-    // e.g. incoming request is /products
-    // The new URL is now /en-US/products
+    // Derive locale from cookie or headers
+    const locale = localeFromCookie || getLocale(request);
+
+    // Redirect to include the locale in the URL
     return NextResponse.redirect(
       new URL(
         `/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
@@ -44,6 +45,11 @@ export function middleware(request: NextRequest) {
       ),
     );
   }
+
+  // Set the locale in a cookie for future requests
+  const response = NextResponse.next();
+  response.cookies.set('NEXT_LOCALE', currentLocale);
+  return response;
 }
 
 export const config = {
