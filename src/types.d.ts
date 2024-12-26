@@ -214,5 +214,36 @@ declare namespace Dict {
       'rental-rooms-with-fan': string;
       'rental-rooms-with-air-cond': string;
     };
+    'how-does-human-heart-works': {
+      title: string;
+      description: string;
+      'tricuspid-valve': string;
+      'tricuspid-valve-description': string;
+      'pulmonary-valve': string;
+      'pulmonary-valve-description': string;
+      'mitral-valve': string;
+      'mitral-valve-description': string;
+      'aortic-valve': string;
+      'aortic-valve-description': string;
+      'heart-valve-description': string;
+      'coronary-artery-disease': string;
+      'coronary-artery-disease-description': string;
+      'what-controls-the-heart-rate': string;
+    };
+    'four-ways-to-prevent-heart-attack': {
+      title: string;
+      description: string;
+      'dont-smoke': string;
+      'dont-smoke-description': string;
+      'diet-to-keep-bmi-25': string;
+      'diet-to-keep-bmi-25-description': string;
+      'eat-more-fruits-vegetables': string;
+      'eat-more-fruits-vegetables-description': string;
+      'exercise-150-mins-week': string;
+      'exercise-150-mins-week-description': string;
+      'heart-attack-treatment': string;
+      'heart-attack-treatment-description': string;
+      subdescription: string;
+    };
   }
 }

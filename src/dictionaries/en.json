@@ -207,5 +207,35 @@
     "beds": "beds",
     "rental-rooms-with-fan": "Rental of Rooms with fan",
     "rental-rooms-with-air-cond": "Rental of Rooms with air-cond"
+  },
+  "how-does-human-heart-works": {
+    "title": "How Does the Human Heart Work?",
+    "description": "This describes the anatomy or structure of the human heart and circulation of blood to the body. The heart is a powerful muscular organ. It consists of 4 chambers - the right side of the heart separated from the left by a muscular wall - the septum, and the upper and lower chambers (atria and ventricles) are separated by valves. With each heart contraction, the blood is pumped out from the left ventricle to the whole body to supply oxygen and nutrients to all the tissues of the body.<br /><br />This 'used' or 'deoxygenated' blood then returns to the right side of the heart to the right Atrium and ventricle. From the right ventricle, the deoxygenated blood goes to the lungs where it receives fresh oxygen (re-oxygenated). This then returns to the left side of the heart and the circulation continues.<br /><br /><b>How Do Heart Valves Work?</b>",
+    "tricuspid-valve": "Tricuspid Valve",
+    "tricuspid-valve-description": "The Tricuspid Valve separates the right Atrium from the right Ventricle.",
+    "pulmonary-valve": "Pulmonary Valve",
+    "pulmonary-valve-description": "The Pulmonary Valve separates the right Ventricle from the Pulmonary Artery.",
+    "mitral-valve": "Mitral Valve",
+    "mitral-valve-description": "The Mitral Valve separates the left Atrium from the left Ventricle.",
+    "aortic-valve": "Aortic Valve",
+    "aortic-valve-description": "The Aortic Valve separates the left Ventricle from the Aorta.",
+    "heart-valve-description": "Each valve is like a one way door which keeps the blood flow in one direction. The valves are made up of leaflets. These leaflets open to allow blood to flow through the door to prevent blood flowing backwards. The opening and closing of the valves is controlled by pressures in the chambers.<br /><br /> <b>What is Coronary Artery Disease (CAD)?</b>",
+    "coronary-artery-disease": "Coronary Artery Disease (CAD)",
+    "coronary-artery-disease-description": "The Coronary Arteries supply blood to the heart muscle to provide the necessary oxygen and nutrients to the heart muscle.<br />CAD occurs when there is obstruction to the flow of blood in the Coronary arteries due to a build-up of cholesterol plaque in the artery wall. This can result in a 'heart attack'.",
+    "what-controls-the-heart-rate": "<b>What controls the heart rate?</b><br />There is an electrical system or 'battery' in the heart which controls the heart beat and rhythm of the heart.<br />This 'battery' starts at the sinoatrial (SA) node and causes the heart to contract.<br />The electrical impulses travel to the AV node and down the bundles.<br />Sometimes, the heart rate can change based on external factors like diet, exercise, stress, and hormonal factors."
+  },
+  "four-ways-to-prevent-heart-attack": {
+    "title": "Four ways to prevent heart disease",
+    "description": "Healthy lifestyle habits are of almost importance in the prevention of CAD and heart attack.",
+    "four-important-points": "Four (4) important points are:",
+    "dont-smoke": "Don't Smoke",
+    "dont-smoke-description": "Avoiding smoking significantly reduces the risk of heart disease.",
+    "diet-to-keep-bmi-25": "Diet to Keep BMI < 25",
+    "diet-to-keep-bmi-25-description": "Maintain a healthy body mass index to prevent strain on your heart.",
+    "eat-more-fruits-vegetables": "Eat More Fruits & Vegetables",
+    "eat-more-fruits-vegetables-description": "A balanced diet with more fruits and vegetables supports heart health.",
+    "exercise-150-mins-week": "Exercise > 150 mins/week",
+    "exercise-150-mins-week-description": "Regular physical activity strengthens the heart and prevents disease.",
+    "subdescription": "Though there are various treatments for CAD, such as angioplasty, stents, coronary artery bypass surgery and medications like statins, these are costly and not as effective as prevention. Prevention is better than cure."
   }
 }

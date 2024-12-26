@@ -1,15 +1,24 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import {
-  FaSmoking,
-  FaWeightHanging,
   FaAppleAlt,
   FaRunning,
+  FaSmoking,
+  FaWeightHanging,
 } from 'react-icons/fa';
 import styles from './styles.module.css';
 
-const PreventHeartAttack = () => {
+const PreventHeartAttack = async (props: {
+  params: Promise<{ lang: Locale }>;
+}) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Four ways to prevent heart disease</h1>
+      <h1 className={styles.title}>
+        {dictionaries['four-ways-to-prevent-heart-attack']['title']}
+      </h1>
       {/* YouTube Video Embed */}
       <div className={styles.videoContainer}>
         <iframe
@@ -23,57 +32,90 @@ const PreventHeartAttack = () => {
         ></iframe>
       </div>
       <br />
-      <p className={styles.description}>
-        Healthy lifestyle habits are of almost importance in the prevention of
-        CAD and heart attack.
-        <br />
-        <br />
-        <b>Four (4) important points are:</b>
-      </p>
+      <p
+        className={styles.description}
+        dangerouslySetInnerHTML={{
+          __html:
+            dictionaries['four-ways-to-prevent-heart-attack']['description'],
+        }}
+      />
 
       {/* Card Container for 4 Points */}
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <FaSmoking className={styles.icon} />
-          <h2>Don&rsquo;t Smoke</h2>
+          <h2>
+            {dictionaries['four-ways-to-prevent-heart-attack']['dont-smoke']}
+          </h2>
           <p>
-            Avoiding smoking significantly reduces the risk of heart disease.
+            {
+              dictionaries['four-ways-to-prevent-heart-attack'][
+                'dont-smoke-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
           <FaWeightHanging className={styles.icon} />
-          <h2>Diet to Keep BMI &lt; 25</h2>
+          <h2>
+            {
+              dictionaries['four-ways-to-prevent-heart-attack'][
+                'diet-to-keep-bmi-25'
+              ]
+            }
+          </h2>
           <p>
-            Maintain a healthy body mass index to prevent strain on your heart.
+            {
+              dictionaries['four-ways-to-prevent-heart-attack'][
+                'diet-to-keep-bmi-25-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
           <FaAppleAlt className={styles.icon} />
-          <h2>Eat More Fruits &amp; Vegetables</h2>
+          <h2>
+            {
+              dictionaries['four-ways-to-prevent-heart-attack'][
+                'eat-more-fruits-vegetables'
+              ]
+            }
+          </h2>
           <p>
-            A balanced diet with more fruits and vegetables supports heart
-            health.
+            {
+              dictionaries['four-ways-to-prevent-heart-attack'][
+                'eat-more-fruits-vegetables-description'
+              ]
+            }
           </p>
         </div>
         <div className={styles.card}>
           <FaRunning className={styles.icon} />
-          <h2>Exercise &gt; 150 mins/week</h2>
+          <h2>
+            {
+              dictionaries['four-ways-to-prevent-heart-attack'][
+                'exercise-150-mins-week'
+              ]
+            }
+          </h2>
           <p>
-            Regular physical activity strengthens the heart and prevents
-            disease.
+            {
+              dictionaries['four-ways-to-prevent-heart-attack'][
+                'exercise-150-mins-week-description'
+              ]
+            }
           </p>
         </div>
       </div>
 
       <br />
-      <p className={styles.description}>
-        Though there are various treatments for CAD, such as angioplasty,
-        stents, coronary artery bypass surgery and medications like statins,
-        these are costly and not as effective as prevention. Prevention is
-        better than cure.
-        <br />
-        <br />
-      </p>
+      <p
+        className={styles.description}
+        dangerouslySetInnerHTML={{
+          __html:
+            dictionaries['four-ways-to-prevent-heart-attack']['subdescription'],
+        }}
+      />
     </div>
   );
 };
