@@ -189,5 +189,30 @@ declare namespace Dict {
       'make-an-in-memoriam-gift-description': string;
       'to-join': string;
     };
+    'hall-rental': {
+      title: string;
+      'hall-rental-rate': string;
+      items: string;
+      hall: string;
+      chairs: string;
+      'round-tables': string;
+      'pa-system': string;
+      amount: string;
+      deposit: string;
+      'per-day': string;
+      'deposit-refund': string;
+      time: string;
+      'care-taker': string;
+      persons: string;
+      cleaner: string;
+      'food-catering': string;
+      confirmation: string;
+      'other-facilities': string;
+      'rental-of-dormitory': string;
+      'per-bed': string;
+      beds: string;
+      'rental-rooms-with-fan': string;
+      'rental-rooms-with-air-cond': string;
+    };
   }
 }

@@ -1,58 +1,68 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import styles from './styles.module.css';
 
-const HallRental = () => {
+const HallRental = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div className={styles.cardWrapper}>
       <div className={styles.card}>
-        <h1 className={styles.title}>YJM Facilities</h1>
-        <h2 className={styles.subtitle}>Hall Rental Rate</h2>
+        <h1 className={styles.title}>{dictionaries['hall-rental']['title']}</h1>
+        <h2 className={styles.subtitle}>
+          {dictionaries['hall-rental']['hall-rental-rate']}
+        </h2>
         <table className={styles.rentalTable}>
           <thead>
             <tr>
-              <th>Items</th>
-              <th>Chairs (200 units)</th>
-              <th>Round Tables (5 units)</th>
-              <th>PA System (unit)</th>
-              <th>Amount (RM)</th>
-              <th>Deposit (RM)</th>
+              <th>{dictionaries['hall-rental']['items']}</th>
+              <th>{dictionaries['hall-rental']['chairs']}</th>
+              <th>{dictionaries['hall-rental']['round-tables']}</th>
+              <th>{dictionaries['hall-rental']['pa-system']}</th>
+              <th>{dictionaries['hall-rental']['amount']}</th>
+              <th>{dictionaries['hall-rental']['amount']}</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Hall</td>
+              <td>{dictionaries['hall-rental']['hall']}</td>
               <td>✓</td>
               <td>✓</td>
               <td>✓</td>
-              <td>1,000.00 per day</td>
+              <td>1,000.00 {dictionaries['hall-rental']['per-day']}</td>
               <td>500.00</td>
             </tr>
           </tbody>
         </table>
         <br />
         <p className={styles.description}>
-          Deposit will be refunded 1 week after event
+          {dictionaries['hall-rental']['deposit-refund']}
           <br />
           <br />
-          Time: 8.00am - 5.00pm
+          {dictionaries['hall-rental']['time']}: 8.00am - 5.00pm
           <br />
-          Care Taker - RM150.00
+          {dictionaries['hall-rental']['care-taker']} - RM150.00
           <br />
-          Cleaner - RM100.00 - 2 persons
+          {dictionaries['hall-rental']['cleaner']} - RM100.00 - 2{' '}
+          {dictionaries['hall-rental']['persons']}
           <br />
-          If Food Catering done - NO WASHING OF DISHES ALLOWED
+          {dictionaries['hall-rental']['food-catering']}
           <br />
-          Please confirm 2 weeks before the event <br />
+          {dictionaries['hall-rental']['confirmation']} <br />
           (Tel: 03-26934709 - En. Zamri/M. Vijaya)
           <br />
           <br />
           <br />
-          <b>Other Facilities</b>
+          <b>{dictionaries['hall-rental']['other-facilities']}</b>
           <br />
-          Rental of Dormitory - RM20.00 per bed x 20 beds
+          {dictionaries['hall-rental']['rental-of-dormitory']} - RM20.00{' '}
+          {dictionaries['hall-rental']['per-bed']}x 20{' '}
+          {dictionaries['hall-rental']['beds']}
           <br />
-          Rental of Rooms with fan - RM50/RM65.00
+          {dictionaries['hall-rental']['rental-rooms-with-fan']} - RM50/RM65.00
           <br />
-          Rental of Rooms with air-cond - RM80.00
+          {dictionaries['hall-rental']['rental-rooms-with-air-cond']} - RM80.00
           <br />
           <br />
           <br />

@@ -178,5 +178,30 @@
     "make-an-in-memoriam-gift": "Make an \"In Memoriam\" Gift",
     "make-an-in-memoriam-gift-description": "Make an \"In Memoriam\" gift.",
     "to-join": "To join the fight against Malaysia's major killer, please <a href=\"/contact-us\"><u>contact us</u></a> here or complete a copy of our <u>Membership/Donation Form</u> here."
+  },
+  "hall-rental": {
+    "title": "YJM Facilities",
+    "hall-rental-rate": "Hall Rental Rate",
+    "items": "Items",
+    "hall": "Hall",
+    "chairs": "Chairs (200 units)",
+    "round-tables": "Round Tables (5 units)",
+    "pa-system": "PA System (unit)",
+    "amount": "Amount (RM)",
+    "deposit": "Deposit (RM)",
+    "per-day": "per day",
+    "deposit-refund": "Deposit will be refunded 1 week after event",
+    "time": "Time",
+    "care-taker": "Care Taker",
+    "persons": "persons",
+    "cleaner": "Cleaner",
+    "food-catering": "If Food Catering done - NO WASHING OF DISHES ALLOWED",
+    "confirmation": "Please confirm 2 weeks before the event",
+    "other-facilities": "Other Facilities",
+    "rental-of-dormitory": "Rental of Dormitory",
+    "per-bed": "per bed",
+    "beds": "beds",
+    "rental-rooms-with-fan": "Rental of Rooms with fan",
+    "rental-rooms-with-air-cond": "Rental of Rooms with air-cond"
   }
 }
