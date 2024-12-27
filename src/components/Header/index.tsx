@@ -289,7 +289,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
             </li>
 
             <li className={styles.worldHeartDay}>
-              <Link href="/activities/world-heart-day/world-heart-day(default)">
+              <Link href="/activities/world-heart-day/world-heart-day-default">
                 <FaCalendarDay />{' '}
                 {dictionaries['header-navbar']['World Heart Day']}
               </Link>

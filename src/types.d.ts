@@ -448,5 +448,23 @@ declare namespace Dict {
       title: string;
       description: string;
     };
+    'world-heart-day': {
+      title: string;
+      description: string;
+    };
+    'world-heart-day-2014': {
+      title: string;
+      description: string;
+      'at-the-heart-of-health': string;
+      'details-of-event': string;
+      date: string;
+      time: string;
+      venue: string;
+      'program-highlights': string;
+      'walk-a-mile': string;
+      'free-goodie-bags': string;
+      'free-health-screening': string;
+      'fun-games': string;
+    };
   }
 }
