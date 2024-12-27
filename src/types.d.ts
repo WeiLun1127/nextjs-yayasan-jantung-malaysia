@@ -522,5 +522,32 @@ declare namespace Dict {
       'other-pre-event-activities': string;
       publicity: string;
     };
+    bulletin: {
+      title: string;
+      files: string;
+    };
+    'useful-links': {
+      title: string;
+      description: string;
+    };
+    'contact-us': {
+      title: string;
+      subtitle: string;
+      address: string;
+      'contact-information': string;
+      tel: string;
+      email: string;
+      website: string;
+      facebook: string;
+    };
+    membership: {
+      title: string;
+      'membership-form': string;
+    };
+    donation: {
+      title: string;
+      description: string;
+      'donation-form': string;
+    };
   }
 }

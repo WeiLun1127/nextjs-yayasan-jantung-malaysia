@@ -25,14 +25,22 @@
 
 .imageContainer {
     display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    margin: 1rem 0; /* Adds spacing above and below the image */
-  }
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.imageContainer a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
-  .membershipImage {
-    width: 100%; /* Set to full container width */
-    max-width: 600px; /* Limit the maximum width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Removes inline spacing */
-    margin: 0 auto; /* Centers the image */
-  }
+.membershipImage {
+    position: relative;
+    aspect-ratio: 303/407;
+    width: 100%;
+    max-width: 303px;
+    height: auto;
+}

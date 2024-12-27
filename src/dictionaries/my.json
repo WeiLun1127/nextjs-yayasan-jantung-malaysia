@@ -515,5 +515,32 @@
     "activities-include": "Activities Include",
     "publicity": "Publicity",
     "other-pre-event-activities": "Other Pre-Event Activities Held Were"
+  },
+  "bulletin": {
+    "title": "Berita YJM",
+    "files": "Files"
+  },
+  "useful-links": {
+    "title": "Useful Links",
+    "description": "Below are some heart-related organisations and their websites:"
+  },
+  "contact-us": {
+    "title": "Contact Us & Location Map",
+    "subtitle": "Yayasan Jantung Malaysia (The Heart Foundation Of Malaysia)",
+    "address": "Address",
+    "contact-information": "Contact Information",
+    "tel": "Tel",
+    "email": "Email",
+    "website": "Website",
+    "facebook": "Facebook"
+  },
+  "membership": {
+    "title": "Membership",
+    "membership-form": "Membership Form"
+  },
+  "donation": {
+    "title": "Donation",
+    "description": "To get the Tax Exempted Receipt, please FAX to 03-26933267 or EMAIL to Jantung1.yjm@gmail.com the following details as follows:",
+    "donation-form": "Donation Form"
   }
 }

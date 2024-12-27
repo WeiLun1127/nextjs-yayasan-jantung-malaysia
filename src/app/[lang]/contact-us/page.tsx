@@ -1,27 +1,33 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import styles from './styles.module.css';
 
-const ContactUs = () => {
+const ContactUs = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Contact Us & Location Map</h1>
+      <h1 className={styles.title}>{dictionaries['contact-us']['title']}</h1>
       <h2 className={styles.subtitle}>
-        Yayasan Jantung Malaysia (The Heart Foundation Of Malaysia)
+        {dictionaries['contact-us']['subtitle']}
       </h2>
 
       {/* Card containing both Address and Information */}
       <div className={styles.card}>
-        <h3>Address</h3>
+        <h3>{dictionaries['contact-us']['address']}</h3>
         <p className={styles.description}>
           No 6 Jalan Lai Tet Loke 2 Off Lorong Gurney 54100 Kuala Lumpur,
           MALAYSIA
         </p>
 
-        <h3>Contact Information</h3>
+        <h3>{dictionaries['contact-us']['contact-information']}</h3>
         <p className={styles.description}>
-          Tel: 03-2693 4709 | Fax: 03-2693 3267 <br />
-          Email: jantung1.yjm@gmail.com
+          {dictionaries['contact-us']['tel']}: 03-2693 4709 | Fax: 03-2693 3267{' '}
           <br />
-          Website:{' '}
+          {dictionaries['contact-us']['email']}: jantung1.yjm@gmail.com
+          <br />
+          {dictionaries['contact-us']['website']}:{' '}
           <a
             href="https://www.yjm.org.my"
             target="_blank"
@@ -30,7 +36,7 @@ const ContactUs = () => {
             www.yjm.org.my
           </a>
           <br />
-          Facebook:{' '}
+          {dictionaries['contact-us']['facebook']}:{' '}
           <a
             href="https://www.facebook.com/YayasanJantungMalaysia"
             target="_blank"

@@ -1,27 +1,35 @@
-import styles from './styles.module.css';
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
+import Image from 'next/image';
 import {
-  FaUser,
-  FaIdCard,
   FaAddressBook,
-  FaPhone,
+  FaIdCard,
   FaMoneyBill,
-  FaReceipt,
+  FaPhone,
   FaPhoneAlt,
+  FaReceipt,
+  FaUser,
 } from 'react-icons/fa';
+import styles from './styles.module.css';
 
-const AboutYJM = () => {
+const Donation = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Donation</h1>
+      <h1 className={styles.title}>{dictionaries['donation']['title']}</h1>
 
       {/* Card for image and donation form link */}
       <div className={styles.card}>
         <div className={styles.imageContainer}>
-          <img
-            src="/images/donation/YJM-Donation-QR-Code.png"
-            alt="DonationQR"
-            className={styles.membershipImage}
-          />
+          <div className={styles.donationImage}>
+            <Image
+              fill
+              src="/images/donation/YJM-Donation-QR-Code.png"
+              alt="DonationQR"
+            />
+          </div>
         </div>
         <a
           href="http://www.yjm.org.my/view_file.cfm?fileid=3"
@@ -29,13 +37,12 @@ const AboutYJM = () => {
           rel="noopener noreferrer"
           className={styles.link}
         >
-          <u>Donation Form (PDF)</u>
+          <u>{dictionaries['donation']['donation-form']} (PDF)</u>
         </a>
       </div>
 
       <div className={styles.centerText}>
-        To get the Tax Exempted Receipt, please FAX to 03-26933267 or EMAIL to
-        Jantung1.yjm@gmail.com the following details as follows:
+        {dictionaries['donation']['description']}
       </div>
 
       {/* Cards for each list item */}
@@ -73,4 +80,4 @@ const AboutYJM = () => {
   );
 };
 
-export default AboutYJM;
+export default Donation;

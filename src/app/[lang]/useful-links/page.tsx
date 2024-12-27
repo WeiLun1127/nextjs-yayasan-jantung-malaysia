@@ -1,19 +1,24 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import {
-  FaHospital,
-  FaHeartbeat,
+  FaBuilding,
   FaGlobe,
   FaHeart,
+  FaHeartbeat,
+  FaHospital,
   FaSitemap,
-  FaBuilding,
-} from 'react-icons/fa'; // Import icons
+} from 'react-icons/fa';
 import styles from './styles.module.css';
 
-const UsefulLinks = () => {
+const UsefulLinks = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Useful Links</h1>
+      <h1 className={styles.title}>{dictionaries['useful-links']['title']}</h1>
       <p className={styles.description}>
-        Below are some heart-related organisations and their websites:
+        {dictionaries['useful-links']['description']}
       </p>
       <div className={styles.cardContainer}>
         <ul className={styles.list}>
