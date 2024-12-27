@@ -334,7 +334,7 @@ const Header = ({ dictionaries }: HeaderProps) => {
             </li>
 
             <li>
-              <Link href="/activities/go-red">
+              <Link href="/activities/go-red-for-women">
                 <FaTint /> {dictionaries['header-navbar']['Go Red For Women']}
               </Link>
             </li>

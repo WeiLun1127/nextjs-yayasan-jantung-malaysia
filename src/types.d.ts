@@ -389,5 +389,65 @@ declare namespace Dict {
       'your-cholesterol-reading': string;
       'your-cholesterol-reading-description': string;
     };
+    'photo-gallery': {
+      title: string;
+    };
+    'cpr-class-regulations-and-syllabus': {
+      title: string;
+      subtitle: string;
+      description: string;
+    };
+    'course-proforma': {
+      title: string;
+      background: string;
+      'background-one': string;
+      'background-two': string;
+      'background-three': string;
+      'aim-of-the-course': string;
+      'aim-of-the-course-one': string;
+      'training-strategies': string;
+      'training-strategies-one': string;
+      trainers: string;
+      'trainers-one': string;
+      assessment: string;
+      'assessment-one': string;
+      examiners: string;
+      'examiners-one': string;
+      award: string;
+      'award-one': string;
+      programme: string;
+      'programme-one': string;
+      'programme-two': string;
+      'programme-three': string;
+      'programme-four': string;
+      'programme-five': string;
+      'programme-six': string;
+      'programme-seven': string;
+      'programme-eight': string;
+      'programme-nine': string;
+      'programme-ten': string;
+      'programme-eleven': string;
+      'programme-twelve': string;
+      'programme-thirteen': string;
+      'programme-fourteen': string;
+      'programme-fifteen': string;
+      'programme-sixteen': string;
+      'programme-seventeen': string;
+      'programme-eighteen': string;
+      'programme-nineteen': string;
+      'programme-twenty': string;
+    };
+    'axa-hearts-in-action-run': {
+      title: string;
+      description: string;
+    };
+    'walk-a-million-miles': {
+      title: string;
+      subtitle: string;
+    };
+    'go-red-for-women': {
+      title: string;
+      description: string;
+    };
   }
 }

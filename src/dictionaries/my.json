@@ -376,5 +376,65 @@
     "good-and-bad-cholesterol-description": "Cholesterol is carried through the blood by lipoproteins: LDL (bad cholesterol) which can clog arteries, and HDL (good cholesterol) which helps remove excess cholesterol from the body.",
     "your-cholesterol-reading": "Your Cholesterol Reading",
     "your-cholesterol-reading-description": "Cholesterol readings include Total Cholesterol, LDL, HDL, and Triglycerides. Each of these should be monitored for optimal cardiovascular health."
+  },
+  "photo-gallery": {
+    "title": "Photo Gallery"
+  },
+  "cpr-class-regulations-and-syllabus": {
+    "title": "CPR (Cardio Pulmonary Resuscitation)",
+    "subtitle": "Class Regulations and Syllabus",
+    "description": "The Heart Foundation of Malaysia (Yayasan Jantung Malaysia) is a leading agency in the education, training and on the control of heart and blood vessel disease.<br /><br />In this respect, the time has come for the foundation, to seriously work towards creating interest not only disseminating the knowledge and skills in Basic Life Support, but, also from time to time conduct and demonstrate saving technique's of Cardiopulmonary Resuscitation (CPR).<br /><br />Focus has been made to generate continuous training at School's, Institutions of Higher Learning, Work Place's and Individual's. If you want to know what to do in an emergency, The Heart Foundation of Malaysia CPR course can HELP YOU. With the rightful knowledge and skills you learn in this course, you can save a life of a loved one, a friend, a coworker, or a citizen in your community.<br /><br />A knowledge of those parts of the body concerned with respiration and the circulation of blood is helpful for an understanding of how and why methods of resuscitation are effective.<br /><br />However, it is important to appreciate that the respiratory and circulation systems within the body that needs to work together in harmony to allow us to live and function normally. The brain is the most sensitive part of the body. Within seconds of the heart stopping, we lose consciousness due to lack of oxygen, and in few minutes we die. This is why it is important to start resuscitation as soon as possible after breathing or the heart has stopped, whatever the cause.<br /><br />This course will teach you how to recognize and treat life-threatening emergencies, including cardiac arrest and choking. You also will learn to recognize the working signs of the heart attack and stroke in adults and signs of breathing difficulty in children and infants. By recognizing these signs and phoning 999 you may save a valuable life.<br /><br />The Heart Foundation of Malaysia (Yayasan Jantung Malaysia) as an non-governmental agency shall issue accredited Cardiopulmonary Resuscitation (CPR) certificate and course completion card only to those who have successfully pass in the written test and satisfactorily demonstrated each skill listed on the skill performance sheet.<br /><br />We wish you success as you learn CPR, when you complete the course, you will be better prepared to recognize the warning signs of emergencies in adults, to prevent many causes of cardiac arrest in infants and children, and to respond to future emergencies by using the skills of CPR.<br /><br />For more information on the course, please address or <u>contact us</u> here."
+  },
+  "course-proforma": {
+    "title": "Course Proforma",
+    "background": "Background",
+    "background-one": "This course is named as the Basic Life Support Cardiopulmonary resuscitation (CPR).",
+    "background-two": "This certificate course is accredited and certified by the Yayasan Jantung Malaysia (The Heart Foundation of Malaysia).",
+    "background-three": "The target participants do not need any prerequisites.",
+    "aim-of-the-course": "Aim of the Course",
+    "aim-of-the-course-one": "To assess and manage an emergency life-threatening situation until medical aid arrives.",
+    "training-strategies": "Training Strategies",
+    "training-strategies-one": "Predominantly learner-centered and skills-based. These include knowledge, video presentations, skills, and assessments.",
+    "trainers": "Trainers",
+    "trainers-one": "Accredited and registered with The Heart Foundation of Malaysia.",
+    "assessment": "Assessment",
+    "assessment-one": "To be eligible for assessment, participants MUST attend a minimum of 85% of the sessions. Assessment will consist of a written paper (MCQ) and all skill stations as stated in the course syllabus.",
+    "examiners": "Examiners",
+    "examiners-one": "Appointed by The Heart Foundation of Malaysia.",
+    "award": "Award",
+    "award-one": "Participants who qualify in the assessments will be awarded with a CPR CERTIFICATE. This certificate is ONLY valid for TWO YEARS from the date of assessment. To renew, participants must undergo reassessment.",
+    "programme": "Programme",
+    "programme-one": "Why Should I Learn CPR?",
+    "programme-two": "Chain of Survivor",
+    "programme-three": "Normal Heart and Lung Anatomy and Function",
+    "programme-four": "Coronary Artery Disease",
+    "programme-five": "Risk Factors for Heart Attack",
+    "programme-six": "Prudent Heart Living",
+    "programme-seven": "How to Recognise a Heart Attack",
+    "programme-eight": "Stroke; Warning Signs and Risk Factors",
+    "programme-nine": "Foreign Body Airway Obstruction (Choking)",
+    "programme-ten": "Video Presentation - CPR Techniques",
+    "programme-eleven": "Recovery Position",
+    "programme-twelve": "One-Man Rescuer CPR (Adult)",
+    "programme-thirteen": "Airway Obstruction (Conscious Adult)",
+    "programme-fourteen": "Airway Obstruction (Unconscious Adult)",
+    "programme-fifteen": "CPR & Airway Obstruction in Child",
+    "programme-sixteen": "CPR & Airway Obstruction in Infant",
+    "programme-seventeen": "Skill Stations to Practice",
+    "programme-eighteen": "Theory Paper Test",
+    "programme-nineteen": "Skill Test",
+    "programme-twenty": "Evaluation of Training"
+  },
+  "axa-hearts-in-action-run": {
+    "title": "AXA Hearts in Action Run 2020",
+    "description": "<b>AXA Hearts in Action Run 2020</b> is back for the 6th consecutive year - this year in virtual format to advocate for 5 social causes (Cancer, Children, Heart, Environment, and Kidney)!<br /><br />Join <b>#AXAHeartsinActionRun2020</b> - Virtual Run Series and run for the social cause close to your heart. Choose PINK and support us in raising awareness on heart and circulatory diseases in Malaysia.<br /><br /><b>Registration period:</b> 21st September - 22nd October 2020 <br /><b>Run period:</b> 24th October - 8th November 2020 <br /><b>Venue: </b>Anywhere <br /><b>Categories: </b>6KM (13 years old & above) & 12KM (15 years old & above)<br /><br />Registration is NOW OPEN. Visit <a href=\"https://bit.ly/axarun2020\" target=\"_blank\"><u>bit.ly/axarun2020</u></a> to find out more<br /><br /><b>#AXAHeartsinActionRun2020 #AXAMalaysia #myaxaaffin #KnowYouCan</b>"
+  },
+  "walk-a-million-miles": {
+    "title": "Nestle Omega Plus Walk A MILLION Miles towards a Healthy HeartNation!",
+    "subtitle": "Want to Join Walk A Million Miles? Click here!"
+  },
+  "go-red-for-women": {
+    "title": "Take the Road to a Healthy Heart",
+    "description": "Each year over 8.6 million women globally die of heart disease and stroke.<br /><br />This is more than the total number of women who die from all cancers, tuberculosis, HIV/AIDS, and malaria combined. And yet, most heart disease and stroke is preventable.<br /><br />Together with its members across the world, the World Heart Federation is running the Go Red for Women campaign to improve women's knowledge of heart disease and stroke so that they can take action and achieve longer, better heart-healthy lives.<br /><br /><b>Go Red for Women</b> is an international awareness campaign dedicated to the prevention, diagnosis, and control of cardiovascular disease in women."
   }
 }

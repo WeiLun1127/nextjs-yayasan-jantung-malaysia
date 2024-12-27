@@ -57,9 +57,40 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.cardImage {
+.cardImageOne {
+  position: relative;
+  aspect-ratio: 700/394;
   width: 100%;
+  max-width: 700px;
   height: auto;
+  
+}
+
+.cardImageOne img {
+  border-radius: 4px;
+}
+
+.cardImageTwo {
+  position: relative;
+  aspect-ratio: 700/992;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.cardImageTwo img {
+  border-radius: 4px;
+}
+
+.cardImageThree {
+  position: relative;
+  aspect-ratio: 1;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.cardImageThree img {
   border-radius: 4px;
 }
 

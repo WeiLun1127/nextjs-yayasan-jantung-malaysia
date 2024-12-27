@@ -51,11 +51,31 @@
     flex-wrap: wrap; /* Allows images to wrap on smaller screens */
   }
   
-  .cardImage {
-    max-width: 100%; /* Prevents images from exceeding their container width */
+  .cardImageOne {
+    position: relative;
+    aspect-ratio: 312/230;
+    width: 100%;
     height: auto;
-    width: 230px; /* Controls the maximum width for images */
-    margin: 10px 0;
+    max-width: 240px;
+    display: block;
+  }
+
+  .cardImageTwo {
+    position: relative;
+    aspect-ratio: 720/403;
+    width: 100%;
+    height: auto;
+    max-width: 240px;
+    display: block;
+  }
+
+  .cardImageThree {
+    position: relative;
+    aspect-ratio: 527/367;
+    width: 100%;
+    height: auto;
+    max-width: 240px;
+    display: block;
   }
   
   /* Mobile responsiveness */
@@ -74,12 +94,21 @@
     }
   
     .imageWrapper {
+      display: flex;
       flex-direction: column;
       align-items: center;
     }
   
-    .cardImage {
-      width: 80%; /* Makes images larger on small screens, but not too large */
+    .cardImageOne {
+      width: 80%;
+    }
+
+    .cardImageTwo {
+      width: 80%;
+    }
+
+    .cardImageThree {
+      width: 80%;
     }
   }
   

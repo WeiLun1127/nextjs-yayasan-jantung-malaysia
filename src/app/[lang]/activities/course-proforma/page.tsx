@@ -1,189 +1,206 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import {
+  FaAward,
   FaBook,
   FaBullhorn,
-  FaUserMd,
-  FaClipboardList,
-  FaAward,
-  FaHeart,
   FaCheck,
+  FaClipboardList,
+  FaHeart,
+  FaUserMd,
 } from 'react-icons/fa';
 import styles from './styles.module.css';
 
-const CoursePerforma = () => {
+const CoursePerforma = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Course Proforma</h1>
+      <h1 className={styles.title}>
+        {dictionaries['course-proforma']['title']}
+      </h1>
 
       {/* Use div or section instead of p to avoid hydration error */}
       <div className={styles.description}>
         <div className={styles.cardContainer}>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaBook className={styles.icon} /> Background
+              <FaBook className={styles.icon} />
+              {dictionaries['course-proforma']['background']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> This course is named as
-                the Basic Life Support Cardiopulmonary resuscitation (CPR).
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['background-one']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> This certificate course
-                is accredited and certified by the Yayasan Jantung Malaysia (The
-                Heart Foundation of Malaysia).
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['background-two']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> The target participants
-                do not need any prerequisites.
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['background-three']}
               </li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaBullhorn className={styles.icon} /> Aim of the Course
+              <FaBullhorn className={styles.icon} />
+              {dictionaries['course-proforma']['aim-of-the-course']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> To assess and manage an
-                emergency life-threatening situation until medical aid arrives.
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['aim-of-the-course-one']}
               </li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaUserMd className={styles.icon} /> Training Strategies
+              <FaUserMd className={styles.icon} />
+              {dictionaries['course-proforma']['training-strategies']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> Predominantly
-                learner-centered and skills-based. These include knowledge,
-                video presentations, skills, and assessments.
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['training-strategies-one']}
               </li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaClipboardList className={styles.icon} /> Trainers
+              <FaClipboardList className={styles.icon} />
+              {dictionaries['course-proforma']['trainers']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> Accredited and
-                registered with The Heart Foundation of Malaysia.
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['trainers-one']}
               </li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaClipboardList className={styles.icon} /> Assessment
+              <FaClipboardList className={styles.icon} />
+              {dictionaries['course-proforma']['assessment']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> To be eligible for
-                assessment, participants MUST attend a minimum of 85% of the
-                sessions. Assessment will consist of a written paper (MCQ) and
-                all skill stations as stated in the course syllabus.
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['assessment-one']}
               </li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaClipboardList className={styles.icon} /> Examiners
+              <FaClipboardList className={styles.icon} />
+              {dictionaries['course-proforma']['examiners']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> Appointed by The Heart
-                Foundation of Malaysia.
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['examiners-one']}
               </li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaAward className={styles.icon} /> Award
+              <FaAward className={styles.icon} />
+              {dictionaries['course-proforma']['award']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> Participants who qualify
-                in the assessments will be awarded with a CPR CERTIFICATE. This
-                certificate is ONLY valid for TWO YEARS from the date of
-                assessment. To renew, participants must undergo reassessment.
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['award-one']}
               </li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaHeart className={styles.icon} /> Programme
+              <FaHeart className={styles.icon} />
+              {dictionaries['course-proforma']['programme']}
             </h2>
             <ul>
               <li>
-                <FaCheck className={styles.tickIcon} /> Why Should I Learn CPR?
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-one']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Chain of Survivor
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-two']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Normal Heart and Lung
-                Anatomy and Function
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-three']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Coronary Artery Disease
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-four']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Risk Factors for Heart
-                Attack
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-five']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Prudent Heart Living
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-six']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> How to Recognise a Heart
-                Attack
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-seven']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Stroke; Warning Signs
-                and Risk Factors
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-eight']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Foreign Body Airway
-                Obstruction (Choking)
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-nine']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Video Presentation - CPR
-                Techniques
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-ten']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Recovery Position
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-eleven']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> One-Man Rescuer CPR
-                (Adult)
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-twelve']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Airway Obstruction
-                (Conscious Adult)
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-thirteen']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Airway Obstruction
-                (Unconscious Adult)
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-fourteen']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> CPR & Airway Obstruction
-                in Child
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-fifteen']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> CPR & Airway Obstruction
-                in Infant
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-sixteen']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Skill Stations to
-                Practice
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-seventeen']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Theory Paper Test
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-eighteen']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Skill Test
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-nineteen']}
               </li>
               <li>
-                <FaCheck className={styles.tickIcon} /> Evaluation of Training
+                <FaCheck className={styles.tickIcon} />
+                {dictionaries['course-proforma']['programme-twenty']}
               </li>
             </ul>
           </div>

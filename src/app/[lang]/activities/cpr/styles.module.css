@@ -15,6 +15,10 @@
     max-width: 900px; /* Maximum width of the card */
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transition */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card:hover {
@@ -47,5 +51,11 @@
     padding: 0 1rem; /* Adds padding on left and right for better spacing */
 }
 
-
+.cardImage {
+    position: relative;
+    aspect-ratio: 1;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
 

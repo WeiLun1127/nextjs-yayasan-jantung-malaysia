@@ -1,9 +1,14 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import styles from './styles.module.css';
 
-const PhotoGallery = () => {
+const PhotoGallery = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}>Photo Gallery</h1>
+      <h1 className={styles.title}>{dictionaries['photo-gallery']['title']}</h1>
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <a
