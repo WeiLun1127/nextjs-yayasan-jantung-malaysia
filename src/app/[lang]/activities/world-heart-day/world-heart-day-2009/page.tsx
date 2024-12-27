@@ -1,12 +1,19 @@
-import { FaWalking, FaHeart, FaNewspaper, FaUsers } from 'react-icons/fa';
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
+import { FaHeart, FaNewspaper, FaUsers, FaWalking } from 'react-icons/fa';
 import styles from './styles.module.css';
 
-const WordHeart2009 = () => {
+const WordHeart2009 = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>World Heart Day 2009</h1>
+      <h1 className={styles.title}>
+        {dictionaries['world-heart-day-2009']['title']}
+      </h1>
       <p className={styles.description}>
-        [Past Event - this page is for archival information purposes only.]
+        {dictionaries['world-heart-day-2009']['past-event']}
         <br />
         <br />
       </p>
@@ -15,24 +22,28 @@ const WordHeart2009 = () => {
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>
-            <FaHeart /> Wellness in the Workplace
+            <FaHeart />
+            {dictionaries['world-heart-day-2009']['subtitle']}
           </h2>
           <p className={styles.cardDescription}>
             18 October 2009 Taman Tasik Permaisuri Cheras
             <br />
             <br />
-            <b>Details of Event</b>
+            <b>{dictionaries['world-heart-day-2009']['details-of-event']}</b>
             <br />
-            Date: Sunday, 18 October 2009
+            {dictionaries['world-heart-day-2009']['date']}: Sunday, 18 October
+            2009
             <br />
-            Time: 7.00 am - 10.30 am
+            {dictionaries['world-heart-day-2009']['time']}: 7.00 am - 10.30 am
             <br />
-            Venue: Tasik Permaisuri Park, Kuala Lumpur
+            {dictionaries['world-heart-day-2009']['venue']}: Tasik Permaisuri
+            Park, Kuala Lumpur
           </p>
         </div>
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>
-            <FaUsers /> Partners/Sponsors
+            <FaUsers />
+            {dictionaries['world-heart-day-2009']['partners-sponsors']}
           </h2>
           <div className={styles.cardDescription}>
             <div className={styles.subCard}>Ministry of Health Malaysia</div>
@@ -50,7 +61,8 @@ const WordHeart2009 = () => {
         <div className={styles.leftCard}>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaWalking /> Activities Include
+              <FaWalking />
+              {dictionaries['world-heart-day-2009']['activities-include']}
             </h2>
             <div className={styles.cardDescription}>
               <div className={styles.subCard}>Poster Exhibition</div>
@@ -76,7 +88,12 @@ const WordHeart2009 = () => {
         <div className={styles.rightCards}>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaWalking /> Other Pre-Event Activities Held Were
+              <FaWalking />
+              {
+                dictionaries['world-heart-day-2009'][
+                  'other-pre-event-activities'
+                ]
+              }
             </h2>
             <div className={styles.cardDescription}>
               <div className={styles.subCard}>
@@ -90,7 +107,8 @@ const WordHeart2009 = () => {
           </div>
           <div className={styles.card}>
             <h2 className={styles.cardTitle}>
-              <FaNewspaper /> Publicity
+              <FaNewspaper />
+              {dictionaries['world-heart-day-2009']['publicity']}
             </h2>
             <div className={styles.cardDescription}>
               <div className={styles.subCard}>Local Newspaper</div>

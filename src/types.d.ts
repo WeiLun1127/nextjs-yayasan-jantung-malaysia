@@ -466,5 +466,61 @@ declare namespace Dict {
       'free-health-screening': string;
       'fun-games': string;
     };
+    'world-heart-day-2013': {
+      title: string;
+      subtitle: string;
+      'details-of-event': string;
+      date: string;
+      time: string;
+      venue: string;
+      'partners-sponsors': string;
+      programme: string;
+      'side-activities': string;
+      'persons-in-charge': string;
+    };
+    'world-heart-day-2012': {
+      title: string;
+      subtitle: string;
+      description: string;
+      'past-event': string;
+    };
+    'world-heart-day-2011': {
+      title: string;
+      subtitle: string;
+      description: string;
+      'past-event': string;
+      'details-of-event': string;
+      date: string;
+      time: string;
+      venue: string;
+      'partners-sponsors': string;
+      'activities-include': string;
+      publicity: string;
+    };
+    'world-heart-day-2010': {
+      title: string;
+      subtitle: string;
+      description: string;
+      'past-event': string;
+      'details-of-event': string;
+      date: string;
+      time: string;
+      venue: string;
+      'partners-sponsors': string;
+      'activities-include': string;
+    };
+    'world-heart-day-2009': {
+      title: string;
+      subtitle: string;
+      'past-event': string;
+      'details-of-event': string;
+      date: string;
+      time: string;
+      venue: string;
+      'partners-sponsors': string;
+      'activities-include': string;
+      'other-pre-event-activities': string;
+      publicity: string;
+    };
   }
 }

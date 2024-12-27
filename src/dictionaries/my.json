@@ -459,5 +459,61 @@
     "free-goodie-bags": "Free goodie bags",
     "free-health-screening": "Free health screening for the first 150 participants",
     "fun-games": "Fun games"
+  },
+  "world-heart-day-2013": {
+    "title": "World Heart Day 2013",
+    "subtitle": "\"Take the Road to a Healthy Heart\"",
+    "details-of-event": "Details of Event",
+    "date": "Date",
+    "time": "Time",
+    "venue": "Venue",
+    "partners-sponsors": "Partners/Sponsors",
+    "programme": "Programme",
+    "side-activities": "Side Activities",
+    "persons-in-charge": "Persons-in-charge"
+  },
+  "world-heart-day-2012": {
+    "title": "World Heart Day 2012",
+    "subtitle": "\"Workplace Wellness\"",
+    "description": "<b>Sunday, 30th September, 2012:</b> The participants of the World Heart Day celebrations at Taman Tasik Titiwangsa, Kuala Lumpur were greeted by a beautiful sunlit day.<br /><br />The focus of this year&apos;s celebrations was the Walk-A-Mile event which was officially launched by YABHG Tun Ahmad Sarji bin Abdul Hamid, President of The Heart Foundation of Malaysia. A total of around 1300 people turned up at this year&apos;s event.<br /><br />All participants received heart-shaped balloons and free T-shirts emblazoned with logos of the World Heart Federation. After the Walk, they had the opportunity to attend the various other activities that were also held in conjunction with World Heart Day.<br /><br />These activities included poster exhibitions, health screening, nutritional talks and healthy breakfast meals from Nestle, quiz games, lucky draws, and also included demonstrations for gymnastics, jump-rope, aerobic dance, line dancing, and even traditional self-defence and martial arts.",
+    "past-event": "[ Past Event - this page is for archival information purposes only. ]"
+  },
+  "world-heart-day-2011": {
+    "title": "World Heart Day 2011",
+    "subtitle": "\"One World, One Home, One Heart\"",
+    "description": "The event was officiated by Former Prime Minister of Malaysia, Tun Abdullah Ahmad Badawi. Each participant was given a free T-Shirt featuring the World Heart Federation logo and Heart-shaped balloon.",
+    "past-event": "[ Past Event - this page is for archival information purposes only. ]",
+    "details-of-event": "Details of Event",
+    "date": "Date",
+    "time": "Time",
+    "venue": "Venue",
+    "partners-sponsors": "Partners/Sponsors",
+    "activities-include": "Activities Include",
+    "publicity": "Publicity"
+  },
+  "world-heart-day-2010": {
+    "title": "World Heart Day 2010",
+    "subtitle": "\"Workplace Wellness\"",
+    "description": "Our Facebook Album has loads more photographs!",
+    "past-event": "[ Past Event - this page is for archival information purposes only. ]",
+    "details-of-event": "Details of Event",
+    "date": "Date",
+    "time": "Time",
+    "venue": "Venue",
+    "partners-sponsors": "Partners/Sponsors",
+    "activities-include": "Activities Include"
+  },
+  "world-heart-day-2009": {
+    "title": "World Heart Day 2009",
+    "subtitle": "\"Wellness in the Workplace\"",
+    "past-event": "[ Past Event - this page is for archival information purposes only. ]",
+    "details-of-event": "Details of Event",
+    "date": "Date",
+    "time": "Time",
+    "venue": "Venue",
+    "partners-sponsors": "Partners/Sponsors",
+    "activities-include": "Activities Include",
+    "publicity": "Publicity",
+    "other-pre-event-activities": "Other Pre-Event Activities Held Were"
   }
 }

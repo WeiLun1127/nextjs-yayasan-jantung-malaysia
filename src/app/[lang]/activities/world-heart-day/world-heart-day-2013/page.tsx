@@ -1,25 +1,28 @@
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '@/i18n-config';
 import {
   FaCalendar,
-  FaHandsHelping,
+  FaCheckCircle,
   FaClipboardList,
+  FaHandsHelping,
   FaTag,
   FaUserTie,
-  FaCheckCircle,
 } from 'react-icons/fa'; // Importing icons
 import styles from './styles.module.css';
 
-const WordHeart2013 = () => {
+const WordHeart2013 = async (props: { params: Promise<{ lang: Locale }> }) => {
+  const { lang } = await props.params;
+  const dictionaries = await getDictionary(lang);
+
   return (
     <div>
-      <h1 className={styles.title}> World Heart Day 2013</h1>
+      <h1 className={styles.title}>
+        {dictionaries['world-heart-day-2013']['title']}
+      </h1>
+
       <h2 className={styles.subtitle}>
-        <div className={styles.icon} /> "Take the Road to a Healthy Heart"
+        {dictionaries['world-heart-day-2013']['subtitle']}
       </h2>
-      <p className={styles.description}>
-        Sunday 29 September 2013, Taman Tasik Titiwangsa
-        <br />
-        <br />
-      </p>
 
       {/* Card for Details of Event */}
       <div className={styles.card}>
@@ -27,9 +30,12 @@ const WordHeart2013 = () => {
           <FaCalendar className={styles.icon} /> Details of Event
         </h2>
         <p className={styles.description}>
-          Date : Sunday, 29 September 2013 <br />
-          Time : 7.00 am - 10.00 am <br />
-          Venue : Astaka, Taman Tasik Titiwangsa, Kuala Lumpur <br />
+          {dictionaries['world-heart-day-2013']['date']} : Sunday, 29 September
+          2013 <br />
+          {dictionaries['world-heart-day-2013']['time']} : 7.00 am - 10.00 am{' '}
+          <br />
+          {dictionaries['world-heart-day-2013']['venue']} : Astaka, Taman Tasik
+          Titiwangsa, Kuala Lumpur <br />
           <br />
           <br />
         </p>
@@ -38,7 +44,8 @@ const WordHeart2013 = () => {
       {/* Card for Partners/Sponsors */}
       <div className={styles.card}>
         <h2 className={styles.subtitle}>
-          <FaHandsHelping className={styles.icon} /> Partners/Sponsors
+          <FaHandsHelping className={styles.icon} />
+          {dictionaries['world-heart-day-2013']['partners-sponsors']}
         </h2>
         <div className={styles.description}>
           <ul className={styles.noBulletPoints}>
@@ -76,7 +83,8 @@ const WordHeart2013 = () => {
       {/* Card for Programme */}
       <div className={styles.card}>
         <h2 className={styles.subtitle}>
-          <FaClipboardList className={styles.icon} /> Programme
+          <FaClipboardList className={styles.icon} />
+          {dictionaries['world-heart-day-2013']['programme']}
         </h2>
         <div className={styles.description}>
           7:00 am &ndash; Distribution of T-Shirts
@@ -170,7 +178,8 @@ const WordHeart2013 = () => {
       {/* Card for Side Activities */}
       <div className={styles.card}>
         <h2 className={styles.subtitle}>
-          <FaTag className={styles.icon} /> Side Activities
+          <FaTag className={styles.icon} />
+          {dictionaries['world-heart-day-2013']['side-activities']}
         </h2>
         <div className={styles.description}>
           <ul className={styles.noBulletPoints}>
@@ -199,7 +208,8 @@ const WordHeart2013 = () => {
       {/* Card for Persons-in-charge */}
       <div className={styles.card}>
         <h2 className={styles.subtitle}>
-          <FaUserTie className={styles.icon} /> Persons-in-charge
+          <FaUserTie className={styles.icon} />
+          {dictionaries['world-heart-day-2013']['persons-in-charge']}
         </h2>
         <div className={styles.description}>
           <ul className={styles.noBulletPoints}>
