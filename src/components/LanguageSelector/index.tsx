@@ -15,17 +15,33 @@ const LanguageSelector = () => {
     return segments.join('/');
   };
 
+  const setLanguageCookie = (locale: Locale) => {
+    document.cookie = `NEXT_LOCALE=${locale}; path=/`;
+  };
+
   return (
     <div className={styles.languageSelector}>
-      <Link href={redirectedPathname('en')} className={styles.languageLink}>
+      <Link
+        href={redirectedPathname('en')}
+        className={styles.languageLink}
+        onClick={() => setLanguageCookie('en')}
+      >
         ENG
       </Link>
       <span>|</span>
-      <Link href={redirectedPathname('my')} className={styles.languageLink}>
+      <Link
+        href={redirectedPathname('my')}
+        className={styles.languageLink}
+        onClick={() => setLanguageCookie('my')}
+      >
         BM
       </Link>
       <span>|</span>
-      <Link href={redirectedPathname('cn')} className={styles.languageLink}>
+      <Link
+        href={redirectedPathname('cn')}
+        className={styles.languageLink}
+        onClick={() => setLanguageCookie('cn')}
+      >
         CN
       </Link>
     </div>
