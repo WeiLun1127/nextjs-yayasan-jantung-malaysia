@@ -233,6 +233,7 @@ declare namespace Dict {
     'four-ways-to-prevent-heart-attack': {
       title: string;
       description: string;
+      'four-important-points': string;
       'dont-smoke': string;
       'dont-smoke-description': string;
       'diet-to-keep-bmi-25': string;
@@ -241,8 +242,6 @@ declare namespace Dict {
       'eat-more-fruits-vegetables-description': string;
       'exercise-150-mins-week': string;
       'exercise-150-mins-week-description': string;
-      'heart-attack-treatment': string;
-      'heart-attack-treatment-description': string;
       subdescription: string;
     };
     'heart-disease': {

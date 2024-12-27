@@ -19,6 +19,7 @@ const PreventHeartAttack = async (props: {
       <h1 className={styles.title}>
         {dictionaries['four-ways-to-prevent-heart-attack']['title']}
       </h1>
+
       {/* YouTube Video Embed */}
       <div className={styles.videoContainer}>
         <iframe
@@ -26,7 +27,6 @@ const PreventHeartAttack = async (props: {
           height="315"
           src="https://www.youtube.com/embed/ocw_Zey-7cA?si=nsN4-50ejj11daSP"
           title="Four ways to prevent heart disease"
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
@@ -39,6 +39,14 @@ const PreventHeartAttack = async (props: {
             dictionaries['four-ways-to-prevent-heart-attack']['description'],
         }}
       />
+
+      <h3 className={styles.subtitle}>
+        {
+          dictionaries['four-ways-to-prevent-heart-attack'][
+            'four-important-points'
+          ]
+        }
+      </h3>
 
       {/* Card Container for 4 Points */}
       <div className={styles.cardContainer}>
