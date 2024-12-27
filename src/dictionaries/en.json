@@ -339,5 +339,46 @@
     "why-people-use-tobacco-description": "People use tobacco for many reasons. It can be pleasurable, and help people to feel different. Tobacco transnationals use deception and propaganda to make people want to begin to smoke in spite of the danger.",
     "what-can-you-do": "What can you do?",
     "what-can-you-do-description": "You can act to help people to stop smoking, to help people to remain non-smokers, to join together with others to change social attitudes and to press for tobacco control laws."
+  },
+  "heart-attack": {
+    "what-is-heart-attack": "What is Heart Attack?",
+    "what-is-heart-attack-description": "Heart attack results from blood vessel disease in the heart. Coronary heart disease (CHD), sometimes referred to as coronary artery disease (CAD), are general names for heart attack (and angina).<br /><br />A heart attack, or myocardial infarction, occurs when the blood supply to part of the heart muscle itself (the myocardium) is severely reduced or stopped. This occurs when one of the coronary arteries (the arteries that supply blood to the heart muscle) is blocked by an obstruction, such as a blood clot that has formed on plaque due to atherosclerosis.<br /><br />If the blood supply is cut off drastically or for a long time, muscle cells suffer irreversible injury and die. Disability or death can result, depending on how much heart muscle is damaged.",
+    "what-are-the-symptoms-of-heart-attack": "What are the Symptoms of a Heart Attack?",
+    "what-are-the-symptoms-of-heart-attack-description": "Sometimes the first indications of a heart attack come as warning signals. The actual diagnosis of a heart attack must be made by a physician who has studied the results of several tests. Besides reviewing a patient's complete medical history and giving a physical examination, a doctor will use an electrocardiogram (ECG) to discover any abnormalities caused by damage to the heart.<br /><br />Sometimes a blood test is used to detect abnormal levels of certain enzymes in the bloodstream.",
+    "how-is-heart-attack-treated": "How is a Heart Attack Treated?",
+    "how-is-heart-attack-treated-description": "When a heart attack occurs, it's critical to recognize the signals and respond immediately. Delaying may increase the damage to the heart and reduce the chance of survival. Anyone experiencing the warning signals of a heart attack should be taken immediately to the nearest hospital with 24-hour emergency cardiac care.<br /><br />Most communities have an emergency cardiac care system that can quickly respond. This prompt care for heart attack victims dramatically reduces damage to the heart.",
+    "is-there-any-way-to-reduce-the-chance-of-heart-attack": "Is There Any Way to Reduce the Chance of a Heart Attack?",
+    "is-there-any-way-to-reduce-the-chance-of-heart-attack-description": "Many scientific studies show that certain characteristics increase the risk of coronary heart disease. The four major modifiable risk factors are cigarette / tobacco smoke, high blood cholesterol, high blood pressure, and physical inactivity. Other contributing risk factors are diabetes mellitus and obesity.<br /><br />The Heart Foundation strongly urges people to control their modifiable risk factors. Also, people with angina should take episodes of chest pain seriously and see their doctor before their atherosclerosis leads to a heart attack."
+  },
+  "arrhythmias": {
+    "title": "Arrhythmias and Sudden Cardiac Death",
+    "what-are-arrhythmias": "What are arrhythmias?",
+    "what-are-arrhythmias-description": "Normal cardiac rhythm results from electrical impulses that start in the sinoatrial (SA) node and spread through the heart. The term arrhythmia refers to any change from this normal sequence. Some arrhythmias are brief, causing only a minor disruption to heart rate, while others can make the heart rate too slow or too fast.<br /><br />Bradycardia refers to a rate of less than 60 beats per minute, while tachycardia refers to a rate over 100 beats per minute.",
+    "how-do-arrhythmias-occur": "How do arrhythmias occur?",
+    "how-do-arrhythmias-occur-description": "Arrhythmias can occur due to abnormalities in the heart's conduction system. Secondary pacemaker tissue may fire too quickly, causing tachycardia. Arrhythmias can also develop due to impulse conduction issues, such as heart block or reentry.<br /><br />Tachycardias can arise in either the ventricles or supraventricular areas of the heart, depending on where the abnormal rhythm starts.",
+    "what-are-the-symptoms-of-arrhythmias": "What are the symptoms of arrhythmias?",
+    "what-are-the-symptoms-of-arrhythmias-description": "Symptoms of arrhythmias range from mild to severe. Brief arrhythmias may be felt as palpitations, while sustained arrhythmias can cause fatigue, lightheadedness, and even death if the heart is unable to pump blood effectively.<br /><br />Tachycardias can affect the heart's ability to pump blood, leading to shortness of breath, chest pain, or dizziness. Prolonged arrhythmias can result in organ damage or stroke.",
+    "who-is-prone-to-arrhythmias": "Who is prone to arrhythmias?",
+    "who-is-prone-to-arrhythmias-description": "Arrhythmias can occur in anyone, but their prevalence increases with age. People with congenital heart conditions or acquired heart disease, such as atherosclerosis or hypertension, are more likely to develop arrhythmias.<br /><br />Other factors, such as electrolyte imbalances or substance abuse, can also increase the risk of arrhythmias."
+  },
+  "inherited-cholesterol-disorder": {
+    "title": "Inherited Cholesterol Disorder",
+    "description": "The food link to high blood cholesterol is well known. The higher the intake of fatty food, the higher the cholesterol levels in our body. Less known is the exercise connection. Regular exercise helps bring down the cholesterol levels. <br /><br /><b>Perhaps what is not known is the genetic connection to high blood cholesterol can be inherited from your parents. And when it does occur its management often requires more than just lifestyle modifications. Treatment with drugs is required.</b><br /><br />This page is about helping you understanding and manage <b>Familial Hypercholesterolemia or inherited cholesterol disorder (ICD)</b>.",
+    "what-is-fh": "What is Familial Hypercholesterolemia (Inherited Cholesterol Disorder)?",
+    "what-is-fh-description": "Familial Hypercholesterolemia or FH is a genetic disorder where the body is unable to remove LDL (bad cholesterol) from the blood. It is passed from generation to generation. The abnormal gene can be inherited from one or both parents. If a child inherits the FH gene from both parents, it can lead to a severe form known as Homozygous FH.",
+    "how-can-fh-be-detected": "How can FH be Detected?",
+    "how-can-fh-be-detected-description": "FH can be detected early through blood tests and screening, especially in families with a history of high cholesterol. DNA testing is also an effective diagnostic tool. Early detection helps prevent atherosclerosis and heart disease.",
+    "fh-risks": "What are the Risks Associated with FH?",
+    "fh-risks-description": "The primary risk is atherosclerosis, particularly in the coronary arteries, leading to heart attacks or strokes. The severity of the cholesterol buildup is much higher than in other types of hyperlipidemia.",
+    "how-is-fh-treated": "How is FH Treated?",
+    "how-is-fh-treated-description": "Treatment for FH includes statins, lifestyle changes, and in severe cases, procedures like plasmapheresis or liver transplant. Lifestyle modifications, including healthy eating and exercise, are also essential.",
+    "drug-therapy": "Drug Therapy",
+    "drug-therapy-description": "Statins are commonly prescribed for lowering cholesterol. Other treatments include bile acid sequestrants, niacin, and fibrates, with statins being the most effective in long-term cholesterol management.",
+    "what-is-cholesterol": "What is Cholesterol?",
+    "what-is-cholesterol-description": "Cholesterol is a soft, waxy substance essential for cell membranes, nerve insulation, and hormone production. The liver produces most of the cholesterol in your blood.",
+    "good-and-bad-cholesterol": "Good and Bad Cholesterol",
+    "good-and-bad-cholesterol-description": "Cholesterol is carried through the blood by lipoproteins: LDL (bad cholesterol) which can clog arteries, and HDL (good cholesterol) which helps remove excess cholesterol from the body.",
+    "your-cholesterol-reading": "Your Cholesterol Reading",
+    "your-cholesterol-reading-description": "Cholesterol readings include Total Cholesterol, LDL, HDL, and Triglycerides. Each of these should be monitored for optimal cardiovascular health."
   }
 }

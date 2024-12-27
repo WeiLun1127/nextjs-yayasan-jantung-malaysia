@@ -347,5 +347,47 @@ declare namespace Dict {
       'what-can-you-do': string;
       'what-can-you-do-description': string;
     };
+    'heart-attack': {
+      title: string;
+      'what-is-heart-attack': string;
+      'what-is-heart-attack-description': string;
+      'what-are-the-symptoms-of-heart-attack': string;
+      'what-are-the-symptoms-of-heart-attack-description': string;
+      'how-is-heart-attack-treated': string;
+      'how-is-heart-attack-treated-description': string;
+      'is-there-any-way-to-reduce-the-chance-of-heart-attack': string;
+      'is-there-any-way-to-reduce-the-chance-of-heart-attack-description': string;
+    };
+    arrhythmias: {
+      title: string;
+      'what-are-arrhythmias': string;
+      'what-are-arrhythmias-description': string;
+      'how-do-arrhythmias-occur': string;
+      'how-do-arrhythmias-occur-description': string;
+      'what-are-the-symptoms-of-arrhythmias': string;
+      'what-are-the-symptoms-of-arrhythmias-description': string;
+      'who-is-prone-to-arrhythmias': string;
+      'who-is-prone-to-arrhythmias-description': string;
+    };
+    'inherited-cholesterol-disorder': {
+      title: string;
+      description: string;
+      'what-is-fh': string;
+      'what-is-fh-description': string;
+      'how-can-fh-be-detected': string;
+      'how-can-fh-be-detected-description': string;
+      'fh-risks': string;
+      'fh-risks-description': string;
+      'how-is-fh-treated': string;
+      'how-is-fh-treated-description': string;
+      'drug-therapy': string;
+      'drug-therapy-description': string;
+      'what-is-cholesterol': string;
+      'what-is-cholesterol-description': string;
+      'good-and-bad-cholesterol': string;
+      'good-and-bad-cholesterol-description': string;
+      'your-cholesterol-reading': string;
+      'your-cholesterol-reading-description': string;
+    };
   }
 }

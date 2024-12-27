@@ -10,7 +10,6 @@
     font-size: 1.5rem; /* Slightly larger for emphasis */
     font-weight: 700;
     text-align: center; /* Centers the subtitle text */
-    margin-bottom: 1rem;
     line-height: 1.4;
 }
 
@@ -30,13 +29,29 @@
     margin: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-  }
-  
-  .card:hover {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card:hover {
     transform: scale(1.05); /* Slightly zooms in the card */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
     background-color: #eaeaea; /* Light background color change */
-  }
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
 
   /* Highlight Part Style */
 .highlight {
@@ -52,4 +67,11 @@
     transform: scale(1.05); /* Slightly zooms in the card */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
     background-color: #c0c0c0; /* Even darker background color on hover */
+}
+
+@media (max-width: 768px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
 }
